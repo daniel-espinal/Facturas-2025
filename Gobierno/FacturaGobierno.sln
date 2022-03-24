@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacturaGobierno", "InventariosEmpleado\FacturaGobierno.csproj", "{F7C9AED7-B88D-42AA-94DE-693A10BDC1B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacturacionGobiernoTest", "FacturacionGobiernoTest\FacturacionGobiernoTest.csproj", "{A31AD0A6-A3F3-4BB9-880D-727CA8BC2F0D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7C9AED7-B88D-42AA-94DE-693A10BDC1B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7C9AED7-B88D-42AA-94DE-693A10BDC1B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7C9AED7-B88D-42AA-94DE-693A10BDC1B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7C9AED7-B88D-42AA-94DE-693A10BDC1B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A31AD0A6-A3F3-4BB9-880D-727CA8BC2F0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A31AD0A6-A3F3-4BB9-880D-727CA8BC2F0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A31AD0A6-A3F3-4BB9-880D-727CA8BC2F0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A31AD0A6-A3F3-4BB9-880D-727CA8BC2F0D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = .
+		SolutionGuid = {71570C6E-FF53-4281-96CE-11921D844B9D}
+	EndGlobalSection
+EndGlobal

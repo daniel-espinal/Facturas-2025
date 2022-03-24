@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="sqlDataSource1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="customSqlQuery1.Sql" xml:space="preserve">
+    <value>select "Avisos_gobierno"."Row#", "Avisos_gobierno"."PREFIJO",
+       "Avisos_gobierno"."SUFIJO",
+       "Avisos_gobierno"."m_clave_primaria",
+       "Avisos_gobierno"."m_codigo_city",
+       "Avisos_gobierno"."m_codigo_ruta",
+       "Avisos_gobierno"."m_codigo_acomet",
+       "Avisos_gobierno"."m_nombre_abonado",
+       "Avisos_gobierno"."m_direcc_abonado",
+       "Avisos_gobierno"."m_contador_activo",
+       "Avisos_gobierno"."m_multip_activo",
+       "Avisos_gobierno"."m_numero_agujas",
+       "Avisos_gobierno"."m_numero_transforma",
+       "Avisos_gobierno"."m_fases",
+       "Avisos_gobierno"."m_numero_deposito",
+       "Avisos_gobierno"."m_valor_deposito",
+       "Avisos_gobierno"."m_fecha_conexion",
+       "Avisos_gobierno"."m_tarifa_servicio",
+       "Avisos_gobierno"."m_sector_consumo",
+       "Avisos_gobierno"."m_ident", "Avisos_gobierno"."m_rtn",
+       "Avisos_gobierno"."m_fecha_actual",
+       "Avisos_gobierno"."m_fecha_anterior",
+       "Avisos_gobierno"."m_lectura_actual",
+       "Avisos_gobierno"."m_lectura_anterior",
+       "Avisos_gobierno"."m_consumo_del_mes",
+       "Avisos_gobierno"."m_consumo_estimado",
+       "Avisos_gobierno"."m_consumo_adicional",
+       "Avisos_gobierno"."m_dias_facturados",
+       "Avisos_gobierno"."m_consumos1",
+       "Avisos_gobierno"."m_consumos2",
+       "Avisos_gobierno"."m_consumos3",
+       "Avisos_gobierno"."m_consumos4",
+       "Avisos_gobierno"."m_consumos5",
+       "Avisos_gobierno"."m_consumos6",
+       "Avisos_gobierno"."m_consumos7",
+       "Avisos_gobierno"."m_consumos8",
+       "Avisos_gobierno"."m_consumos9",
+       "Avisos_gobierno"."m_consumos10",
+       "Avisos_gobierno"."m_consumos11",
+       "Avisos_gobierno"."m_consumos12", "Avisos_gobierno"."m_dias1",
+       "Avisos_gobierno"."m_dias2", "Avisos_gobierno"."m_dias3",
+       "Avisos_gobierno"."m_dias4", "Avisos_gobierno"."m_dias5",
+       "Avisos_gobierno"."m_dias6", "Avisos_gobierno"."m_dias7",
+       "Avisos_gobierno"."m_dias8", "Avisos_gobierno"."m_dias9",
+       "Avisos_gobierno"."m_dias10", "Avisos_gobierno"."m_dias11",
+       "Avisos_gobierno"."m_dias12",
+       "Avisos_gobierno"."m_cobro_energia",
+       "Avisos_gobierno"."m_cobro_diesel",
+       "Avisos_gobierno"."m_cobro_interes",
+       "Avisos_gobierno"."m_cobro_publico",
+       "Avisos_gobierno"."m_otros_dr_cr",
+       "Avisos_gobierno"."m_subsidio",
+       "Avisos_gobierno"."m_saldo_del_mes",
+       "Avisos_gobierno"."m_saldo_30_dias",
+       "Avisos_gobierno"."m_saldo_60_dias",
+       "Avisos_gobierno"."m_saldo_90_dias",
+       "Avisos_gobierno"."m_saldo_120_dias",
+       "Avisos_gobierno"."m_saldo_anterior",
+       "Avisos_gobierno"."m_valor_rectifica",
+       "Avisos_gobierno"."m_pagos_del_ciclo",
+       "Avisos_gobierno"."m_pagos_del_mes",
+       "Avisos_gobierno"."m_pagos_no_act",
+       "Avisos_gobierno"."m_fecha_pago",
+       "Avisos_gobierno"."m_ctl_pago1",
+       "Avisos_gobierno"."m_ctl_pago2",
+       "Avisos_gobierno"."m_ctl_pago3",
+       "Avisos_gobierno"."m_ctl_pago4",
+       "Avisos_gobierno"."m_ctl_pago5",
+       "Avisos_gobierno"."m_ctl_pago6",
+       "Avisos_gobierno"."m_colector",
+       "Avisos_gobierno"."m_fecha_emision",
+       "Avisos_gobierno"."m_ultimo_mes_fact",
+       "Avisos_gobierno"."m_estado_registro",
+       "Avisos_gobierno"."m_fecha_inactivo",
+       "Avisos_gobierno"."m_codigo_archivo",
+       "Avisos_gobierno"."m_codigo_promedio",
+       "Avisos_gobierno"."m_codigo_contrato",
+       "Avisos_gobierno"."m_codigo_lectura",
+       "Avisos_gobierno"."m_codigo_u_medido",
+       "Avisos_gobierno"."m_codigo_m_avisos",
+       "Avisos_gobierno"."m_codigo_comenta",
+       "Avisos_gobierno"."m_codigo_corte",
+       "Avisos_gobierno"."m_fecha_corte",
+       "Avisos_gobierno"."m_fecha_3edad",
+       "Avisos_gobierno"."m_codigo_3edad",
+       "Avisos_gobierno"."m_codigo_fraude",
+       "Avisos_gobierno"."m_fecha_fraude",
+       "Avisos_gobierno"."w_ultimo_mes_grab",
+       "Avisos_gobierno"."m_fecha_garantia",
+       "Avisos_gobierno"."m_catastro",
+       "Avisos_gobierno"."m_no_garantia",
+       "Avisos_gobierno"."m_region",
+       "Avisos_gobierno"."m_total_cargo_mes",
+       "Avisos_gobierno"."m_telefono", "Avisos_gobierno"."m_fax",
+       "Avisos_gobierno"."m_isv", "Avisos_gobierno"."m_isv_ant",
+       "Avisos_gobierno"."m_numero_cortes",
+       "Avisos_gobierno"."m_nivel_residencial",
+       "Avisos_gobierno"."m_bono_general",
+       "Avisos_gobierno"."m_ubicacion",
+       "Avisos_gobierno"."m_codigo_agrupa",
+       "Avisos_gobierno"."a_descripcion",
+       "Avisos_gobierno"."t_descripcion_tarifa",
+       "Avisos_gobierno"."s_descripcion_sector",
+       "Avisos_gobierno"."fecha_emision_real",
+       "Avisos_gobierno"."fecha_vence_real",
+(SELECT sum([hc_valor]) as total_mes_neto  
+FROM [FACTURACION].[dbo].[fpac06B]
+WHERE HC_CICLO = 1803
+AND [hc_clave_abonado] = m_clave_primaria
+AND [hc_cod_trans] &lt;&gt; 344
+) total_mes_neto
+
+  from "dbo"."Avisos_gobierno" "Avisos_gobierno"
+where m_codigo_agrupa = 114
+ORDER BY m_clave_primaria asc
+
+
+</value>
+  </data>
+  <data name="sqlDataSource1.ResultSchemaSerializable" xml:space="preserve">
+    <value>PERhdGFTZXQgTmFtZT0ic3FsRGF0YVNvdXJjZTEiPjxWaWV3IE5hbWU9IkF2aXNvc19nb2JpZXJubyI+PEZpZWxkIE5hbWU9IlJvdyMiIFR5cGU9IkludDY0IiAvPjxGaWVsZCBOYW1lPSJQUkVGSUpPIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IlNVRklKTyIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJtX2NsYXZlX3ByaW1hcmlhIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJtX2NvZGlnb19jaXR5IiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJtX2NvZGlnb19ydXRhIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJtX2NvZGlnb19hY29tZXQiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9Im1fbm9tYnJlX2Fib25hZG8iIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0ibV9kaXJlY2NfYWJvbmFkbyIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJtX2NvbnRhZG9yX2FjdGl2byIgVHlwZT0iRG91YmxlIiAvPjxGaWVsZCBOYW1lPSJtX211bHRpcF9hY3Rpdm8iIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9Im1fbnVtZXJvX2FndWphcyIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0ibV9udW1lcm9fdHJhbnNmb3JtYSIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0ibV9mYXNlcyIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0ibV9udW1lcm9fZGVwb3NpdG8iIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9Im1fdmFsb3JfZGVwb3NpdG8iIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9Im1fZmVjaGFfY29uZXhpb24iIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9Im1fdGFyaWZhX3NlcnZpY2lvIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJtX3NlY3Rvcl9jb25zdW1vIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJtX2lkZW50IiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9Im1fcnRuIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9Im1fZmVjaGFfYWN0dWFsIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJtX2ZlY2hhX2FudGVyaW9yIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJtX2xlY3R1cmFfYWN0dWFsIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJtX2xlY3R1cmFfYW50ZXJpb3IiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9Im1fY29uc3Vtb19kZWxfbWVzIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJtX2NvbnN1bW9fZXN0aW1hZG8iIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9Im1fY29uc3Vtb19hZGljaW9uYWwiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9Im1fZGlhc19mYWN0dXJhZG9zIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJtX2NvbnN1bW9zMSIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0ibV9jb25zdW1vczIiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9Im1fY29uc3Vtb3MzIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJtX2NvbnN1bW9zNCIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0ibV9jb25zdW1vczUiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9Im1fY29uc3Vtb3M2IiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJtX2NvbnN1bW9zNyIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0ibV9jb25zdW1vczgiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9Im1fY29uc3Vtb3M5IiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJtX2NvbnN1bW9zMTAiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9Im1fY29uc3Vtb3MxMSIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0ibV9jb25zdW1vczEyIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJtX2RpYXMxIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJtX2RpYXMyIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJtX2RpYXMzIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJtX2RpYXM0IiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJtX2RpYXM1IiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJtX2RpYXM2IiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJtX2RpYXM3IiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJtX2RpYXM4IiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJtX2RpYXM5IiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJtX2RpYXMxMCIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0ibV9kaWFzMTEiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9Im1fZGlhczEyIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJtX2NvYnJvX2VuZXJnaWEiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9Im1fY29icm9fZGllc2VsIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJtX2NvYnJvX2ludGVyZXMiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9Im1fY29icm9fcHVibGljbyIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0ibV9vdHJvc19kcl9jciIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0ibV9zdWJzaWRpbyIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0ibV9zYWxkb19kZWxfbWVzIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJtX3NhbGRvXzMwX2RpYXMiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9Im1fc2FsZG9fNjBfZGlhcyIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0ibV9zYWxkb185MF9kaWFzIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJtX3NhbGRvXzEyMF9kaWFzIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJtX3NhbGRvX2FudGVyaW9yIiBUeXBlPSJEb3VibGUiIC8+PEZpZWxkIE5hbWU9Im1fdmFsb3JfcmVjdGlmaWNhIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJtX3BhZ29zX2RlbF9jaWNsbyIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0ibV9wYWdvc19kZWxfbWVzIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJtX3BhZ29zX25vX2FjdCIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0ibV9mZWNoYV9wYWdvIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJtX2N0bF9wYWdvMSIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0ibV9jdGxfcGFnbzIiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9Im1fY3RsX3BhZ28zIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJtX2N0bF9wYWdvNCIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0ibV9jdGxfcGFnbzUiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9Im1fY3RsX3BhZ282IiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJtX2NvbGVjdG9yIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJtX2ZlY2hhX2VtaXNpb24iIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9Im1fdWx0aW1vX21lc19mYWN0IiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJtX2VzdGFkb19yZWdpc3RybyIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0ibV9mZWNoYV9pbmFjdGl2byIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0ibV9jb2RpZ29fYXJjaGl2byIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJtX2NvZGlnb19wcm9tZWRpbyIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0ibV9jb2RpZ29fY29udHJhdG8iIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9Im1fY29kaWdvX2xlY3R1cmEiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9Im1fY29kaWdvX3VfbWVkaWRvIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJtX2NvZGlnb19tX2F2aXNvcyIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0ibV9jb2RpZ29fY29tZW50YSIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0ibV9jb2RpZ29fY29ydGUiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0ibV9mZWNoYV9jb3J0ZSIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0ibV9mZWNoYV8zZWRhZCIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0ibV9jb2RpZ29fM2VkYWQiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9Im1fY29kaWdvX2ZyYXVkZSIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0ibV9mZWNoYV9mcmF1ZGUiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IndfdWx0aW1vX21lc19ncmFiIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJtX2ZlY2hhX2dhcmFudGlhIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJtX2NhdGFzdHJvIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJtX25vX2dhcmFudGlhIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9Im1fcmVnaW9uIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJtX3RvdGFsX2NhcmdvX21lcyIgVHlwZT0iRG91YmxlIiAvPjxGaWVsZCBOYW1lPSJtX3RlbGVmb25vIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJtX2ZheCIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0ibV9pc3YiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9Im1faXN2X2FudCIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0ibV9udW1lcm9fY29ydGVzIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJtX25pdmVsX3Jlc2lkZW5jaWFsIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9Im1fYm9ub19nZW5lcmFsIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9Im1fdWJpY2FjaW9uIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9Im1fY29kaWdvX2FncnVwYSIgVHlwZT0iSW50MzIiIC8+PEZpZWxkIE5hbWU9ImFfZGVzY3JpcGNpb24iIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0idF9kZXNjcmlwY2lvbl90YXJpZmEiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0ic19kZXNjcmlwY2lvbl9zZWN0b3IiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iZmVjaGFfZW1pc2lvbl9yZWFsIiBUeXBlPSJEYXRlVGltZSIgLz48RmllbGQgTmFtZT0iZmVjaGFfdmVuY2VfcmVhbCIgVHlwZT0iRGF0ZVRpbWUiIC8+PEZpZWxkIE5hbWU9InRvdGFsX21lc19uZXRvIiBUeXBlPSJEZWNpbWFsIiAvPjwvVmlldz48L0RhdGFTZXQ+</value>
+  </data>
+</root>

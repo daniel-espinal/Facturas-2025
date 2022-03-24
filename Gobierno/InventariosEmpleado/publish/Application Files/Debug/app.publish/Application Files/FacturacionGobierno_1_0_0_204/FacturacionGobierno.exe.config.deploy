@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>  
+  <configSections>
+    <section name="entityFramework" type="System.Data.Entity.Internal.ConfigFile.EntityFrameworkSection, EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" requirePermission="false" />
+    <!-- For more information on Entity Framework configuration, visit http://go.microsoft.com/fwlink/?LinkID=237468 -->
+  </configSections> 
+ <connectionStrings>
+    <add name="Facturacion.Properties.Settings.FacturacionConnectionString"
+      connectionString="User Id=postgres;Password=postgres;Host=stage.cgysibrenzza.us-east-1.rds.amazonaws.com;Port=5432;Database=postgres;Unicode=True;Persist Security Info=True;Initial Schema=public"
+      providerName="Devart.Data.PostgreSql" />
+    <add name="Facturacion.Properties.Settings.MAESTROConnectionString"
+      connectionString="Data Source=192.168.100.161;Initial Catalog=FACTURACION;User ID=facturacion.gobierno;Password=Factura2017*"
+      providerName="System.Data.SqlClient" />
+   <!-- <add name="MAESTROConnectionString" connectionString="XpoProvider=MSSqlServer;data source=localhost;initial catalog=FACTURACION;Connection Timeout=1000;Integrated Security=true" />-->
+      <add name="MAESTROConnectionString" connectionString="XpoProvider=MSSqlServer;data source=192.168.100.161;user id=appfact;password=Appfac72017*;initial catalog=FACTURACION;Persist Security Info=true;Connection Timeout=1000" />
+      <add name="FacturacionGobierno.Properties.Settings.FacturacionConnectionString"
+      connectionString="User Id=postgres;Password=postgres;Host=stage.cgysibrenzza.us-east-1.rds.amazonaws.com;Port=5432;Database=postgres;Unicode=True;Persist Security Info=True;Initial Schema=public"
+      providerName="Devart.Data.PostgreSql" />
+    <add name="FacturacionGobierno.Properties.Settings.MAESTROConnectionString"
+      connectionString="Data Source=192.168.100.161;Initial Catalog=FACTURACION;User ID=facturacion.gobierno;Password=Factura2017*;Connect Timeout=1000;ConnectRetryCount=10;ConnectRetryInterval=20"
+      providerName="System.Data.SqlClient" />
+    <add name="ehc01tic013.FACTURACION.dbo" connectionString="XpoProvider=MSSqlServer;data source=localhost;integrated security=SSPI;initial catalog=FACTURACION" />
+  </connectionStrings>
+  <startup>
+    <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.5.1" />
+  </startup>
+  <entityFramework>
+    <defaultConnectionFactory type="System.Data.Entity.Infrastructure.LocalDbConnectionFactory, EntityFramework">
+      <parameters>
+        <parameter value="v13.0" />
+      </parameters>
+    </defaultConnectionFactory>
+    <providers>
+      <provider invariantName="Npgsql" type="Npgsql.NpgsqlServices, EntityFramework6.Npgsql" />
+      <provider invariantName="System.Data.SqlClient" type="System.Data.Entity.SqlServer.SqlProviderServices, EntityFramework.SqlServer" />
+    </providers>
+  </entityFramework>
+  <runtime>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="Npgsql" publicKeyToken="5d8b90d52f46fda7" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-3.1.7.0" newVersion="3.1.7.0" />
+      </dependentAssembly>
+    </assemblyBinding>
+  </runtime>
+</configuration>

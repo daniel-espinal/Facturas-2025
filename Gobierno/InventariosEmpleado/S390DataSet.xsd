@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="S390DataSet" targetNamespace="http://tempuri.org/S390DataSet.xsd" xmlns:mstns="http://tempuri.org/S390DataSet.xsd" xmlns="http://tempuri.org/S390DataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" GeneratorFunctionsComponentClassName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" UserFunctionsComponentName="QueriesTableAdapter" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="MAESTROConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="MAESTROConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.FrmFacturacion.Properties.Settings.GlobalReference.Default.MAESTROConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Avisos_gobiernoTableAdapter" GeneratorDataComponentClassName="Avisos_gobiernoTableAdapter" Name="Avisos_gobierno" UserDataComponentName="Avisos_gobiernoTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="MAESTROConnectionString (Settings)" DbObjectName="FACTURACION.dbo.Avisos_gobierno" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT m_clave_primaria, m_codigo_city, m_codigo_ruta, m_codigo_acomet, m_nombre_abonado, m_direcc_abonado, m_contador_activo, m_multip_activo, m_numero_agujas, m_numero_transforma, m_fases, m_numero_deposito, m_valor_deposito, m_fecha_conexion, m_tarifa_servicio, m_sector_consumo, m_ident, m_rtn, m_fecha_actual, m_fecha_anterior, m_lectura_actual, m_lectura_anterior, m_consumo_del_mes, m_consumo_estimado, m_consumo_adicional, m_dias_facturados, m_consumos1, m_consumos2, m_consumos3, m_consumos4, m_consumos5, m_consumos6, m_consumos7, m_consumos8, m_consumos9, m_consumos10, m_consumos11, m_consumos12, m_dias1, m_dias2, m_dias3, m_dias4, m_dias5, m_dias6, m_dias7, m_dias8, m_dias9, m_dias10, m_dias11, m_dias12, m_cobro_energia, m_cobro_diesel, m_cobro_interes, m_cobro_publico, m_otros_dr_cr, m_subsidio, m_saldo_del_mes, m_saldo_30_dias, m_saldo_60_dias, m_saldo_90_dias, m_saldo_120_dias, m_saldo_anterior, m_valor_rectifica, m_pagos_del_ciclo, m_pagos_del_mes, m_pagos_no_act, m_fecha_pago, m_ctl_pago1, m_ctl_pago2, m_ctl_pago3, m_ctl_pago4, m_ctl_pago5, m_ctl_pago6, m_colector, m_fecha_emision, m_ultimo_mes_fact, m_estado_registro, m_fecha_inactivo, m_codigo_archivo, m_codigo_promedio, m_codigo_contrato, m_codigo_lectura, m_codigo_agrupa, m_codigo_u_medido, m_codigo_m_avisos, m_codigo_comenta, m_codigo_corte, m_fecha_corte, m_fecha_3edad, m_codigo_3edad, m_codigo_fraude, m_fecha_fraude, w_ultimo_mes_grab, m_fecha_garantia, m_catastro, m_no_garantia, m_region, m_total_cargo_mes, m_telefono, m_fax, m_isv, m_isv_ant, m_numero_cortes, m_nivel_residencial, m_bono_general, m_ubicacion, a_descripcion, fecha_emision_real, fecha_vence_real, s_descripcion_sector, t_descripcion_tarifa FROM Avisos_gobierno</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="m_clave_primaria" DataSetColumn="m_clave_primaria" />
+              <Mapping SourceColumn="m_codigo_city" DataSetColumn="m_codigo_city" />
+              <Mapping SourceColumn="m_codigo_ruta" DataSetColumn="m_codigo_ruta" />
+              <Mapping SourceColumn="m_codigo_acomet" DataSetColumn="m_codigo_acomet" />
+              <Mapping SourceColumn="m_nombre_abonado" DataSetColumn="m_nombre_abonado" />
+              <Mapping SourceColumn="m_direcc_abonado" DataSetColumn="m_direcc_abonado" />
+              <Mapping SourceColumn="m_contador_activo" DataSetColumn="m_contador_activo" />
+              <Mapping SourceColumn="m_multip_activo" DataSetColumn="m_multip_activo" />
+              <Mapping SourceColumn="m_numero_agujas" DataSetColumn="m_numero_agujas" />
+              <Mapping SourceColumn="m_numero_transforma" DataSetColumn="m_numero_transforma" />
+              <Mapping SourceColumn="m_fases" DataSetColumn="m_fases" />
+              <Mapping SourceColumn="m_numero_deposito" DataSetColumn="m_numero_deposito" />
+              <Mapping SourceColumn="m_valor_deposito" DataSetColumn="m_valor_deposito" />
+              <Mapping SourceColumn="m_fecha_conexion" DataSetColumn="m_fecha_conexion" />
+              <Mapping SourceColumn="m_tarifa_servicio" DataSetColumn="m_tarifa_servicio" />
+              <Mapping SourceColumn="m_sector_consumo" DataSetColumn="m_sector_consumo" />
+              <Mapping SourceColumn="m_ident" DataSetColumn="m_ident" />
+              <Mapping SourceColumn="m_rtn" DataSetColumn="m_rtn" />
+              <Mapping SourceColumn="m_fecha_actual" DataSetColumn="m_fecha_actual" />
+              <Mapping SourceColumn="m_fecha_anterior" DataSetColumn="m_fecha_anterior" />
+              <Mapping SourceColumn="m_lectura_actual" DataSetColumn="m_lectura_actual" />
+              <Mapping SourceColumn="m_lectura_anterior" DataSetColumn="m_lectura_anterior" />
+              <Mapping SourceColumn="m_consumo_del_mes" DataSetColumn="m_consumo_del_mes" />
+              <Mapping SourceColumn="m_consumo_estimado" DataSetColumn="m_consumo_estimado" />
+              <Mapping SourceColumn="m_consumo_adicional" DataSetColumn="m_consumo_adicional" />
+              <Mapping SourceColumn="m_dias_facturados" DataSetColumn="m_dias_facturados" />
+              <Mapping SourceColumn="m_consumos1" DataSetColumn="m_consumos1" />
+              <Mapping SourceColumn="m_consumos2" DataSetColumn="m_consumos2" />
+              <Mapping SourceColumn="m_consumos3" DataSetColumn="m_consumos3" />
+              <Mapping SourceColumn="m_consumos4" DataSetColumn="m_consumos4" />
+              <Mapping SourceColumn="m_consumos5" DataSetColumn="m_consumos5" />
+              <Mapping SourceColumn="m_consumos6" DataSetColumn="m_consumos6" />
+              <Mapping SourceColumn="m_consumos7" DataSetColumn="m_consumos7" />
+              <Mapping SourceColumn="m_consumos8" DataSetColumn="m_consumos8" />
+              <Mapping SourceColumn="m_consumos9" DataSetColumn="m_consumos9" />
+              <Mapping SourceColumn="m_consumos10" DataSetColumn="m_consumos10" />
+              <Mapping SourceColumn="m_consumos11" DataSetColumn="m_consumos11" />
+              <Mapping SourceColumn="m_consumos12" DataSetColumn="m_consumos12" />
+              <Mapping SourceColumn="m_dias1" DataSetColumn="m_dias1" />
+              <Mapping SourceColumn="m_dias2" DataSetColumn="m_dias2" />
+              <Mapping SourceColumn="m_dias3" DataSetColumn="m_dias3" />
+              <Mapping SourceColumn="m_dias4" DataSetColumn="m_dias4" />
+              <Mapping SourceColumn="m_dias5" DataSetColumn="m_dias5" />
+              <Mapping SourceColumn="m_dias6" DataSetColumn="m_dias6" />
+              <Mapping SourceColumn="m_dias7" DataSetColumn="m_dias7" />
+              <Mapping SourceColumn="m_dias8" DataSetColumn="m_dias8" />
+              <Mapping SourceColumn="m_dias9" DataSetColumn="m_dias9" />
+              <Mapping SourceColumn="m_dias10" DataSetColumn="m_dias10" />
+              <Mapping SourceColumn="m_dias11" DataSetColumn="m_dias11" />
+              <Mapping SourceColumn="m_dias12" DataSetColumn="m_dias12" />
+              <Mapping SourceColumn="m_cobro_energia" DataSetColumn="m_cobro_energia" />
+              <Mapping SourceColumn="m_cobro_diesel" DataSetColumn="m_cobro_diesel" />
+              <Mapping SourceColumn="m_cobro_interes" DataSetColumn="m_cobro_interes" />
+              <Mapping SourceColumn="m_cobro_publico" DataSetColumn="m_cobro_publico" />
+              <Mapping SourceColumn="m_otros_dr_cr" DataSetColumn="m_otros_dr_cr" />
+              <Mapping SourceColumn="m_subsidio" DataSetColumn="m_subsidio" />
+              <Mapping SourceColumn="m_saldo_del_mes" DataSetColumn="m_saldo_del_mes" />
+              <Mapping SourceColumn="m_saldo_30_dias" DataSetColumn="m_saldo_30_dias" />
+              <Mapping SourceColumn="m_saldo_60_dias" DataSetColumn="m_saldo_60_dias" />
+              <Mapping SourceColumn="m_saldo_90_dias" DataSetColumn="m_saldo_90_dias" />
+              <Mapping SourceColumn="m_saldo_120_dias" DataSetColumn="m_saldo_120_dias" />
+              <Mapping SourceColumn="m_saldo_anterior" DataSetColumn="m_saldo_anterior" />
+              <Mapping SourceColumn="m_valor_rectifica" DataSetColumn="m_valor_rectifica" />
+              <Mapping SourceColumn="m_pagos_del_ciclo" DataSetColumn="m_pagos_del_ciclo" />
+              <Mapping SourceColumn="m_pagos_del_mes" DataSetColumn="m_pagos_del_mes" />
+              <Mapping SourceColumn="m_pagos_no_act" DataSetColumn="m_pagos_no_act" />
+              <Mapping SourceColumn="m_fecha_pago" DataSetColumn="m_fecha_pago" />
+              <Mapping SourceColumn="m_ctl_pago1" DataSetColumn="m_ctl_pago1" />
+              <Mapping SourceColumn="m_ctl_pago2" DataSetColumn="m_ctl_pago2" />
+              <Mapping SourceColumn="m_ctl_pago3" DataSetColumn="m_ctl_pago3" />
+              <Mapping SourceColumn="m_ctl_pago4" DataSetColumn="m_ctl_pago4" />
+              <Mapping SourceColumn="m_ctl_pago5" DataSetColumn="m_ctl_pago5" />
+              <Mapping SourceColumn="m_ctl_pago6" DataSetColumn="m_ctl_pago6" />
+              <Mapping SourceColumn="m_colector" DataSetColumn="m_colector" />
+              <Mapping SourceColumn="m_fecha_emision" DataSetColumn="m_fecha_emision" />
+              <Mapping SourceColumn="m_ultimo_mes_fact" DataSetColumn="m_ultimo_mes_fact" />
+              <Mapping SourceColumn="m_estado_registro" DataSetColumn="m_estado_registro" />
+              <Mapping SourceColumn="m_fecha_inactivo" DataSetColumn="m_fecha_inactivo" />
+              <Mapping SourceColumn="m_codigo_archivo" DataSetColumn="m_codigo_archivo" />
+              <Mapping SourceColumn="m_codigo_promedio" DataSetColumn="m_codigo_promedio" />
+              <Mapping SourceColumn="m_codigo_contrato" DataSetColumn="m_codigo_contrato" />
+              <Mapping SourceColumn="m_codigo_lectura" DataSetColumn="m_codigo_lectura" />
+              <Mapping SourceColumn="m_codigo_agrupa" DataSetColumn="m_codigo_agrupa" />
+              <Mapping SourceColumn="m_codigo_u_medido" DataSetColumn="m_codigo_u_medido" />
+              <Mapping SourceColumn="m_codigo_m_avisos" DataSetColumn="m_codigo_m_avisos" />
+              <Mapping SourceColumn="m_codigo_comenta" DataSetColumn="m_codigo_comenta" />
+              <Mapping SourceColumn="m_codigo_corte" DataSetColumn="m_codigo_corte" />
+              <Mapping SourceColumn="m_fecha_corte" DataSetColumn="m_fecha_corte" />
+              <Mapping SourceColumn="m_fecha_3edad" DataSetColumn="m_fecha_3edad" />
+              <Mapping SourceColumn="m_codigo_3edad" DataSetColumn="m_codigo_3edad" />
+              <Mapping SourceColumn="m_codigo_fraude" DataSetColumn="m_codigo_fraude" />
+              <Mapping SourceColumn="m_fecha_fraude" DataSetColumn="m_fecha_fraude" />
+              <Mapping SourceColumn="w_ultimo_mes_grab" DataSetColumn="w_ultimo_mes_grab" />
+              <Mapping SourceColumn="m_fecha_garantia" DataSetColumn="m_fecha_garantia" />
+              <Mapping SourceColumn="m_catastro" DataSetColumn="m_catastro" />
+              <Mapping SourceColumn="m_no_garantia" DataSetColumn="m_no_garantia" />
+              <Mapping SourceColumn="m_region" DataSetColumn="m_region" />
+              <Mapping SourceColumn="m_total_cargo_mes" DataSetColumn="m_total_cargo_mes" />
+              <Mapping SourceColumn="m_telefono" DataSetColumn="m_telefono" />
+              <Mapping SourceColumn="m_fax" DataSetColumn="m_fax" />
+              <Mapping SourceColumn="m_isv" DataSetColumn="m_isv" />
+              <Mapping SourceColumn="m_isv_ant" DataSetColumn="m_isv_ant" />
+              <Mapping SourceColumn="m_numero_cortes" DataSetColumn="m_numero_cortes" />
+              <Mapping SourceColumn="m_nivel_residencial" DataSetColumn="m_nivel_residencial" />
+              <Mapping SourceColumn="m_bono_general" DataSetColumn="m_bono_general" />
+              <Mapping SourceColumn="m_ubicacion" DataSetColumn="m_ubicacion" />
+              <Mapping SourceColumn="a_descripcion" DataSetColumn="a_descripcion" />
+              <Mapping SourceColumn="t_descripcion_tarifa" DataSetColumn="t_descripcion_tarifa" />
+              <Mapping SourceColumn="s_descripcion_sector" DataSetColumn="s_descripcion_sector" />
+              <Mapping SourceColumn="fecha_emision_real" DataSetColumn="fecha_emision_real" />
+              <Mapping SourceColumn="fecha_vence_real" DataSetColumn="fecha_vence_real" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources>
+          <DbSource ConnectionRef="MAESTROConnectionString (Settings)" DbObjectName="FACTURACION.dbo.ultima_fecha" DbObjectType="Function" GenerateShortCommands="true" GeneratorSourceName="ultima_fecha" MethodsParameterType="CLR" Modifier="Public" Name="ultima_fecha" QueryType="Scalar" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy" UserSourceName="ultima_fecha">
+            <SelectCommand>
+              <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                <CommandText>dbo.ultima_fecha</CommandText>
+                <Parameters>
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="date" DbType="Date" Direction="ReturnValue" ParameterName="@RETURN_VALUE" Precision="10" ProviderType="Date" Scale="0" Size="3" SourceColumnNullMapping="false" SourceVersion="Current" />
+                </Parameters>
+              </DbCommand>
+            </SelectCommand>
+          </DbSource>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="S390DataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="S390DataSet" msprop:Generator_UserDSName="S390DataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Avisos_gobierno" msprop:Generator_TableClassName="Avisos_gobiernoDataTable" msprop:Generator_TableVarName="tableAvisos_gobierno" msprop:Generator_RowChangedName="Avisos_gobiernoRowChanged" msprop:Generator_TablePropName="Avisos_gobierno" msprop:Generator_RowDeletingName="Avisos_gobiernoRowDeleting" msprop:Generator_RowChangingName="Avisos_gobiernoRowChanging" msprop:Generator_RowEvHandlerName="Avisos_gobiernoRowChangeEventHandler" msprop:Generator_RowDeletedName="Avisos_gobiernoRowDeleted" msprop:Generator_RowClassName="Avisos_gobiernoRow" msprop:Generator_UserTableName="Avisos_gobierno" msprop:Generator_RowEvArgName="Avisos_gobiernoRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="m_clave_primaria" msprop:Generator_ColumnVarNameInTable="columnm_clave_primaria" msprop:Generator_ColumnPropNameInRow="m_clave_primaria" msprop:Generator_ColumnPropNameInTable="m_clave_primariaColumn" msprop:Generator_UserColumnName="m_clave_primaria" type="xs:decimal" />
+              <xs:element name="m_codigo_city" msprop:Generator_ColumnVarNameInTable="columnm_codigo_city" msprop:Generator_ColumnPropNameInRow="m_codigo_city" msprop:Generator_ColumnPropNameInTable="m_codigo_cityColumn" msprop:Generator_UserColumnName="m_codigo_city" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_codigo_ruta" msprop:Generator_ColumnVarNameInTable="columnm_codigo_ruta" msprop:Generator_ColumnPropNameInRow="m_codigo_ruta" msprop:Generator_ColumnPropNameInTable="m_codigo_rutaColumn" msprop:Generator_UserColumnName="m_codigo_ruta" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_codigo_acomet" msprop:Generator_ColumnVarNameInTable="columnm_codigo_acomet" msprop:Generator_ColumnPropNameInRow="m_codigo_acomet" msprop:Generator_ColumnPropNameInTable="m_codigo_acometColumn" msprop:Generator_UserColumnName="m_codigo_acomet" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_nombre_abonado" msprop:Generator_ColumnVarNameInTable="columnm_nombre_abonado" msprop:Generator_ColumnPropNameInRow="m_nombre_abonado" msprop:Generator_ColumnPropNameInTable="m_nombre_abonadoColumn" msprop:Generator_UserColumnName="m_nombre_abonado" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="m_direcc_abonado" msprop:Generator_ColumnVarNameInTable="columnm_direcc_abonado" msprop:Generator_ColumnPropNameInRow="m_direcc_abonado" msprop:Generator_ColumnPropNameInTable="m_direcc_abonadoColumn" msprop:Generator_UserColumnName="m_direcc_abonado" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="48" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="m_contador_activo" msprop:Generator_ColumnVarNameInTable="columnm_contador_activo" msprop:Generator_ColumnPropNameInRow="m_contador_activo" msprop:Generator_ColumnPropNameInTable="m_contador_activoColumn" msprop:Generator_UserColumnName="m_contador_activo" type="xs:double" minOccurs="0" />
+              <xs:element name="m_multip_activo" msprop:Generator_ColumnVarNameInTable="columnm_multip_activo" msprop:Generator_ColumnPropNameInRow="m_multip_activo" msprop:Generator_ColumnPropNameInTable="m_multip_activoColumn" msprop:Generator_UserColumnName="m_multip_activo" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_numero_agujas" msprop:Generator_ColumnVarNameInTable="columnm_numero_agujas" msprop:Generator_ColumnPropNameInRow="m_numero_agujas" msprop:Generator_ColumnPropNameInTable="m_numero_agujasColumn" msprop:Generator_UserColumnName="m_numero_agujas" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_numero_transforma" msprop:Generator_ColumnVarNameInTable="columnm_numero_transforma" msprop:Generator_ColumnPropNameInRow="m_numero_transforma" msprop:Generator_ColumnPropNameInTable="m_numero_transformaColumn" msprop:Generator_UserColumnName="m_numero_transforma" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_fases" msprop:Generator_ColumnVarNameInTable="columnm_fases" msprop:Generator_ColumnPropNameInRow="m_fases" msprop:Generator_ColumnPropNameInTable="m_fasesColumn" msprop:Generator_UserColumnName="m_fases" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_numero_deposito" msprop:Generator_ColumnVarNameInTable="columnm_numero_deposito" msprop:Generator_ColumnPropNameInRow="m_numero_deposito" msprop:Generator_ColumnPropNameInTable="m_numero_depositoColumn" msprop:Generator_UserColumnName="m_numero_deposito" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_valor_deposito" msprop:Generator_ColumnVarNameInTable="columnm_valor_deposito" msprop:Generator_ColumnPropNameInRow="m_valor_deposito" msprop:Generator_ColumnPropNameInTable="m_valor_depositoColumn" msprop:Generator_UserColumnName="m_valor_deposito" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_fecha_conexion" msprop:Generator_ColumnVarNameInTable="columnm_fecha_conexion" msprop:Generator_ColumnPropNameInRow="m_fecha_conexion" msprop:Generator_ColumnPropNameInTable="m_fecha_conexionColumn" msprop:Generator_UserColumnName="m_fecha_conexion" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_tarifa_servicio" msprop:Generator_ColumnVarNameInTable="columnm_tarifa_servicio" msprop:Generator_ColumnPropNameInRow="m_tarifa_servicio" msprop:Generator_ColumnPropNameInTable="m_tarifa_servicioColumn" msprop:Generator_UserColumnName="m_tarifa_servicio" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_sector_consumo" msprop:Generator_ColumnVarNameInTable="columnm_sector_consumo" msprop:Generator_ColumnPropNameInRow="m_sector_consumo" msprop:Generator_ColumnPropNameInTable="m_sector_consumoColumn" msprop:Generator_UserColumnName="m_sector_consumo" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_ident" msprop:Generator_ColumnVarNameInTable="columnm_ident" msprop:Generator_ColumnPropNameInRow="m_ident" msprop:Generator_ColumnPropNameInTable="m_identColumn" msprop:Generator_UserColumnName="m_ident" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="14" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="m_rtn" msprop:Generator_ColumnVarNameInTable="columnm_rtn" msprop:Generator_ColumnPropNameInRow="m_rtn" msprop:Generator_ColumnPropNameInTable="m_rtnColumn" msprop:Generator_UserColumnName="m_rtn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="7" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="m_fecha_actual" msprop:Generator_ColumnVarNameInTable="columnm_fecha_actual" msprop:Generator_ColumnPropNameInRow="m_fecha_actual" msprop:Generator_ColumnPropNameInTable="m_fecha_actualColumn" msprop:Generator_UserColumnName="m_fecha_actual" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_fecha_anterior" msprop:Generator_ColumnVarNameInTable="columnm_fecha_anterior" msprop:Generator_ColumnPropNameInRow="m_fecha_anterior" msprop:Generator_ColumnPropNameInTable="m_fecha_anteriorColumn" msprop:Generator_UserColumnName="m_fecha_anterior" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_lectura_actual" msprop:Generator_ColumnVarNameInTable="columnm_lectura_actual" msprop:Generator_ColumnPropNameInRow="m_lectura_actual" msprop:Generator_ColumnPropNameInTable="m_lectura_actualColumn" msprop:Generator_UserColumnName="m_lectura_actual" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_lectura_anterior" msprop:Generator_ColumnVarNameInTable="columnm_lectura_anterior" msprop:Generator_ColumnPropNameInRow="m_lectura_anterior" msprop:Generator_ColumnPropNameInTable="m_lectura_anteriorColumn" msprop:Generator_UserColumnName="m_lectura_anterior" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_consumo_del_mes" msprop:Generator_ColumnVarNameInTable="columnm_consumo_del_mes" msprop:Generator_ColumnPropNameInRow="m_consumo_del_mes" msprop:Generator_ColumnPropNameInTable="m_consumo_del_mesColumn" msprop:Generator_UserColumnName="m_consumo_del_mes" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_consumo_estimado" msprop:Generator_ColumnVarNameInTable="columnm_consumo_estimado" msprop:Generator_ColumnPropNameInRow="m_consumo_estimado" msprop:Generator_ColumnPropNameInTable="m_consumo_estimadoColumn" msprop:Generator_UserColumnName="m_consumo_estimado" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_consumo_adicional" msprop:Generator_ColumnVarNameInTable="columnm_consumo_adicional" msprop:Generator_ColumnPropNameInRow="m_consumo_adicional" msprop:Generator_ColumnPropNameInTable="m_consumo_adicionalColumn" msprop:Generator_UserColumnName="m_consumo_adicional" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_dias_facturados" msprop:Generator_ColumnVarNameInTable="columnm_dias_facturados" msprop:Generator_ColumnPropNameInRow="m_dias_facturados" msprop:Generator_ColumnPropNameInTable="m_dias_facturadosColumn" msprop:Generator_UserColumnName="m_dias_facturados" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_consumos1" msprop:Generator_ColumnVarNameInTable="columnm_consumos1" msprop:Generator_ColumnPropNameInRow="m_consumos1" msprop:Generator_ColumnPropNameInTable="m_consumos1Column" msprop:Generator_UserColumnName="m_consumos1" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_consumos2" msprop:Generator_ColumnVarNameInTable="columnm_consumos2" msprop:Generator_ColumnPropNameInRow="m_consumos2" msprop:Generator_ColumnPropNameInTable="m_consumos2Column" msprop:Generator_UserColumnName="m_consumos2" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_consumos3" msprop:Generator_ColumnVarNameInTable="columnm_consumos3" msprop:Generator_ColumnPropNameInRow="m_consumos3" msprop:Generator_ColumnPropNameInTable="m_consumos3Column" msprop:Generator_UserColumnName="m_consumos3" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_consumos4" msprop:Generator_ColumnVarNameInTable="columnm_consumos4" msprop:Generator_ColumnPropNameInRow="m_consumos4" msprop:Generator_ColumnPropNameInTable="m_consumos4Column" msprop:Generator_UserColumnName="m_consumos4" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_consumos5" msprop:Generator_ColumnVarNameInTable="columnm_consumos5" msprop:Generator_ColumnPropNameInRow="m_consumos5" msprop:Generator_ColumnPropNameInTable="m_consumos5Column" msprop:Generator_UserColumnName="m_consumos5" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_consumos6" msprop:Generator_ColumnVarNameInTable="columnm_consumos6" msprop:Generator_ColumnPropNameInRow="m_consumos6" msprop:Generator_ColumnPropNameInTable="m_consumos6Column" msprop:Generator_UserColumnName="m_consumos6" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_consumos7" msprop:Generator_ColumnVarNameInTable="columnm_consumos7" msprop:Generator_ColumnPropNameInRow="m_consumos7" msprop:Generator_ColumnPropNameInTable="m_consumos7Column" msprop:Generator_UserColumnName="m_consumos7" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_consumos8" msprop:Generator_ColumnVarNameInTable="columnm_consumos8" msprop:Generator_ColumnPropNameInRow="m_consumos8" msprop:Generator_ColumnPropNameInTable="m_consumos8Column" msprop:Generator_UserColumnName="m_consumos8" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_consumos9" msprop:Generator_ColumnVarNameInTable="columnm_consumos9" msprop:Generator_ColumnPropNameInRow="m_consumos9" msprop:Generator_ColumnPropNameInTable="m_consumos9Column" msprop:Generator_UserColumnName="m_consumos9" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_consumos10" msprop:Generator_ColumnVarNameInTable="columnm_consumos10" msprop:Generator_ColumnPropNameInRow="m_consumos10" msprop:Generator_ColumnPropNameInTable="m_consumos10Column" msprop:Generator_UserColumnName="m_consumos10" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_consumos11" msprop:Generator_ColumnVarNameInTable="columnm_consumos11" msprop:Generator_ColumnPropNameInRow="m_consumos11" msprop:Generator_ColumnPropNameInTable="m_consumos11Column" msprop:Generator_UserColumnName="m_consumos11" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_consumos12" msprop:Generator_ColumnVarNameInTable="columnm_consumos12" msprop:Generator_ColumnPropNameInRow="m_consumos12" msprop:Generator_ColumnPropNameInTable="m_consumos12Column" msprop:Generator_UserColumnName="m_consumos12" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_dias1" msprop:Generator_ColumnVarNameInTable="columnm_dias1" msprop:Generator_ColumnPropNameInRow="m_dias1" msprop:Generator_ColumnPropNameInTable="m_dias1Column" msprop:Generator_UserColumnName="m_dias1" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_dias2" msprop:Generator_ColumnVarNameInTable="columnm_dias2" msprop:Generator_ColumnPropNameInRow="m_dias2" msprop:Generator_ColumnPropNameInTable="m_dias2Column" msprop:Generator_UserColumnName="m_dias2" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_dias3" msprop:Generator_ColumnVarNameInTable="columnm_dias3" msprop:Generator_ColumnPropNameInRow="m_dias3" msprop:Generator_ColumnPropNameInTable="m_dias3Column" msprop:Generator_UserColumnName="m_dias3" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_dias4" msprop:Generator_ColumnVarNameInTable="columnm_dias4" msprop:Generator_ColumnPropNameInRow="m_dias4" msprop:Generator_ColumnPropNameInTable="m_dias4Column" msprop:Generator_UserColumnName="m_dias4" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_dias5" msprop:Generator_ColumnVarNameInTable="columnm_dias5" msprop:Generator_ColumnPropNameInRow="m_dias5" msprop:Generator_ColumnPropNameInTable="m_dias5Column" msprop:Generator_UserColumnName="m_dias5" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_dias6" msprop:Generator_ColumnVarNameInTable="columnm_dias6" msprop:Generator_ColumnPropNameInRow="m_dias6" msprop:Generator_ColumnPropNameInTable="m_dias6Column" msprop:Generator_UserColumnName="m_dias6" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_dias7" msprop:Generator_ColumnVarNameInTable="columnm_dias7" msprop:Generator_ColumnPropNameInRow="m_dias7" msprop:Generator_ColumnPropNameInTable="m_dias7Column" msprop:Generator_UserColumnName="m_dias7" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_dias8" msprop:Generator_ColumnVarNameInTable="columnm_dias8" msprop:Generator_ColumnPropNameInRow="m_dias8" msprop:Generator_ColumnPropNameInTable="m_dias8Column" msprop:Generator_UserColumnName="m_dias8" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_dias9" msprop:Generator_ColumnVarNameInTable="columnm_dias9" msprop:Generator_ColumnPropNameInRow="m_dias9" msprop:Generator_ColumnPropNameInTable="m_dias9Column" msprop:Generator_UserColumnName="m_dias9" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_dias10" msprop:Generator_ColumnVarNameInTable="columnm_dias10" msprop:Generator_ColumnPropNameInRow="m_dias10" msprop:Generator_ColumnPropNameInTable="m_dias10Column" msprop:Generator_UserColumnName="m_dias10" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_dias11" msprop:Generator_ColumnVarNameInTable="columnm_dias11" msprop:Generator_ColumnPropNameInRow="m_dias11" msprop:Generator_ColumnPropNameInTable="m_dias11Column" msprop:Generator_UserColumnName="m_dias11" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_dias12" msprop:Generator_ColumnVarNameInTable="columnm_dias12" msprop:Generator_ColumnPropNameInRow="m_dias12" msprop:Generator_ColumnPropNameInTable="m_dias12Column" msprop:Generator_UserColumnName="m_dias12" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_cobro_energia" msprop:Generator_ColumnVarNameInTable="columnm_cobro_energia" msprop:Generator_ColumnPropNameInRow="m_cobro_energia" msprop:Generator_ColumnPropNameInTable="m_cobro_energiaColumn" msprop:Generator_UserColumnName="m_cobro_energia" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_cobro_diesel" msprop:Generator_ColumnVarNameInTable="columnm_cobro_diesel" msprop:Generator_ColumnPropNameInRow="m_cobro_diesel" msprop:Generator_ColumnPropNameInTable="m_cobro_dieselColumn" msprop:Generator_UserColumnName="m_cobro_diesel" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_cobro_interes" msprop:Generator_ColumnVarNameInTable="columnm_cobro_interes" msprop:Generator_ColumnPropNameInRow="m_cobro_interes" msprop:Generator_ColumnPropNameInTable="m_cobro_interesColumn" msprop:Generator_UserColumnName="m_cobro_interes" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_cobro_publico" msprop:Generator_ColumnVarNameInTable="columnm_cobro_publico" msprop:Generator_ColumnPropNameInRow="m_cobro_publico" msprop:Generator_ColumnPropNameInTable="m_cobro_publicoColumn" msprop:Generator_UserColumnName="m_cobro_publico" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_otros_dr_cr" msprop:Generator_ColumnVarNameInTable="columnm_otros_dr_cr" msprop:Generator_ColumnPropNameInRow="m_otros_dr_cr" msprop:Generator_ColumnPropNameInTable="m_otros_dr_crColumn" msprop:Generator_UserColumnName="m_otros_dr_cr" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_subsidio" msprop:Generator_ColumnVarNameInTable="columnm_subsidio" msprop:Generator_ColumnPropNameInRow="m_subsidio" msprop:Generator_ColumnPropNameInTable="m_subsidioColumn" msprop:Generator_UserColumnName="m_subsidio" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_saldo_del_mes" msprop:Generator_ColumnVarNameInTable="columnm_saldo_del_mes" msprop:Generator_ColumnPropNameInRow="m_saldo_del_mes" msprop:Generator_ColumnPropNameInTable="m_saldo_del_mesColumn" msprop:Generator_UserColumnName="m_saldo_del_mes" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_saldo_30_dias" msprop:Generator_ColumnVarNameInTable="columnm_saldo_30_dias" msprop:Generator_ColumnPropNameInRow="m_saldo_30_dias" msprop:Generator_ColumnPropNameInTable="m_saldo_30_diasColumn" msprop:Generator_UserColumnName="m_saldo_30_dias" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_saldo_60_dias" msprop:Generator_ColumnVarNameInTable="columnm_saldo_60_dias" msprop:Generator_ColumnPropNameInRow="m_saldo_60_dias" msprop:Generator_ColumnPropNameInTable="m_saldo_60_diasColumn" msprop:Generator_UserColumnName="m_saldo_60_dias" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_saldo_90_dias" msprop:Generator_ColumnVarNameInTable="columnm_saldo_90_dias" msprop:Generator_ColumnPropNameInRow="m_saldo_90_dias" msprop:Generator_ColumnPropNameInTable="m_saldo_90_diasColumn" msprop:Generator_UserColumnName="m_saldo_90_dias" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_saldo_120_dias" msprop:Generator_ColumnVarNameInTable="columnm_saldo_120_dias" msprop:Generator_ColumnPropNameInRow="m_saldo_120_dias" msprop:Generator_ColumnPropNameInTable="m_saldo_120_diasColumn" msprop:Generator_UserColumnName="m_saldo_120_dias" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_saldo_anterior" msprop:Generator_ColumnVarNameInTable="columnm_saldo_anterior" msprop:Generator_ColumnPropNameInRow="m_saldo_anterior" msprop:Generator_ColumnPropNameInTable="m_saldo_anteriorColumn" msprop:Generator_UserColumnName="m_saldo_anterior" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_valor_rectifica" msprop:Generator_ColumnVarNameInTable="columnm_valor_rectifica" msprop:Generator_ColumnPropNameInRow="m_valor_rectifica" msprop:Generator_ColumnPropNameInTable="m_valor_rectificaColumn" msprop:Generator_UserColumnName="m_valor_rectifica" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_pagos_del_ciclo" msprop:Generator_ColumnVarNameInTable="columnm_pagos_del_ciclo" msprop:Generator_ColumnPropNameInRow="m_pagos_del_ciclo" msprop:Generator_ColumnPropNameInTable="m_pagos_del_cicloColumn" msprop:Generator_UserColumnName="m_pagos_del_ciclo" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_pagos_del_mes" msprop:Generator_ColumnVarNameInTable="columnm_pagos_del_mes" msprop:Generator_ColumnPropNameInRow="m_pagos_del_mes" msprop:Generator_ColumnPropNameInTable="m_pagos_del_mesColumn" msprop:Generator_UserColumnName="m_pagos_del_mes" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_pagos_no_act" msprop:Generator_ColumnVarNameInTable="columnm_pagos_no_act" msprop:Generator_ColumnPropNameInRow="m_pagos_no_act" msprop:Generator_ColumnPropNameInTable="m_pagos_no_actColumn" msprop:Generator_UserColumnName="m_pagos_no_act" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_fecha_pago" msprop:Generator_ColumnVarNameInTable="columnm_fecha_pago" msprop:Generator_ColumnPropNameInRow="m_fecha_pago" msprop:Generator_ColumnPropNameInTable="m_fecha_pagoColumn" msprop:Generator_UserColumnName="m_fecha_pago" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_ctl_pago1" msprop:Generator_ColumnVarNameInTable="columnm_ctl_pago1" msprop:Generator_ColumnPropNameInRow="m_ctl_pago1" msprop:Generator_ColumnPropNameInTable="m_ctl_pago1Column" msprop:Generator_UserColumnName="m_ctl_pago1" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_ctl_pago2" msprop:Generator_ColumnVarNameInTable="columnm_ctl_pago2" msprop:Generator_ColumnPropNameInRow="m_ctl_pago2" msprop:Generator_ColumnPropNameInTable="m_ctl_pago2Column" msprop:Generator_UserColumnName="m_ctl_pago2" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_ctl_pago3" msprop:Generator_ColumnVarNameInTable="columnm_ctl_pago3" msprop:Generator_ColumnPropNameInRow="m_ctl_pago3" msprop:Generator_ColumnPropNameInTable="m_ctl_pago3Column" msprop:Generator_UserColumnName="m_ctl_pago3" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_ctl_pago4" msprop:Generator_ColumnVarNameInTable="columnm_ctl_pago4" msprop:Generator_ColumnPropNameInRow="m_ctl_pago4" msprop:Generator_ColumnPropNameInTable="m_ctl_pago4Column" msprop:Generator_UserColumnName="m_ctl_pago4" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_ctl_pago5" msprop:Generator_ColumnVarNameInTable="columnm_ctl_pago5" msprop:Generator_ColumnPropNameInRow="m_ctl_pago5" msprop:Generator_ColumnPropNameInTable="m_ctl_pago5Column" msprop:Generator_UserColumnName="m_ctl_pago5" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_ctl_pago6" msprop:Generator_ColumnVarNameInTable="columnm_ctl_pago6" msprop:Generator_ColumnPropNameInRow="m_ctl_pago6" msprop:Generator_ColumnPropNameInTable="m_ctl_pago6Column" msprop:Generator_UserColumnName="m_ctl_pago6" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_colector" msprop:Generator_ColumnVarNameInTable="columnm_colector" msprop:Generator_ColumnPropNameInRow="m_colector" msprop:Generator_ColumnPropNameInTable="m_colectorColumn" msprop:Generator_UserColumnName="m_colector" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_fecha_emision" msprop:Generator_ColumnVarNameInTable="columnm_fecha_emision" msprop:Generator_ColumnPropNameInRow="m_fecha_emision" msprop:Generator_ColumnPropNameInTable="m_fecha_emisionColumn" msprop:Generator_UserColumnName="m_fecha_emision" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_ultimo_mes_fact" msprop:Generator_ColumnVarNameInTable="columnm_ultimo_mes_fact" msprop:Generator_ColumnPropNameInRow="m_ultimo_mes_fact" msprop:Generator_ColumnPropNameInTable="m_ultimo_mes_factColumn" msprop:Generator_UserColumnName="m_ultimo_mes_fact" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_estado_registro" msprop:Generator_ColumnVarNameInTable="columnm_estado_registro" msprop:Generator_ColumnPropNameInRow="m_estado_registro" msprop:Generator_ColumnPropNameInTable="m_estado_registroColumn" msprop:Generator_UserColumnName="m_estado_registro" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_fecha_inactivo" msprop:Generator_ColumnVarNameInTable="columnm_fecha_inactivo" msprop:Generator_ColumnPropNameInRow="m_fecha_inactivo" msprop:Generator_ColumnPropNameInTable="m_fecha_inactivoColumn" msprop:Generator_UserColumnName="m_fecha_inactivo" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_codigo_archivo" msprop:Generator_ColumnVarNameInTable="columnm_codigo_archivo" msprop:Generator_ColumnPropNameInRow="m_codigo_archivo" msprop:Generator_ColumnPropNameInTable="m_codigo_archivoColumn" msprop:Generator_UserColumnName="m_codigo_archivo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="m_codigo_promedio" msprop:Generator_ColumnVarNameInTable="columnm_codigo_promedio" msprop:Generator_ColumnPropNameInRow="m_codigo_promedio" msprop:Generator_ColumnPropNameInTable="m_codigo_promedioColumn" msprop:Generator_UserColumnName="m_codigo_promedio" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_codigo_contrato" msprop:Generator_ColumnVarNameInTable="columnm_codigo_contrato" msprop:Generator_ColumnPropNameInRow="m_codigo_contrato" msprop:Generator_ColumnPropNameInTable="m_codigo_contratoColumn" msprop:Generator_UserColumnName="m_codigo_contrato" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_codigo_lectura" msprop:Generator_ColumnVarNameInTable="columnm_codigo_lectura" msprop:Generator_ColumnPropNameInRow="m_codigo_lectura" msprop:Generator_ColumnPropNameInTable="m_codigo_lecturaColumn" msprop:Generator_UserColumnName="m_codigo_lectura" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_codigo_agrupa" msprop:Generator_ColumnVarNameInTable="columnm_codigo_agrupa" msprop:Generator_ColumnPropNameInRow="m_codigo_agrupa" msprop:Generator_ColumnPropNameInTable="m_codigo_agrupaColumn" msprop:Generator_UserColumnName="m_codigo_agrupa" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_codigo_u_medido" msprop:Generator_ColumnVarNameInTable="columnm_codigo_u_medido" msprop:Generator_ColumnPropNameInRow="m_codigo_u_medido" msprop:Generator_ColumnPropNameInTable="m_codigo_u_medidoColumn" msprop:Generator_UserColumnName="m_codigo_u_medido" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_codigo_m_avisos" msprop:Generator_ColumnVarNameInTable="columnm_codigo_m_avisos" msprop:Generator_ColumnPropNameInRow="m_codigo_m_avisos" msprop:Generator_ColumnPropNameInTable="m_codigo_m_avisosColumn" msprop:Generator_UserColumnName="m_codigo_m_avisos" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_codigo_comenta" msprop:Generator_ColumnVarNameInTable="columnm_codigo_comenta" msprop:Generator_ColumnPropNameInRow="m_codigo_comenta" msprop:Generator_ColumnPropNameInTable="m_codigo_comentaColumn" msprop:Generator_UserColumnName="m_codigo_comenta" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_codigo_corte" msprop:Generator_ColumnVarNameInTable="columnm_codigo_corte" msprop:Generator_ColumnPropNameInRow="m_codigo_corte" msprop:Generator_ColumnPropNameInTable="m_codigo_corteColumn" msprop:Generator_UserColumnName="m_codigo_corte" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="m_fecha_corte" msprop:Generator_ColumnVarNameInTable="columnm_fecha_corte" msprop:Generator_ColumnPropNameInRow="m_fecha_corte" msprop:Generator_ColumnPropNameInTable="m_fecha_corteColumn" msprop:Generator_UserColumnName="m_fecha_corte" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_fecha_3edad" msprop:Generator_ColumnVarNameInTable="columnm_fecha_3edad" msprop:Generator_ColumnPropNameInRow="m_fecha_3edad" msprop:Generator_ColumnPropNameInTable="m_fecha_3edadColumn" msprop:Generator_UserColumnName="m_fecha_3edad" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_codigo_3edad" msprop:Generator_ColumnVarNameInTable="columnm_codigo_3edad" msprop:Generator_ColumnPropNameInRow="m_codigo_3edad" msprop:Generator_ColumnPropNameInTable="m_codigo_3edadColumn" msprop:Generator_UserColumnName="m_codigo_3edad" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_codigo_fraude" msprop:Generator_ColumnVarNameInTable="columnm_codigo_fraude" msprop:Generator_ColumnPropNameInRow="m_codigo_fraude" msprop:Generator_ColumnPropNameInTable="m_codigo_fraudeColumn" msprop:Generator_UserColumnName="m_codigo_fraude" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_fecha_fraude" msprop:Generator_ColumnVarNameInTable="columnm_fecha_fraude" msprop:Generator_ColumnPropNameInRow="m_fecha_fraude" msprop:Generator_ColumnPropNameInTable="m_fecha_fraudeColumn" msprop:Generator_UserColumnName="m_fecha_fraude" type="xs:decimal" minOccurs="0" />
+              <xs:element name="w_ultimo_mes_grab" msprop:Generator_ColumnVarNameInTable="columnw_ultimo_mes_grab" msprop:Generator_ColumnPropNameInRow="w_ultimo_mes_grab" msprop:Generator_ColumnPropNameInTable="w_ultimo_mes_grabColumn" msprop:Generator_UserColumnName="w_ultimo_mes_grab" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_fecha_garantia" msprop:Generator_ColumnVarNameInTable="columnm_fecha_garantia" msprop:Generator_ColumnPropNameInRow="m_fecha_garantia" msprop:Generator_ColumnPropNameInTable="m_fecha_garantiaColumn" msprop:Generator_UserColumnName="m_fecha_garantia" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_catastro" msprop:Generator_ColumnVarNameInTable="columnm_catastro" msprop:Generator_ColumnPropNameInRow="m_catastro" msprop:Generator_ColumnPropNameInTable="m_catastroColumn" msprop:Generator_UserColumnName="m_catastro" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_no_garantia" msprop:Generator_ColumnVarNameInTable="columnm_no_garantia" msprop:Generator_ColumnPropNameInRow="m_no_garantia" msprop:Generator_ColumnPropNameInTable="m_no_garantiaColumn" msprop:Generator_UserColumnName="m_no_garantia" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="11" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="m_region" msprop:Generator_ColumnVarNameInTable="columnm_region" msprop:Generator_ColumnPropNameInRow="m_region" msprop:Generator_ColumnPropNameInTable="m_regionColumn" msprop:Generator_UserColumnName="m_region" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_total_cargo_mes" msprop:Generator_ColumnVarNameInTable="columnm_total_cargo_mes" msprop:Generator_ColumnPropNameInRow="m_total_cargo_mes" msprop:Generator_ColumnPropNameInTable="m_total_cargo_mesColumn" msprop:Generator_UserColumnName="m_total_cargo_mes" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_telefono" msprop:Generator_ColumnVarNameInTable="columnm_telefono" msprop:Generator_ColumnPropNameInRow="m_telefono" msprop:Generator_ColumnPropNameInTable="m_telefonoColumn" msprop:Generator_UserColumnName="m_telefono" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_fax" msprop:Generator_ColumnVarNameInTable="columnm_fax" msprop:Generator_ColumnPropNameInRow="m_fax" msprop:Generator_ColumnPropNameInTable="m_faxColumn" msprop:Generator_UserColumnName="m_fax" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_isv" msprop:Generator_ColumnVarNameInTable="columnm_isv" msprop:Generator_ColumnPropNameInRow="m_isv" msprop:Generator_ColumnPropNameInTable="m_isvColumn" msprop:Generator_UserColumnName="m_isv" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_isv_ant" msprop:Generator_ColumnVarNameInTable="columnm_isv_ant" msprop:Generator_ColumnPropNameInRow="m_isv_ant" msprop:Generator_ColumnPropNameInTable="m_isv_antColumn" msprop:Generator_UserColumnName="m_isv_ant" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_numero_cortes" msprop:Generator_ColumnVarNameInTable="columnm_numero_cortes" msprop:Generator_ColumnPropNameInRow="m_numero_cortes" msprop:Generator_ColumnPropNameInTable="m_numero_cortesColumn" msprop:Generator_UserColumnName="m_numero_cortes" type="xs:decimal" minOccurs="0" />
+              <xs:element name="m_nivel_residencial" msprop:Generator_ColumnVarNameInTable="columnm_nivel_residencial" msprop:Generator_ColumnPropNameInRow="m_nivel_residencial" msprop:Generator_ColumnPropNameInTable="m_nivel_residencialColumn" msprop:Generator_UserColumnName="m_nivel_residencial" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="m_bono_general" msprop:Generator_ColumnVarNameInTable="columnm_bono_general" msprop:Generator_ColumnPropNameInRow="m_bono_general" msprop:Generator_ColumnPropNameInTable="m_bono_generalColumn" msprop:Generator_UserColumnName="m_bono_general" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="m_ubicacion" msprop:Generator_ColumnVarNameInTable="columnm_ubicacion" msprop:Generator_ColumnPropNameInRow="m_ubicacion" msprop:Generator_ColumnPropNameInTable="m_ubicacionColumn" msprop:Generator_UserColumnName="m_ubicacion" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="9" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="a_descripcion" msprop:Generator_ColumnVarNameInTable="columna_descripcion" msprop:Generator_ColumnPropNameInRow="a_descripcion" msprop:Generator_ColumnPropNameInTable="a_descripcionColumn" msprop:Generator_UserColumnName="a_descripcion" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="t_descripcion_tarifa" msprop:Generator_ColumnVarNameInTable="columnt_descripcion_tarifa" msprop:Generator_ColumnPropNameInRow="t_descripcion_tarifa" msprop:Generator_ColumnPropNameInTable="t_descripcion_tarifaColumn" msprop:Generator_UserColumnName="t_descripcion_tarifa" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="s_descripcion_sector" msprop:Generator_ColumnVarNameInTable="columns_descripcion_sector" msprop:Generator_ColumnPropNameInRow="s_descripcion_sector" msprop:Generator_ColumnPropNameInTable="s_descripcion_sectorColumn" msprop:Generator_UserColumnName="s_descripcion_sector" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="fecha_emision_real" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnfecha_emision_real" msprop:Generator_ColumnPropNameInRow="fecha_emision_real" msprop:Generator_ColumnPropNameInTable="fecha_emision_realColumn" msprop:Generator_UserColumnName="fecha_emision_real" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="fecha_vence_real" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnfecha_vence_real" msprop:Generator_ColumnPropNameInRow="fecha_vence_real" msprop:Generator_ColumnPropNameInTable="fecha_vence_realColumn" msprop:Generator_UserColumnName="fecha_vence_real" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Avisos_gobierno" />
+      <xs:field xpath="mstns:m_clave_primaria" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
