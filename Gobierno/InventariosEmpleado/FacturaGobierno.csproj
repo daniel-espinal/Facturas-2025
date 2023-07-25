@@ -10,7 +10,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>FacturacionGobierno</RootNamespace>
     <AssemblyName>FacturacionGobierno</AssemblyName>
-    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <TargetFrameworkProfile>
     </TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
@@ -25,7 +25,7 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <ApplicationRevision>226</ApplicationRevision>
+    <ApplicationRevision>272</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -117,6 +117,9 @@
       <HintPath>..\packages\Npgsql.3.1.7\lib\net451\Npgsql.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="solg.lib.netframework, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\solg.lib.netframework.1.0.0\lib\net48\solg.lib.netframework.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
@@ -160,6 +163,12 @@
     </Compile>
     <Compile Include="cIrregularidad.Designer.cs">
       <DependentUpon>cIrregularidad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cIrregularidadIrregularidadN.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="cIrregularidadIrregularidadN.Designer.cs">
+      <DependentUpon>cIrregularidadIrregularidadN.cs</DependentUpon>
     </Compile>
     <Compile Include="cIrregularidadMasivo.cs">
       <SubType>Component</SubType>
@@ -359,6 +368,11 @@
     <Compile Include="FacturaAgrupacionInfop.Designer.cs">
       <DependentUpon>FacturaAgrupacionInfop.cs</DependentUpon>
     </Compile>
+    <Compile Include="FacturacionDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FacturacionDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="FacturaCorreo.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -543,6 +557,7 @@
     <Compile Include="Model\CargosVarios.cs" />
     <Compile Include="Model\CodigosAgrupacion.cs" />
     <Compile Include="Model\Conexion.cs" />
+    <Compile Include="Model\Core.cs" />
     <Compile Include="Model\Facturacion.cs" />
     <Compile Include="Model\FacturaCorrelativo.cs" />
     <Compile Include="Model\FPacGobEntity.cs" />
@@ -576,11 +591,6 @@
       <DependentUpon>FrmFacturacion.cs</DependentUpon>
     </Compile>
     <Compile Include="FacturacionDataSet.cs">
-      <DependentUpon>FacturacionDataSet.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="FacturacionDataSet.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
       <DependentUpon>FacturacionDataSet.xsd</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
@@ -624,6 +634,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="cIrregularidad.resx">
       <DependentUpon>cIrregularidad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cIrregularidadIrregularidadN.resx">
+      <DependentUpon>cIrregularidadIrregularidadN.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="cIrregularidadMasivo.resx">
       <DependentUpon>cIrregularidadMasivo.cs</DependentUpon>
@@ -869,8 +882,8 @@
     </None>
     <None Include="FacturacionDataSet.xsd">
       <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>FacturacionDataSet.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>FacturacionDataSet.Designer.cs</LastGenOutput>
     </None>
     <None Include="FacturacionDataSet.xss">
       <DependentUpon>FacturacionDataSet.xsd</DependentUpon>

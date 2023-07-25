@@ -1,0 +1,12 @@
+TipoFactura  General, Especial1 Especial2,
+ContadorInicial 
+ContadorFinal
+Periodo
+Estado : N = nuevo , A = activo, I = Inactivo
+
+
+
+
+Estado 
+I= Impresion
+R= Reimpresion

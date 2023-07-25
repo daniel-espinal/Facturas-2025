@@ -1,0 +1,4 @@
+1. generacion Masiva mes actual
+2.Generacion estados de cuentas
+3. Generacion Facturas Correo mes actual sin valores negativos
+4. Generacion estados de cuentas para facturas Correcos sin valore negativos

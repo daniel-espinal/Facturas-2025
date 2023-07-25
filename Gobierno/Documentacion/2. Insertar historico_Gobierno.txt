@@ -1,0 +1,11 @@
+1.delete from HISTORICO_GOBIERNO
+
+
+2.	INSERT  into HISTORICO_GOBIERNO
+	SELECT [m_clave_primaria]
+      ,[MES]
+      ,[m_consumos1]
+  FROM [FACTURACION].[dbo].[HISTORICO_CONSUMOS]
+
+  
+  

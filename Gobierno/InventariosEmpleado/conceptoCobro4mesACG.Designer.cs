@@ -1,4 +1,6 @@
 ﻿
+using FacturacionGobierno.Model;
+
 namespace FacturacionGobierno
 {
     partial class conceptoCobro4mesACG
@@ -58,10 +60,10 @@ namespace FacturacionGobierno
             this.xrLabel2.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[hc_valor]")});
             this.xrLabel2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.xrLabel2.LocationFloat = new DevExpress.Utils.PointFloat(220.5392F, 0F);
+            this.xrLabel2.LocationFloat = new DevExpress.Utils.PointFloat(231.2467F, 0F);
             this.xrLabel2.Name = "xrLabel2";
             this.xrLabel2.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel2.SizeF = new System.Drawing.SizeF(135.1913F, 13F);
+            this.xrLabel2.SizeF = new System.Drawing.SizeF(135.19F, 13F);
             this.xrLabel2.StylePriority.UseFont = false;
             this.xrLabel2.StylePriority.UseTextAlignment = false;
             this.xrLabel2.Text = "xrLabel2";
@@ -76,7 +78,7 @@ namespace FacturacionGobierno
             this.xrLabel1.LocationFloat = new DevExpress.Utils.PointFloat(0F, 0F);
             this.xrLabel1.Name = "xrLabel1";
             this.xrLabel1.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel1.SizeF = new System.Drawing.SizeF(258.3333F, 13F);
+            this.xrLabel1.SizeF = new System.Drawing.SizeF(258.33F, 13F);
             this.xrLabel1.StylePriority.UseFont = false;
             this.xrLabel1.Text = "xrLabel1";
             // 
@@ -96,7 +98,11 @@ namespace FacturacionGobierno
             // 
             // sqlDataSource1
             // 
-            this.sqlDataSource1.ConnectionName = "MAESTROConnectionString";
+            this.sqlDataSource1 = Core.DataSourceReport("MAESTROConnectionString");
+            // this.sqlDataSource1.ConnectionName = "MAESTROConnectionString";
+            this.sqlDataSource1.ConnectionOptions.CloseConnection = false;
+            this.sqlDataSource1.ConnectionOptions.CommandTimeout = 15000;
+            this.sqlDataSource1.ConnectionOptions.DbCommandTimeout = 15000;
             this.sqlDataSource1.Name = "sqlDataSource1";
             storedProcQuery1.Name = "EEHAviso_Masivo_Concepto_Cobro";
             queryParameter1.Name = "@TIPO";
@@ -128,7 +134,7 @@ namespace FacturacionGobierno
             this.DataMember = "EEHAviso_Masivo_Concepto_Cobro";
             this.DataSource = this.sqlDataSource1;
             this.Font = new System.Drawing.Font("Times New Roman", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margins = new System.Drawing.Printing.Margins(96, 318, 0, 0);
+            this.Margins = new System.Drawing.Printing.Margins(75, 318, 0, 0);
             this.Parameters.AddRange(new DevExpress.XtraReports.Parameters.Parameter[] {
             this.clave_primaria});
             this.SnapGridSize = 5F;

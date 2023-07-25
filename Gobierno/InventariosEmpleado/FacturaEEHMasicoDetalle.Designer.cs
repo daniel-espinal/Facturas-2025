@@ -38,7 +38,7 @@
             this.xrLabel1 = new DevExpress.XtraReports.UI.XRLabel();
             this.TopMargin = new DevExpress.XtraReports.UI.TopMarginBand();
             this.BottomMargin = new DevExpress.XtraReports.UI.BottomMarginBand();
-            this.usuariosTableAdapter = new FacturacionGobierno.FacturacionDataSetTableAdapters.usuariosTableAdapter();
+        //    this.usuariosTableAdapter = new FacturacionGobierno.FacturacionDataSetTableAdapters.usuariosTableAdapter();
             this.SECTOR = new DevExpress.XtraReports.Parameters.Parameter();
             this.sqlDataSource1 = new DevExpress.DataAccess.Sql.SqlDataSource(this.components);
             this.CLAVE = new DevExpress.XtraReports.Parameters.Parameter();
@@ -94,7 +94,7 @@
             // 
             // usuariosTableAdapter
             // 
-            this.usuariosTableAdapter.ClearBeforeFill = true;
+          //  this.usuariosTableAdapter.ClearBeforeFill = true;
             // 
             // SECTOR
             // 
@@ -132,7 +132,7 @@
             this.BottomMargin});
             this.ComponentStorage.AddRange(new System.ComponentModel.IComponent[] {
             this.sqlDataSource1});
-            this.DataAdapter = this.usuariosTableAdapter;
+          //  this.DataAdapter = this.usuariosTableAdapter;
             this.DataMember = "EEHAviso_Masivo_Concepto_Cobro";
             this.DataSource = this.sqlDataSource1;
             this.Font = new System.Drawing.Font("Times New Roman", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -153,7 +153,7 @@
         private DevExpress.XtraReports.UI.DetailBand Detail;
         private DevExpress.XtraReports.UI.TopMarginBand TopMargin;
         private DevExpress.XtraReports.UI.BottomMarginBand BottomMargin;
-        private FacturacionDataSetTableAdapters.usuariosTableAdapter usuariosTableAdapter;
+        //private FacturacionDataSetTableAdapters.usuariosTableAdapter usuariosTableAdapter;
         private DevExpress.XtraReports.UI.XRLabel xrLabel2;
         private DevExpress.XtraReports.UI.XRLabel xrLabel1;
         private DevExpress.XtraReports.Parameters.Parameter SECTOR;

@@ -34,6 +34,7 @@ namespace FacturacionGobierno
             DevExpress.DataAccess.Sql.QueryParameter queryParameter1 = new DevExpress.DataAccess.Sql.QueryParameter();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(cIrregularidadMasivo));
             this.Detail = new DevExpress.XtraReports.UI.DetailBand();
+            this.xrLabel11 = new DevExpress.XtraReports.UI.XRLabel();
             this.xrLabel10 = new DevExpress.XtraReports.UI.XRLabel();
             this.xrLabel9 = new DevExpress.XtraReports.UI.XRLabel();
             this.xrLabel8 = new DevExpress.XtraReports.UI.XRLabel();
@@ -49,7 +50,6 @@ namespace FacturacionGobierno
             this.sqlDataSource1 = new DevExpress.DataAccess.Sql.SqlDataSource(this.components);
             this.ID_Liquidacion = new DevExpress.XtraReports.Parameters.Parameter();
             this.codigoAgrupa = new DevExpress.XtraReports.Parameters.Parameter();
-            this.xrLabel11 = new DevExpress.XtraReports.UI.XRLabel();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             // 
             // Detail
@@ -70,6 +70,21 @@ namespace FacturacionGobierno
             this.Detail.Name = "Detail";
             this.Detail.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
             this.Detail.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
+            // 
+            // xrLabel11
+            // 
+            this.xrLabel11.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[Total_Reintegro]")});
+            this.xrLabel11.Font = new System.Drawing.Font("Arial Rounded MT Bold", 6F);
+            this.xrLabel11.LocationFloat = new DevExpress.Utils.PointFloat(681.9973F, 1.222659E-05F);
+            this.xrLabel11.Name = "xrLabel11";
+            this.xrLabel11.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel11.SizeF = new System.Drawing.SizeF(42.15344F, 5.564797F);
+            this.xrLabel11.StylePriority.UseFont = false;
+            this.xrLabel11.StylePriority.UseTextAlignment = false;
+            this.xrLabel11.Text = "xrLabel10";
+            this.xrLabel11.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            this.xrLabel11.TextFormatString = "{0:n}";
             // 
             // xrLabel10
             // 
@@ -257,21 +272,6 @@ namespace FacturacionGobierno
             this.codigoAgrupa.Name = "codigoAgrupa";
             this.codigoAgrupa.Type = typeof(int);
             this.codigoAgrupa.ValueInfo = "0";
-            // 
-            // xrLabel11
-            // 
-            this.xrLabel11.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[Total_Reintegro]")});
-            this.xrLabel11.Font = new System.Drawing.Font("Arial Rounded MT Bold", 6F);
-            this.xrLabel11.LocationFloat = new DevExpress.Utils.PointFloat(681.9973F, 1.222659E-05F);
-            this.xrLabel11.Name = "xrLabel11";
-            this.xrLabel11.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel11.SizeF = new System.Drawing.SizeF(42.15344F, 5.564797F);
-            this.xrLabel11.StylePriority.UseFont = false;
-            this.xrLabel11.StylePriority.UseTextAlignment = false;
-            this.xrLabel11.Text = "xrLabel10";
-            this.xrLabel11.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
-            this.xrLabel11.TextFormatString = "{0:n}";
             // 
             // cIrregularidadMasivo
             // 

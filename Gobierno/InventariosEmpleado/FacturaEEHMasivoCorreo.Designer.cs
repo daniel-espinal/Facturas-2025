@@ -51,6 +51,8 @@
             this.xrLabel62 = new DevExpress.XtraReports.UI.XRLabel();
             this.xrPictureBox10 = new DevExpress.XtraReports.UI.XRPictureBox();
             this.PageHeader = new DevExpress.XtraReports.UI.PageHeaderBand();
+            this.xrPictureBox11 = new DevExpress.XtraReports.UI.XRPictureBox();
+            this.vendorLogo = new DevExpress.XtraReports.UI.XRPictureBox();
             this.xrLabel16 = new DevExpress.XtraReports.UI.XRLabel();
             this.xrPictureBox19 = new DevExpress.XtraReports.UI.XRPictureBox();
             this.xrLabel44 = new DevExpress.XtraReports.UI.XRLabel();
@@ -76,6 +78,7 @@
             this.xrLabel93 = new DevExpress.XtraReports.UI.XRLabel();
             this.xrLabel94 = new DevExpress.XtraReports.UI.XRLabel();
             this.xrLabel75 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrSubreport1 = new DevExpress.XtraReports.UI.XRSubreport();
             this.SECTOR = new DevExpress.XtraReports.Parameters.Parameter();
             this.xrTable13 = new DevExpress.XtraReports.UI.XRTable();
             this.xrTableRow44 = new DevExpress.XtraReports.UI.XRTableRow();
@@ -122,7 +125,6 @@
             this.xrPictureBox13 = new DevExpress.XtraReports.UI.XRPictureBox();
             this.xrPictureBox12 = new DevExpress.XtraReports.UI.XRPictureBox();
             this.xrPictureBox7 = new DevExpress.XtraReports.UI.XRPictureBox();
-            this.xrPictureBox11 = new DevExpress.XtraReports.UI.XRPictureBox();
             this.xrChart1 = new DevExpress.XtraReports.UI.XRChart();
             this.xrLabel6 = new DevExpress.XtraReports.UI.XRLabel();
             this.xrPanel1 = new DevExpress.XtraReports.UI.XRPanel();
@@ -201,7 +203,6 @@
             this.xrLine8 = new DevExpress.XtraReports.UI.XRLine();
             this.xrLine10 = new DevExpress.XtraReports.UI.XRLine();
             this.xrLine12 = new DevExpress.XtraReports.UI.XRLine();
-            this.vendorLogo = new DevExpress.XtraReports.UI.XRPictureBox();
             this.xrTable1 = new DevExpress.XtraReports.UI.XRTable();
             this.xrTableRow1 = new DevExpress.XtraReports.UI.XRTableRow();
             this.xrTableCell39 = new DevExpress.XtraReports.UI.XRTableCell();
@@ -316,7 +317,6 @@
             this.parameter1 = new DevExpress.XtraReports.Parameters.Parameter();
             this.obtener_todos = new DevExpress.XtraReports.Parameters.Parameter();
             this.itinerario = new DevExpress.XtraReports.Parameters.Parameter();
-            this.xrSubreport1 = new DevExpress.XtraReports.UI.XRSubreport();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable13)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrChart1)).BeginInit();
@@ -420,7 +420,7 @@
             this.xrLabel62.LocationFloat = new DevExpress.Utils.PointFloat(0F, 0F);
             this.xrLabel62.Name = "xrLabel62";
             this.xrLabel62.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel62.SizeF = new System.Drawing.SizeF(849.9995F, 23.00001F);
+            this.xrLabel62.SizeF = new System.Drawing.SizeF(840F, 23.00001F);
             this.xrLabel62.StylePriority.UseFont = false;
             this.xrLabel62.StylePriority.UseForeColor = false;
             this.xrLabel62.StylePriority.UseTextAlignment = false;
@@ -438,6 +438,8 @@
             // PageHeader
             // 
             this.PageHeader.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+            this.xrPictureBox11,
+            this.vendorLogo,
             this.xrLabel16,
             this.xrPictureBox19,
             this.xrLabel44,
@@ -471,7 +473,6 @@
             this.xrPictureBox13,
             this.xrPictureBox12,
             this.xrPictureBox7,
-            this.xrPictureBox11,
             this.xrChart1,
             this.xrLabel6,
             this.xrPanel1,
@@ -479,7 +480,6 @@
             this.xrLine8,
             this.xrLine10,
             this.xrLine12,
-            this.vendorLogo,
             this.xrTable1,
             this.xrLine5,
             this.xrTable4,
@@ -494,6 +494,27 @@
             this.xrPictureBox3});
             this.PageHeader.HeightF = 1033.287F;
             this.PageHeader.Name = "PageHeader";
+            // 
+            // xrPictureBox11
+            // 
+            this.xrPictureBox11.Image = ((System.Drawing.Image)(resources.GetObject("xrPictureBox11.Image")));
+            this.xrPictureBox11.ImageAlignment = DevExpress.XtraPrinting.ImageAlignment.BottomCenter;
+            this.xrPictureBox11.LocationFloat = new DevExpress.Utils.PointFloat(3.532784F, 0F);
+            this.xrPictureBox11.Name = "xrPictureBox11";
+            this.xrPictureBox11.SizeF = new System.Drawing.SizeF(494.1336F, 156.0477F);
+            this.xrPictureBox11.StylePriority.UseBorders = false;
+            this.xrPictureBox11.StylePriority.UsePadding = false;
+            // 
+            // vendorLogo
+            // 
+            this.vendorLogo.Image = ((System.Drawing.Image)(resources.GetObject("vendorLogo.Image")));
+            this.vendorLogo.ImageAlignment = DevExpress.XtraPrinting.ImageAlignment.TopLeft;
+            this.vendorLogo.LocationFloat = new DevExpress.Utils.PointFloat(504.5639F, 0F);
+            this.vendorLogo.Name = "vendorLogo";
+            this.vendorLogo.SizeF = new System.Drawing.SizeF(310.701F, 145.6746F);
+            this.vendorLogo.Sizing = DevExpress.XtraPrinting.ImageSizeMode.Squeeze;
+            this.vendorLogo.StylePriority.UseBorders = false;
+            this.vendorLogo.StylePriority.UsePadding = false;
             // 
             // xrLabel16
             // 
@@ -793,6 +814,17 @@
             this.xrLabel75.StylePriority.UseFont = false;
             this.xrLabel75.StylePriority.UseForeColor = false;
             this.xrLabel75.Text = "CÓDIGO CLIENTE";
+            // 
+            // xrSubreport1
+            // 
+            this.xrSubreport1.CanShrink = true;
+            this.xrSubreport1.LocationFloat = new DevExpress.Utils.PointFloat(38.01207F, 694.9318F);
+            this.xrSubreport1.LockedInUserDesigner = true;
+            this.xrSubreport1.Name = "xrSubreport1";
+            this.xrSubreport1.ParameterBindings.Add(new DevExpress.XtraReports.UI.ParameterBinding("SECTOR", this.SECTOR));
+            this.xrSubreport1.ParameterBindings.Add(new DevExpress.XtraReports.UI.ParameterBinding("CLAVE", null, "EEHAviso_Masivo.m_clave_primaria"));
+            this.xrSubreport1.ReportSource = new FacturacionGobierno.ConceptoCobroCorreo();
+            this.xrSubreport1.SizeF = new System.Drawing.SizeF(348.5976F, 167.3599F);
             // 
             // SECTOR
             // 
@@ -1254,17 +1286,6 @@
             this.xrPictureBox7.Name = "xrPictureBox7";
             this.xrPictureBox7.SizeF = new System.Drawing.SizeF(804.3678F, 13.98703F);
             this.xrPictureBox7.Sizing = DevExpress.XtraPrinting.ImageSizeMode.StretchImage;
-            // 
-            // xrPictureBox11
-            // 
-            this.xrPictureBox11.Image = ((System.Drawing.Image)(resources.GetObject("xrPictureBox11.Image")));
-            this.xrPictureBox11.ImageAlignment = DevExpress.XtraPrinting.ImageAlignment.TopRight;
-            this.xrPictureBox11.LocationFloat = new DevExpress.Utils.PointFloat(497.0212F, 0F);
-            this.xrPictureBox11.Name = "xrPictureBox11";
-            this.xrPictureBox11.SizeF = new System.Drawing.SizeF(352.9786F, 131.7857F);
-            this.xrPictureBox11.Sizing = DevExpress.XtraPrinting.ImageSizeMode.Squeeze;
-            this.xrPictureBox11.StylePriority.UseBorders = false;
-            this.xrPictureBox11.StylePriority.UsePadding = false;
             // 
             // xrChart1
             // 
@@ -2124,17 +2145,6 @@
             this.xrLine12.LocationFloat = new DevExpress.Utils.PointFloat(436.1413F, 881.5875F);
             this.xrLine12.Name = "xrLine12";
             this.xrLine12.SizeF = new System.Drawing.SizeF(386.4788F, 5.80658F);
-            // 
-            // vendorLogo
-            // 
-            this.vendorLogo.Image = ((System.Drawing.Image)(resources.GetObject("vendorLogo.Image")));
-            this.vendorLogo.ImageAlignment = DevExpress.XtraPrinting.ImageAlignment.TopLeft;
-            this.vendorLogo.LocationFloat = new DevExpress.Utils.PointFloat(18.26464F, 0F);
-            this.vendorLogo.Name = "vendorLogo";
-            this.vendorLogo.SizeF = new System.Drawing.SizeF(478.7566F, 131.7857F);
-            this.vendorLogo.Sizing = DevExpress.XtraPrinting.ImageSizeMode.Squeeze;
-            this.vendorLogo.StylePriority.UseBorders = false;
-            this.vendorLogo.StylePriority.UsePadding = false;
             // 
             // xrTable1
             // 
@@ -3134,17 +3144,6 @@
             this.itinerario.Description = "itinerario";
             this.itinerario.Name = "itinerario";
             // 
-            // xrSubreport1
-            // 
-            this.xrSubreport1.CanShrink = true;
-            this.xrSubreport1.LocationFloat = new DevExpress.Utils.PointFloat(38.01207F, 694.9318F);
-            this.xrSubreport1.LockedInUserDesigner = true;
-            this.xrSubreport1.Name = "xrSubreport1";
-            this.xrSubreport1.ParameterBindings.Add(new DevExpress.XtraReports.UI.ParameterBinding("SECTOR", this.SECTOR));
-            this.xrSubreport1.ParameterBindings.Add(new DevExpress.XtraReports.UI.ParameterBinding("CLAVE", null, "EEHAviso_Masivo.m_clave_primaria"));
-            this.xrSubreport1.ReportSource = new FacturacionGobierno.ConceptoCobroCorreo();
-            this.xrSubreport1.SizeF = new System.Drawing.SizeF(348.5976F, 167.3599F);
-            // 
             // FacturaEEHMasivoCorreo
             // 
             this.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
@@ -3304,7 +3303,6 @@
         private DevExpress.XtraReports.UI.XRPictureBox xrPictureBox13;
         private DevExpress.XtraReports.UI.XRPictureBox xrPictureBox12;
         private DevExpress.XtraReports.UI.XRPictureBox xrPictureBox7;
-        private DevExpress.XtraReports.UI.XRPictureBox xrPictureBox11;
         private DevExpress.XtraReports.UI.XRChart xrChart1;
         private DevExpress.XtraReports.UI.XRLabel xrLabel6;
         private DevExpress.XtraReports.UI.XRPanel xrPanel1;
@@ -3383,7 +3381,6 @@
         private DevExpress.XtraReports.UI.XRLine xrLine8;
         private DevExpress.XtraReports.UI.XRLine xrLine10;
         private DevExpress.XtraReports.UI.XRLine xrLine12;
-        private DevExpress.XtraReports.UI.XRPictureBox vendorLogo;
         private DevExpress.XtraReports.UI.XRTable xrTable1;
         private DevExpress.XtraReports.UI.XRTableRow xrTableRow1;
         private DevExpress.XtraReports.UI.XRTableCell xrTableCell39;
@@ -3499,5 +3496,7 @@
         private DevExpress.XtraReports.Parameters.Parameter obtener_todos;
         private DevExpress.XtraReports.Parameters.Parameter itinerario;
         private DevExpress.XtraReports.UI.XRSubreport xrSubreport1;
+        private DevExpress.XtraReports.UI.XRPictureBox xrPictureBox11;
+        private DevExpress.XtraReports.UI.XRPictureBox vendorLogo;
     }
 }

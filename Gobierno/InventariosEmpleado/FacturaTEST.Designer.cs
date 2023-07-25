@@ -387,9 +387,9 @@
             this.Detail1 = new DevExpress.XtraReports.UI.DetailBand();
             this.xrPanel4 = new DevExpress.XtraReports.UI.XRPanel();
             this.xrLabel27 = new DevExpress.XtraReports.UI.XRLabel();
-            this.sqlDataSource1 = new DevExpress.DataAccess.Sql.SqlDataSource(this.components);
             this.xrLabel30 = new DevExpress.XtraReports.UI.XRLabel();
             this.xrLabel28 = new DevExpress.XtraReports.UI.XRLabel();
+            this.sqlDataSource1 = new DevExpress.DataAccess.Sql.SqlDataSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.xrChart1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(xyDiagram1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(series1)).BeginInit();
@@ -462,8 +462,8 @@
             // xrLabel64
             // 
             this.xrLabel64.BackColor = System.Drawing.Color.White;
-            this.xrLabel64.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
-            new DevExpress.XtraReports.UI.XRBinding("Text", null, "Historico_Consumo.Consumo")});
+            this.xrLabel64.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[Historico_Consumo.Consumo]")});
             this.xrLabel64.Font = new System.Drawing.Font("Verdana", 9.75F);
             this.xrLabel64.LocationFloat = new DevExpress.Utils.PointFloat(370.9585F, 48.83334F);
             this.xrLabel64.Name = "xrLabel64";
@@ -776,8 +776,8 @@
             // xrLabel12
             // 
             this.xrLabel12.BackColor = System.Drawing.Color.White;
-            this.xrLabel12.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
-            new DevExpress.XtraReports.UI.XRBinding("Text", null, "Aviso_Gobierno.Saldo_anterior", "{0:n}")});
+            this.xrLabel12.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[Saldo_anterior]")});
             this.xrLabel12.Font = new System.Drawing.Font("Verdana", 10F, System.Drawing.FontStyle.Bold);
             this.xrLabel12.LocationFloat = new DevExpress.Utils.PointFloat(471.8193F, 63.8333F);
             this.xrLabel12.Name = "xrLabel12";
@@ -787,6 +787,7 @@
             this.xrLabel12.StylePriority.UseFont = false;
             this.xrLabel12.StylePriority.UseTextAlignment = false;
             this.xrLabel12.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
+            this.xrLabel12.TextFormatString = "{0:n}";
             // 
             // xrLabel74
             // 
@@ -825,8 +826,8 @@
             // xrLabel4
             // 
             this.xrLabel4.BackColor = System.Drawing.Color.White;
-            this.xrLabel4.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
-            new DevExpress.XtraReports.UI.XRBinding("Text", null, "Aviso_Gobierno.Total_cargo_mes", "{0:n}")});
+            this.xrLabel4.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[Total_cargo_mes]")});
             this.xrLabel4.Font = new System.Drawing.Font("Verdana", 9.75F);
             this.xrLabel4.LocationFloat = new DevExpress.Utils.PointFloat(471.8193F, 45.83327F);
             this.xrLabel4.Name = "xrLabel4";
@@ -836,6 +837,7 @@
             this.xrLabel4.StylePriority.UseFont = false;
             this.xrLabel4.StylePriority.UseTextAlignment = false;
             this.xrLabel4.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
+            this.xrLabel4.TextFormatString = "{0:n}";
             // 
             // xrLabel70
             // 
@@ -891,8 +893,8 @@
             // xrLabel71
             // 
             this.xrLabel71.BackColor = System.Drawing.Color.White;
-            this.xrLabel71.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
-            new DevExpress.XtraReports.UI.XRBinding("Text", null, "Aviso_Gobierno.Sufijo")});
+            this.xrLabel71.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[Sufijo]")});
             this.xrLabel71.Font = new System.Drawing.Font("Verdana", 9.75F);
             this.xrLabel71.LocationFloat = new DevExpress.Utils.PointFloat(254.528F, 27.8333F);
             this.xrLabel71.Name = "xrLabel71";
@@ -906,8 +908,8 @@
             // xrLabel2
             // 
             this.xrLabel2.BackColor = System.Drawing.Color.White;
-            this.xrLabel2.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
-            new DevExpress.XtraReports.UI.XRBinding("Text", null, "Avisos_gobierno.fecha_vence_real", "{0:dd/MM/yyyy}")});
+            this.xrLabel2.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[Avisos_gobierno.fecha_vence_real]")});
             this.xrLabel2.Font = new System.Drawing.Font("Verdana", 9.75F);
             this.xrLabel2.LocationFloat = new DevExpress.Utils.PointFloat(186.5138F, 63.83328F);
             this.xrLabel2.Name = "xrLabel2";
@@ -917,12 +919,13 @@
             this.xrLabel2.StylePriority.UseFont = false;
             this.xrLabel2.StylePriority.UseTextAlignment = false;
             this.xrLabel2.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
+            this.xrLabel2.TextFormatString = "{0:dd/MM/yyyy}";
             // 
             // xrLabel7
             // 
             this.xrLabel7.BackColor = System.Drawing.Color.White;
-            this.xrLabel7.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
-            new DevExpress.XtraReports.UI.XRBinding("Text", null, "Aviso_Gobierno.Ultimo_mes_fact", "{0:#}")});
+            this.xrLabel7.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[Ultimo_mes_fact]")});
             this.xrLabel7.Font = new System.Drawing.Font("Verdana", 9.75F);
             this.xrLabel7.LocationFloat = new DevExpress.Utils.PointFloat(471.8193F, 9.833272F);
             this.xrLabel7.Name = "xrLabel7";
@@ -932,6 +935,7 @@
             this.xrLabel7.StylePriority.UseFont = false;
             this.xrLabel7.StylePriority.UseTextAlignment = false;
             this.xrLabel7.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
+            this.xrLabel7.TextFormatString = "{0:#}";
             // 
             // xrLabel8
             // 
@@ -953,8 +957,8 @@
             // xrLabel10
             // 
             this.xrLabel10.BackColor = System.Drawing.Color.White;
-            this.xrLabel10.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
-            new DevExpress.XtraReports.UI.XRBinding("Text", null, "Aviso_Gobierno.totalMES", "{0:n}")});
+            this.xrLabel10.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[totalMES]")});
             this.xrLabel10.Font = new System.Drawing.Font("Verdana", 9.75F);
             this.xrLabel10.LocationFloat = new DevExpress.Utils.PointFloat(471.8193F, 27.8333F);
             this.xrLabel10.Name = "xrLabel10";
@@ -964,6 +968,7 @@
             this.xrLabel10.StylePriority.UseFont = false;
             this.xrLabel10.StylePriority.UseTextAlignment = false;
             this.xrLabel10.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
+            this.xrLabel10.TextFormatString = "{0:n}";
             // 
             // xrLabel11
             // 
@@ -985,8 +990,8 @@
             // xrLabel6
             // 
             this.xrLabel6.BackColor = System.Drawing.Color.White;
-            this.xrLabel6.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
-            new DevExpress.XtraReports.UI.XRBinding("Text", null, "Aviso_Gobierno.Fecha_emision_real", "{0:dd/MM/yyyy}")});
+            this.xrLabel6.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[Fecha_emision_real]")});
             this.xrLabel6.Font = new System.Drawing.Font("Verdana", 9.75F);
             this.xrLabel6.LocationFloat = new DevExpress.Utils.PointFloat(186.5138F, 45.8333F);
             this.xrLabel6.Name = "xrLabel6";
@@ -996,6 +1001,7 @@
             this.xrLabel6.StylePriority.UseFont = false;
             this.xrLabel6.StylePriority.UseTextAlignment = false;
             this.xrLabel6.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
+            this.xrLabel6.TextFormatString = "{0:dd/MM/yyyy}";
             // 
             // xrLabel3
             // 
@@ -1034,8 +1040,8 @@
             // xrLabel5
             // 
             this.xrLabel5.BackColor = System.Drawing.Color.White;
-            this.xrLabel5.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
-            new DevExpress.XtraReports.UI.XRBinding("Text", null, "Aviso_Gobierno.Prefijo")});
+            this.xrLabel5.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[Prefijo]")});
             this.xrLabel5.Font = new System.Drawing.Font("Verdana", 9.75F);
             this.xrLabel5.LocationFloat = new DevExpress.Utils.PointFloat(186.5138F, 27.8333F);
             this.xrLabel5.Name = "xrLabel5";
@@ -1049,8 +1055,8 @@
             // xrLabel23
             // 
             this.xrLabel23.BackColor = System.Drawing.Color.White;
-            this.xrLabel23.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
-            new DevExpress.XtraReports.UI.XRBinding("Text", null, "Aviso_Gobierno.Clave_primaria", "{0:#}")});
+            this.xrLabel23.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[Clave_primaria]")});
             this.xrLabel23.Font = new System.Drawing.Font("Verdana", 9.75F);
             this.xrLabel23.LocationFloat = new DevExpress.Utils.PointFloat(186.5138F, 9.833272F);
             this.xrLabel23.Name = "xrLabel23";
@@ -1060,6 +1066,7 @@
             this.xrLabel23.StylePriority.UseFont = false;
             this.xrLabel23.StylePriority.UseTextAlignment = false;
             this.xrLabel23.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
+            this.xrLabel23.TextFormatString = "{0:#}";
             // 
             // xrPanel5
             // 
@@ -1103,8 +1110,8 @@
             // xrLabel40
             // 
             this.xrLabel40.BackColor = System.Drawing.Color.White;
-            this.xrLabel40.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
-            new DevExpress.XtraReports.UI.XRBinding("Text", null, "Aviso_Gobierno.Total_cargo_mes", "{0:n}")});
+            this.xrLabel40.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[Total_cargo_mes]")});
             this.xrLabel40.Font = new System.Drawing.Font("Verdana", 9.75F);
             this.xrLabel40.LocationFloat = new DevExpress.Utils.PointFloat(369.2917F, 81.99991F);
             this.xrLabel40.Name = "xrLabel40";
@@ -1114,12 +1121,13 @@
             this.xrLabel40.StylePriority.UseFont = false;
             this.xrLabel40.StylePriority.UseTextAlignment = false;
             this.xrLabel40.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
+            this.xrLabel40.TextFormatString = "{0:n}";
             // 
             // xrLabel37
             // 
             this.xrLabel37.BackColor = System.Drawing.Color.White;
-            this.xrLabel37.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
-            new DevExpress.XtraReports.UI.XRBinding("Text", null, "Aviso_Gobierno.Isv", "{0:n}")});
+            this.xrLabel37.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[Isv]")});
             this.xrLabel37.Font = new System.Drawing.Font("Verdana", 9.75F);
             this.xrLabel37.LocationFloat = new DevExpress.Utils.PointFloat(126.6944F, 81.99991F);
             this.xrLabel37.Name = "xrLabel37";
@@ -1129,12 +1137,13 @@
             this.xrLabel37.StylePriority.UseFont = false;
             this.xrLabel37.StylePriority.UseTextAlignment = false;
             this.xrLabel37.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
+            this.xrLabel37.TextFormatString = "{0:n}";
             // 
             // xrLabel35
             // 
             this.xrLabel35.BackColor = System.Drawing.Color.White;
-            this.xrLabel35.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
-            new DevExpress.XtraReports.UI.XRBinding("Text", null, "Aviso_Gobierno.Aviso_GobiernoReactiva.Reactiva1", "{0:n}")});
+            this.xrLabel35.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[Aviso_GobiernoReactiva.Reactiva1]")});
             this.xrLabel35.Font = new System.Drawing.Font("Verdana", 9.75F);
             this.xrLabel35.LocationFloat = new DevExpress.Utils.PointFloat(126.6943F, 63.99994F);
             this.xrLabel35.Name = "xrLabel35";
@@ -1144,12 +1153,13 @@
             this.xrLabel35.StylePriority.UseFont = false;
             this.xrLabel35.StylePriority.UseTextAlignment = false;
             this.xrLabel35.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
+            this.xrLabel35.TextFormatString = "{0:n}";
             // 
             // xrLabel34
             // 
             this.xrLabel34.BackColor = System.Drawing.Color.White;
-            this.xrLabel34.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
-            new DevExpress.XtraReports.UI.XRBinding("Text", null, "Aviso_Gobierno.Otros_dr_cr", "{0:n}")});
+            this.xrLabel34.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[Otros_dr_cr]")});
             this.xrLabel34.Font = new System.Drawing.Font("Verdana", 9.75F);
             this.xrLabel34.LocationFloat = new DevExpress.Utils.PointFloat(126.6943F, 45.99991F);
             this.xrLabel34.Name = "xrLabel34";
@@ -1159,12 +1169,13 @@
             this.xrLabel34.StylePriority.UseFont = false;
             this.xrLabel34.StylePriority.UseTextAlignment = false;
             this.xrLabel34.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
+            this.xrLabel34.TextFormatString = "{0:n}";
             // 
             // xrLabel33
             // 
             this.xrLabel33.BackColor = System.Drawing.Color.White;
-            this.xrLabel33.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
-            new DevExpress.XtraReports.UI.XRBinding("Text", null, "Aviso_Gobierno.Cobro_publico", "{0:n}")});
+            this.xrLabel33.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[Cobro_publico]")});
             this.xrLabel33.Font = new System.Drawing.Font("Verdana", 9.75F);
             this.xrLabel33.LocationFloat = new DevExpress.Utils.PointFloat(126.6943F, 27.99988F);
             this.xrLabel33.Name = "xrLabel33";
@@ -1174,6 +1185,7 @@
             this.xrLabel33.StylePriority.UseFont = false;
             this.xrLabel33.StylePriority.UseTextAlignment = false;
             this.xrLabel33.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
+            this.xrLabel33.TextFormatString = "{0:n}";
             // 
             // xrLabel36
             // 
@@ -1263,8 +1275,8 @@
             // xrLabel29
             // 
             this.xrLabel29.BackColor = System.Drawing.Color.White;
-            this.xrLabel29.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
-            new DevExpress.XtraReports.UI.XRBinding("Text", null, "Aviso_Gobierno.Cobro_energia", "{0:n}")});
+            this.xrLabel29.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[Cobro_energia]")});
             this.xrLabel29.Font = new System.Drawing.Font("Verdana", 9.75F);
             this.xrLabel29.LocationFloat = new DevExpress.Utils.PointFloat(126.6943F, 10.00004F);
             this.xrLabel29.Name = "xrLabel29";
@@ -1274,6 +1286,7 @@
             this.xrLabel29.StylePriority.UseFont = false;
             this.xrLabel29.StylePriority.UseTextAlignment = false;
             this.xrLabel29.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
+            this.xrLabel29.TextFormatString = "{0:n}";
             // 
             // xrPanel3
             // 
@@ -1315,8 +1328,8 @@
             // xrLabel67
             // 
             this.xrLabel67.BackColor = System.Drawing.Color.White;
-            this.xrLabel67.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
-            new DevExpress.XtraReports.UI.XRBinding("Text", null, "Aviso_Gobierno.Dias_facturados", "{0:#}")});
+            this.xrLabel67.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[Dias_facturados]")});
             this.xrLabel67.Font = new System.Drawing.Font("Verdana", 9.75F);
             this.xrLabel67.LocationFloat = new DevExpress.Utils.PointFloat(367.6252F, 28.00007F);
             this.xrLabel67.Name = "xrLabel67";
@@ -1326,12 +1339,13 @@
             this.xrLabel67.StylePriority.UseFont = false;
             this.xrLabel67.StylePriority.UseTextAlignment = false;
             this.xrLabel67.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
+            this.xrLabel67.TextFormatString = "{0:#}";
             // 
             // xrLabel19
             // 
             this.xrLabel19.BackColor = System.Drawing.Color.White;
-            this.xrLabel19.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
-            new DevExpress.XtraReports.UI.XRBinding("Text", null, "Aviso_Gobierno.Multip_activo")});
+            this.xrLabel19.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[Multip_activo]")});
             this.xrLabel19.Font = new System.Drawing.Font("Verdana", 9.75F);
             this.xrLabel19.LocationFloat = new DevExpress.Utils.PointFloat(367.6252F, 9.999974F);
             this.xrLabel19.Name = "xrLabel19";
@@ -1413,8 +1427,8 @@
             // xrLabel60
             // 
             this.xrLabel60.BackColor = System.Drawing.Color.White;
-            this.xrLabel60.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
-            new DevExpress.XtraReports.UI.XRBinding("Text", null, "Aviso_Gobierno.Lectura_actual", "{0:#}")});
+            this.xrLabel60.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[Lectura_actual]")});
             this.xrLabel60.Font = new System.Drawing.Font("Verdana", 9.75F);
             this.xrLabel60.LocationFloat = new DevExpress.Utils.PointFloat(125.0277F, 10.00001F);
             this.xrLabel60.Name = "xrLabel60";
@@ -1424,12 +1438,13 @@
             this.xrLabel60.StylePriority.UseFont = false;
             this.xrLabel60.StylePriority.UseTextAlignment = false;
             this.xrLabel60.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
+            this.xrLabel60.TextFormatString = "{0:#}";
             // 
             // xrLabel61
             // 
             this.xrLabel61.BackColor = System.Drawing.Color.White;
-            this.xrLabel61.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
-            new DevExpress.XtraReports.UI.XRBinding("Text", null, "Aviso_Gobierno.Lectura_anterior")});
+            this.xrLabel61.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[Lectura_anterior]")});
             this.xrLabel61.Font = new System.Drawing.Font("Verdana", 9.75F);
             this.xrLabel61.LocationFloat = new DevExpress.Utils.PointFloat(125.0278F, 28.00004F);
             this.xrLabel61.Name = "xrLabel61";
@@ -1443,8 +1458,8 @@
             // xrLabel62
             // 
             this.xrLabel62.BackColor = System.Drawing.Color.White;
-            this.xrLabel62.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
-            new DevExpress.XtraReports.UI.XRBinding("Text", null, "Aviso_Gobierno.Consumo_del_mes")});
+            this.xrLabel62.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[Consumo_del_mes]")});
             this.xrLabel62.Font = new System.Drawing.Font("Verdana", 9.75F);
             this.xrLabel62.LocationFloat = new DevExpress.Utils.PointFloat(125.0278F, 46.00003F);
             this.xrLabel62.Name = "xrLabel62";
@@ -1476,8 +1491,8 @@
             // xrLabel56
             // 
             this.xrLabel56.BackColor = System.Drawing.Color.White;
-            this.xrLabel56.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
-            new DevExpress.XtraReports.UI.XRBinding("Text", null, "Avisos_gobierno.s_descripcion_sector", "{0:#}")});
+            this.xrLabel56.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[Avisos_gobierno.s_descripcion_sector]")});
             this.xrLabel56.Font = new System.Drawing.Font("Verdana", 9.75F);
             this.xrLabel56.LocationFloat = new DevExpress.Utils.PointFloat(367.6253F, 27.99988F);
             this.xrLabel56.Name = "xrLabel56";
@@ -1487,6 +1502,7 @@
             this.xrLabel56.StylePriority.UseFont = false;
             this.xrLabel56.StylePriority.UseTextAlignment = false;
             this.xrLabel56.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
+            this.xrLabel56.TextFormatString = "{0:#}";
             // 
             // xrLabel49
             // 
@@ -1508,8 +1524,8 @@
             // xrLabel47
             // 
             this.xrLabel47.BackColor = System.Drawing.Color.White;
-            this.xrLabel47.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
-            new DevExpress.XtraReports.UI.XRBinding("Text", null, "Aviso_Gobierno.Ubicacion", "{0:#.00}")});
+            this.xrLabel47.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[Ubicacion]")});
             this.xrLabel47.Font = new System.Drawing.Font("Verdana", 9.75F);
             this.xrLabel47.LocationFloat = new DevExpress.Utils.PointFloat(125.0277F, 27.99994F);
             this.xrLabel47.Name = "xrLabel47";
@@ -1519,6 +1535,7 @@
             this.xrLabel47.StylePriority.UseFont = false;
             this.xrLabel47.StylePriority.UseTextAlignment = false;
             this.xrLabel47.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
+            this.xrLabel47.TextFormatString = "{0:#.00}";
             // 
             // xrLabel45
             // 
@@ -1540,8 +1557,8 @@
             // xrLabel44
             // 
             this.xrLabel44.BackColor = System.Drawing.Color.White;
-            this.xrLabel44.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
-            new DevExpress.XtraReports.UI.XRBinding("Text", null, "Aviso_Gobierno.T_descripcion_tarifa", "{0:#.00}")});
+            this.xrLabel44.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[T_descripcion_tarifa]")});
             this.xrLabel44.Font = new System.Drawing.Font("Verdana", 9.75F);
             this.xrLabel44.LocationFloat = new DevExpress.Utils.PointFloat(367.6253F, 9.999911F);
             this.xrLabel44.Name = "xrLabel44";
@@ -1551,6 +1568,7 @@
             this.xrLabel44.StylePriority.UseFont = false;
             this.xrLabel44.StylePriority.UseTextAlignment = false;
             this.xrLabel44.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
+            this.xrLabel44.TextFormatString = "{0:#.00}";
             // 
             // xrLabel20
             // 
@@ -1572,8 +1590,8 @@
             // xrLabel16
             // 
             this.xrLabel16.BackColor = System.Drawing.Color.White;
-            this.xrLabel16.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
-            new DevExpress.XtraReports.UI.XRBinding("Text", null, "Aviso_Gobierno.Contador_activo")});
+            this.xrLabel16.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[Contador_activo]")});
             this.xrLabel16.Font = new System.Drawing.Font("Verdana", 9.75F);
             this.xrLabel16.LocationFloat = new DevExpress.Utils.PointFloat(125.0277F, 9.999911F);
             this.xrLabel16.Name = "xrLabel16";
@@ -1653,8 +1671,8 @@
             // 
             this.xrLabel13.BackColor = System.Drawing.Color.White;
             this.xrLabel13.CanGrow = false;
-            this.xrLabel13.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
-            new DevExpress.XtraReports.UI.XRBinding("Text", null, "Aviso_Gobierno.Direcc_abonado")});
+            this.xrLabel13.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[Direcc_abonado]")});
             this.xrLabel13.Font = new System.Drawing.Font("Verdana", 9.75F);
             this.xrLabel13.LocationFloat = new DevExpress.Utils.PointFloat(125.0277F, 42.83317F);
             this.xrLabel13.Name = "xrLabel13";
@@ -1669,8 +1687,8 @@
             // 
             this.xrLabel14.BackColor = System.Drawing.Color.White;
             this.xrLabel14.CanGrow = false;
-            this.xrLabel14.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
-            new DevExpress.XtraReports.UI.XRBinding("Text", null, "Aviso_Gobierno.Nombre_abonado", "{0:#.00}")});
+            this.xrLabel14.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[Nombre_abonado]")});
             this.xrLabel14.Font = new System.Drawing.Font("Verdana", 9.75F);
             this.xrLabel14.LocationFloat = new DevExpress.Utils.PointFloat(125.0277F, 9.999974F);
             this.xrLabel14.Name = "xrLabel14";
@@ -1680,6 +1698,7 @@
             this.xrLabel14.StylePriority.UseFont = false;
             this.xrLabel14.StylePriority.UseTextAlignment = false;
             this.xrLabel14.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
+            this.xrLabel14.TextFormatString = "{0:#.00}";
             // 
             // xrLabel54
             // 
@@ -1809,8 +1828,8 @@
             // xrLabel27
             // 
             this.xrLabel27.BackColor = System.Drawing.Color.White;
-            this.xrLabel27.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
-            new DevExpress.XtraReports.UI.XRBinding("Text", null, "Aviso_Gobierno.Aviso_GobiernoCargos_Varios.Hc_cod_trans")});
+            this.xrLabel27.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[Hc_cod_trans]")});
             this.xrLabel27.Font = new System.Drawing.Font("Verdana", 8F);
             this.xrLabel27.LocationFloat = new DevExpress.Utils.PointFloat(10.0001F, 0F);
             this.xrLabel27.Name = "xrLabel27";
@@ -1818,6 +1837,36 @@
             this.xrLabel27.SizeF = new System.Drawing.SizeF(109.361F, 18F);
             this.xrLabel27.StylePriority.UseBackColor = false;
             this.xrLabel27.StylePriority.UseFont = false;
+            // 
+            // xrLabel30
+            // 
+            this.xrLabel30.BackColor = System.Drawing.Color.White;
+            this.xrLabel30.CanGrow = false;
+            this.xrLabel30.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[Hc_valor]")});
+            this.xrLabel30.Font = new System.Drawing.Font("Verdana", 8F);
+            this.xrLabel30.LocationFloat = new DevExpress.Utils.PointFloat(342.11F, 0F);
+            this.xrLabel30.Name = "xrLabel30";
+            this.xrLabel30.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel30.SizeF = new System.Drawing.SizeF(120.24F, 18F);
+            this.xrLabel30.StylePriority.UseBackColor = false;
+            this.xrLabel30.StylePriority.UseFont = false;
+            this.xrLabel30.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
+            // 
+            // xrLabel28
+            // 
+            this.xrLabel28.BackColor = System.Drawing.Color.White;
+            this.xrLabel28.CanGrow = false;
+            this.xrLabel28.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[Cod_designacion]")});
+            this.xrLabel28.Font = new System.Drawing.Font("Verdana", 8F);
+            this.xrLabel28.LocationFloat = new DevExpress.Utils.PointFloat(134.82F, 0F);
+            this.xrLabel28.Name = "xrLabel28";
+            this.xrLabel28.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel28.SizeF = new System.Drawing.SizeF(202.71F, 18F);
+            this.xrLabel28.StylePriority.UseBackColor = false;
+            this.xrLabel28.StylePriority.UseFont = false;
+            this.xrLabel28.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
             // 
             // sqlDataSource1
             // 
@@ -2355,36 +2404,6 @@
             masterDetailInfo2});
             this.sqlDataSource1.ResultSchemaSerializable = resources.GetString("sqlDataSource1.ResultSchemaSerializable");
             // 
-            // xrLabel30
-            // 
-            this.xrLabel30.BackColor = System.Drawing.Color.White;
-            this.xrLabel30.CanGrow = false;
-            this.xrLabel30.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
-            new DevExpress.XtraReports.UI.XRBinding("Text", null, "Aviso_Gobierno.Aviso_GobiernoCargos_Varios.Hc_valor")});
-            this.xrLabel30.Font = new System.Drawing.Font("Verdana", 8F);
-            this.xrLabel30.LocationFloat = new DevExpress.Utils.PointFloat(342.11F, 0F);
-            this.xrLabel30.Name = "xrLabel30";
-            this.xrLabel30.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel30.SizeF = new System.Drawing.SizeF(120.24F, 18F);
-            this.xrLabel30.StylePriority.UseBackColor = false;
-            this.xrLabel30.StylePriority.UseFont = false;
-            this.xrLabel30.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
-            // 
-            // xrLabel28
-            // 
-            this.xrLabel28.BackColor = System.Drawing.Color.White;
-            this.xrLabel28.CanGrow = false;
-            this.xrLabel28.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
-            new DevExpress.XtraReports.UI.XRBinding("Text", null, "Aviso_Gobierno.Aviso_GobiernoCargos_Varios.Cod_designacion")});
-            this.xrLabel28.Font = new System.Drawing.Font("Verdana", 8F);
-            this.xrLabel28.LocationFloat = new DevExpress.Utils.PointFloat(134.82F, 0F);
-            this.xrLabel28.Name = "xrLabel28";
-            this.xrLabel28.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel28.SizeF = new System.Drawing.SizeF(202.71F, 18F);
-            this.xrLabel28.StylePriority.UseBackColor = false;
-            this.xrLabel28.StylePriority.UseFont = false;
-            this.xrLabel28.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopCenter;
-            // 
             // FacturaTEST
             // 
             this.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
@@ -2412,7 +2431,7 @@
             this.FieldCaption,
             this.PageInfo,
             this.DataField});
-            this.Version = "17.1";
+            this.Version = "17.2";
             ((System.ComponentModel.ISupportInitialize)(xyDiagram1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(series1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrChart1)).EndInit();

@@ -177,8 +177,6 @@ namespace FacturacionGobierno
             this.xrTableCell83 = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrTableCell114 = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrPictureBox14 = new DevExpress.XtraReports.UI.XRPictureBox();
-            this.xrPictureBox13 = new DevExpress.XtraReports.UI.XRPictureBox();
-            this.xrPictureBox12 = new DevExpress.XtraReports.UI.XRPictureBox();
             this.xrPictureBox7 = new DevExpress.XtraReports.UI.XRPictureBox();
             this.xrPictureBox11 = new DevExpress.XtraReports.UI.XRPictureBox();
             this.xrChart1 = new DevExpress.XtraReports.UI.XRChart();
@@ -359,10 +357,12 @@ namespace FacturacionGobierno
             this.xrTableRow13 = new DevExpress.XtraReports.UI.XRTableRow();
             this.xrTableCell20 = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrLine6 = new DevExpress.XtraReports.UI.XRLine();
-            this.xrPictureBox2 = new DevExpress.XtraReports.UI.XRPictureBox();
             this.xrLabel15 = new DevExpress.XtraReports.UI.XRLabel();
             this.xrPictureBox16 = new DevExpress.XtraReports.UI.XRPictureBox();
             this.xrPictureBox17 = new DevExpress.XtraReports.UI.XRPictureBox();
+            this.xrPictureBox12 = new DevExpress.XtraReports.UI.XRPictureBox();
+            this.xrPictureBox13 = new DevExpress.XtraReports.UI.XRPictureBox();
+            this.xrPictureBox2 = new DevExpress.XtraReports.UI.XRPictureBox();
             this.sqlDataSource1 = new DevExpress.DataAccess.Sql.SqlDataSource(this.components);
             this.baseControlStyle = new DevExpress.XtraReports.UI.XRControlStyle();
             this.Diferencia_Activa = new DevExpress.XtraReports.UI.CalculatedField();
@@ -778,10 +778,10 @@ namespace FacturacionGobierno
             // 
             this.xrLabel62.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.xrLabel62.ForeColor = System.Drawing.Color.Azure;
-            this.xrLabel62.LocationFloat = new DevExpress.Utils.PointFloat(0.0003467906F, 17.41629F);
+            this.xrLabel62.LocationFloat = new DevExpress.Utils.PointFloat(2.12589F, 17.41626F);
             this.xrLabel62.Name = "xrLabel62";
             this.xrLabel62.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel62.SizeF = new System.Drawing.SizeF(849.9995F, 23.00001F);
+            this.xrLabel62.SizeF = new System.Drawing.SizeF(847.8741F, 23.00001F);
             this.xrLabel62.StylePriority.UseFont = false;
             this.xrLabel62.StylePriority.UseForeColor = false;
             this.xrLabel62.StylePriority.UseTextAlignment = false;
@@ -820,8 +820,6 @@ namespace FacturacionGobierno
             this.xrTable11,
             this.xrTable12,
             this.xrPictureBox14,
-            this.xrPictureBox13,
-            this.xrPictureBox12,
             this.xrPictureBox7,
             this.xrPictureBox11,
             this.xrChart1,
@@ -858,10 +856,12 @@ namespace FacturacionGobierno
             this.xrLine5,
             this.xrTable4,
             this.xrLine6,
-            this.xrPictureBox2,
             this.xrLabel15,
             this.xrPictureBox16,
-            this.xrPictureBox17});
+            this.xrPictureBox17,
+            this.xrPictureBox12,
+            this.xrPictureBox13,
+            this.xrPictureBox2});
             this.PageHeader.HeightF = 897.9802F;
             this.PageHeader.Name = "PageHeader";
             // 
@@ -1956,26 +1956,6 @@ namespace FacturacionGobierno
             this.xrPictureBox14.Sizing = DevExpress.XtraPrinting.ImageSizeMode.StretchImage;
             this.xrPictureBox14.StylePriority.UsePadding = false;
             // 
-            // xrPictureBox13
-            // 
-            this.xrPictureBox13.Image = ((System.Drawing.Image)(resources.GetObject("xrPictureBox13.Image")));
-            this.xrPictureBox13.LocationFloat = new DevExpress.Utils.PointFloat(18.26579F, 402.2043F);
-            this.xrPictureBox13.Name = "xrPictureBox13";
-            this.xrPictureBox13.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 2, 1, 100F);
-            this.xrPictureBox13.SizeF = new System.Drawing.SizeF(811.8954F, 18.08847F);
-            this.xrPictureBox13.Sizing = DevExpress.XtraPrinting.ImageSizeMode.StretchImage;
-            this.xrPictureBox13.StylePriority.UsePadding = false;
-            // 
-            // xrPictureBox12
-            // 
-            this.xrPictureBox12.Image = ((System.Drawing.Image)(resources.GetObject("xrPictureBox12.Image")));
-            this.xrPictureBox12.LocationFloat = new DevExpress.Utils.PointFloat(18.26461F, 384.1158F);
-            this.xrPictureBox12.Name = "xrPictureBox12";
-            this.xrPictureBox12.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 1, 100F);
-            this.xrPictureBox12.SizeF = new System.Drawing.SizeF(811.8965F, 18.08853F);
-            this.xrPictureBox12.Sizing = DevExpress.XtraPrinting.ImageSizeMode.StretchImage;
-            this.xrPictureBox12.StylePriority.UsePadding = false;
-            // 
             // xrPictureBox7
             // 
             this.xrPictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("xrPictureBox7.Image")));
@@ -1987,11 +1967,10 @@ namespace FacturacionGobierno
             // xrPictureBox11
             // 
             this.xrPictureBox11.Image = ((System.Drawing.Image)(resources.GetObject("xrPictureBox11.Image")));
-            this.xrPictureBox11.ImageAlignment = DevExpress.XtraPrinting.ImageAlignment.TopRight;
-            this.xrPictureBox11.LocationFloat = new DevExpress.Utils.PointFloat(497.0212F, 0F);
+            this.xrPictureBox11.ImageAlignment = DevExpress.XtraPrinting.ImageAlignment.BottomCenter;
+            this.xrPictureBox11.LocationFloat = new DevExpress.Utils.PointFloat(12.93742F, 0F);
             this.xrPictureBox11.Name = "xrPictureBox11";
-            this.xrPictureBox11.SizeF = new System.Drawing.SizeF(352.9786F, 131.7857F);
-            this.xrPictureBox11.Sizing = DevExpress.XtraPrinting.ImageSizeMode.Squeeze;
+            this.xrPictureBox11.SizeF = new System.Drawing.SizeF(494.1336F, 156.0477F);
             this.xrPictureBox11.StylePriority.UseBorders = false;
             this.xrPictureBox11.StylePriority.UsePadding = false;
             // 
@@ -3177,9 +3156,9 @@ namespace FacturacionGobierno
             // 
             this.vendorLogo.Image = ((System.Drawing.Image)(resources.GetObject("vendorLogo.Image")));
             this.vendorLogo.ImageAlignment = DevExpress.XtraPrinting.ImageAlignment.TopLeft;
-            this.vendorLogo.LocationFloat = new DevExpress.Utils.PointFloat(18.26464F, 0F);
+            this.vendorLogo.LocationFloat = new DevExpress.Utils.PointFloat(529.299F, 0F);
             this.vendorLogo.Name = "vendorLogo";
-            this.vendorLogo.SizeF = new System.Drawing.SizeF(478.7566F, 131.7857F);
+            this.vendorLogo.SizeF = new System.Drawing.SizeF(310.701F, 145.6746F);
             this.vendorLogo.Sizing = DevExpress.XtraPrinting.ImageSizeMode.Squeeze;
             this.vendorLogo.StylePriority.UseBorders = false;
             this.vendorLogo.StylePriority.UsePadding = false;
@@ -3895,16 +3874,6 @@ namespace FacturacionGobierno
             this.xrLine6.SizeF = new System.Drawing.SizeF(805.9404F, 10.82475F);
             this.xrLine6.StylePriority.UseBorderDashStyle = false;
             // 
-            // xrPictureBox2
-            // 
-            this.xrPictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("xrPictureBox2.Image")));
-            this.xrPictureBox2.LocationFloat = new DevExpress.Utils.PointFloat(18.26617F, 668.8005F);
-            this.xrPictureBox2.Name = "xrPictureBox2";
-            this.xrPictureBox2.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrPictureBox2.SizeF = new System.Drawing.SizeF(813.4708F, 17.18542F);
-            this.xrPictureBox2.Sizing = DevExpress.XtraPrinting.ImageSizeMode.StretchImage;
-            this.xrPictureBox2.StylePriority.UsePadding = false;
-            // 
             // xrLabel15
             // 
             this.xrLabel15.Font = new System.Drawing.Font("Arial Rounded MT Bold", 7.5F);
@@ -3936,6 +3905,36 @@ namespace FacturacionGobierno
             this.xrPictureBox17.SizeF = new System.Drawing.SizeF(402.9693F, 15.68634F);
             this.xrPictureBox17.Sizing = DevExpress.XtraPrinting.ImageSizeMode.StretchImage;
             this.xrPictureBox17.StylePriority.UsePadding = false;
+            // 
+            // xrPictureBox12
+            // 
+            this.xrPictureBox12.Image = ((System.Drawing.Image)(resources.GetObject("xrPictureBox12.Image")));
+            this.xrPictureBox12.LocationFloat = new DevExpress.Utils.PointFloat(18.26461F, 384.1158F);
+            this.xrPictureBox12.Name = "xrPictureBox12";
+            this.xrPictureBox12.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 1, 100F);
+            this.xrPictureBox12.SizeF = new System.Drawing.SizeF(811.8965F, 18.08853F);
+            this.xrPictureBox12.Sizing = DevExpress.XtraPrinting.ImageSizeMode.StretchImage;
+            this.xrPictureBox12.StylePriority.UsePadding = false;
+            // 
+            // xrPictureBox13
+            // 
+            this.xrPictureBox13.Image = ((System.Drawing.Image)(resources.GetObject("xrPictureBox13.Image")));
+            this.xrPictureBox13.LocationFloat = new DevExpress.Utils.PointFloat(18.26579F, 402.2043F);
+            this.xrPictureBox13.Name = "xrPictureBox13";
+            this.xrPictureBox13.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 2, 1, 100F);
+            this.xrPictureBox13.SizeF = new System.Drawing.SizeF(811.8954F, 18.08847F);
+            this.xrPictureBox13.Sizing = DevExpress.XtraPrinting.ImageSizeMode.StretchImage;
+            this.xrPictureBox13.StylePriority.UsePadding = false;
+            // 
+            // xrPictureBox2
+            // 
+            this.xrPictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("xrPictureBox2.Image")));
+            this.xrPictureBox2.LocationFloat = new DevExpress.Utils.PointFloat(18.26617F, 668.8005F);
+            this.xrPictureBox2.Name = "xrPictureBox2";
+            this.xrPictureBox2.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrPictureBox2.SizeF = new System.Drawing.SizeF(813.4708F, 17.18542F);
+            this.xrPictureBox2.Sizing = DevExpress.XtraPrinting.ImageSizeMode.StretchImage;
+            this.xrPictureBox2.StylePriority.UsePadding = false;
             // 
             // sqlDataSource1
             // 
@@ -4340,7 +4339,6 @@ namespace FacturacionGobierno
         private DevExpress.XtraReports.UI.XRPictureBox xrPictureBox13;
         private DevExpress.XtraReports.UI.XRPictureBox xrPictureBox12;
         private DevExpress.XtraReports.UI.XRPictureBox xrPictureBox7;
-        private DevExpress.XtraReports.UI.XRPictureBox xrPictureBox11;
         private DevExpress.XtraReports.UI.XRChart xrChart1;
         private DevExpress.XtraReports.UI.XRLabel xrLabel16;
         private DevExpress.XtraReports.UI.XRLabel xrLabel6;
@@ -4445,7 +4443,6 @@ namespace FacturacionGobierno
         private DevExpress.XtraReports.UI.XRLine xrLine8;
         private DevExpress.XtraReports.UI.XRLine xrLine10;
         private DevExpress.XtraReports.UI.XRLine xrLine12;
-        private DevExpress.XtraReports.UI.XRPictureBox vendorLogo;
         private DevExpress.XtraReports.UI.XRTable xrTable1;
         private DevExpress.XtraReports.UI.XRTableRow xrTableRow1;
         private DevExpress.XtraReports.UI.XRTableCell xrTableCell39;
@@ -4549,5 +4546,7 @@ namespace FacturacionGobierno
         private DevExpress.XtraReports.Parameters.Parameter codigoAgrupa;
         private DevExpress.XtraReports.Parameters.Parameter codigo_sector;
         private DevExpress.XtraReports.Parameters.Parameter parametro;
+        private DevExpress.XtraReports.UI.XRPictureBox xrPictureBox11;
+        private DevExpress.XtraReports.UI.XRPictureBox vendorLogo;
     }
 }

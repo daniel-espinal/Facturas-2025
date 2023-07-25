@@ -1,4 +1,6 @@
 ﻿
+using FacturacionGobierno.Model;
+
 namespace FacturacionGobierno
 {
     partial class ConceptosCobrosMesAnteriorAC
@@ -35,10 +37,10 @@ namespace FacturacionGobierno
             DevExpress.DataAccess.Sql.QueryParameter queryParameter2 = new DevExpress.DataAccess.Sql.QueryParameter();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ConceptosCobrosMesAnteriorAC));
             this.Detail = new DevExpress.XtraReports.UI.DetailBand();
-            this.xrLabel2 = new DevExpress.XtraReports.UI.XRLabel();
-            this.xrLabel1 = new DevExpress.XtraReports.UI.XRLabel();
             this.TopMargin = new DevExpress.XtraReports.UI.TopMarginBand();
             this.BottomMargin = new DevExpress.XtraReports.UI.BottomMarginBand();
+            this.xrLabel2 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel1 = new DevExpress.XtraReports.UI.XRLabel();
             this.sqlDataSource1 = new DevExpress.DataAccess.Sql.SqlDataSource(this.components);
             this.clave_primaria = new DevExpress.XtraReports.Parameters.Parameter();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
@@ -52,6 +54,20 @@ namespace FacturacionGobierno
             this.Detail.Name = "Detail";
             this.Detail.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
             this.Detail.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
+            // 
+            // TopMargin
+            // 
+            this.TopMargin.HeightF = 0F;
+            this.TopMargin.Name = "TopMargin";
+            this.TopMargin.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
+            this.TopMargin.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
+            // 
+            // BottomMargin
+            // 
+            this.BottomMargin.HeightF = 0F;
+            this.BottomMargin.Name = "BottomMargin";
+            this.BottomMargin.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
+            this.BottomMargin.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
             // 
             // xrLabel2
             // 
@@ -80,23 +96,13 @@ namespace FacturacionGobierno
             this.xrLabel1.StylePriority.UseFont = false;
             this.xrLabel1.Text = "xrLabel1";
             // 
-            // TopMargin
-            // 
-            this.TopMargin.HeightF = 0F;
-            this.TopMargin.Name = "TopMargin";
-            this.TopMargin.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
-            this.TopMargin.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
-            // 
-            // BottomMargin
-            // 
-            this.BottomMargin.HeightF = 0F;
-            this.BottomMargin.Name = "BottomMargin";
-            this.BottomMargin.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
-            this.BottomMargin.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
-            // 
             // sqlDataSource1
             // 
-            this.sqlDataSource1.ConnectionName = "MAESTROConnectionString";
+            this.sqlDataSource1 = Core.DataSourceReport("MAESTROConnectionString");
+            // this.sqlDataSource1.ConnectionName = "MAESTROConnectionString";
+            this.sqlDataSource1.ConnectionOptions.CloseConnection = false;
+            this.sqlDataSource1.ConnectionOptions.CommandTimeout = 15000;
+            this.sqlDataSource1.ConnectionOptions.DbCommandTimeout = 15000;
             this.sqlDataSource1.Name = "sqlDataSource1";
             storedProcQuery1.Name = "EEHAviso_Masivo_Concepto_Cobro";
             queryParameter1.Name = "@TIPO";

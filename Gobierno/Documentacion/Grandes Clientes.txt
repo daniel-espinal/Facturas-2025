@@ -1,0 +1,1 @@
+	insert into fpacalt	select * from fpac060 where hc_clave_abonado in (select clave from ALTOS_CONSUMIDORES)

@@ -4,7 +4,8 @@ using System.Windows.Forms;
 using System.Security.Cryptography;
 using Devart.Data.PostgreSql;
 using FacturacionGobierno.Properties;
-
+using System.Data;
+using FacturacionGobierno.Model;
 namespace FacturacionGobierno
 {
     public partial class FrmLogin : DevExpress.XtraEditors.XtraForm
@@ -38,38 +39,34 @@ namespace FacturacionGobierno
 
         private void simpleButton1_Click(object sender, EventArgs e)
         {
+
             this.DialogResult = DialogResult.OK;
-           /* if (txtUsuario.Text != "" && txtClave.Text != "")
-            {
-                MD5 md5Hash = MD5.Create();
-                string hash = GetMd5Hash(md5Hash, txtClave.Text);
-                string select = String.Format("SELECT COUNT(*) FROM FA_USUARIOS WHERE IDUSUARIO = '{0}' AND IDCLAVE = '{1}'", txtUsuario.Text, hash);
-                Devart.Data.PostgreSql.PgSqlConnection Conexion = new PgSqlConnection(Settings.Default.FacturacionConnectionString);
-                               
-                
+            //Conexion vConexion = new Conexion();
+            //this.DialogResult = DialogResult.OK;
+            //if (txtUsuario.Text != "" && txtClave.Text != "")
+            //{
 
+            //    String vQuery = "[EEHGestiones_Login] '" + txtUsuario.Text + "', '" + txtClave.Text + "'";
+            //    DataTable vDatos = new DataTable();
+            //    vDatos = vConexion.obtenerDataTable1(vQuery);
 
-                Devart.Data.PostgreSql.PgSqlCommand Comando = new PgSqlCommand(select, Conexion);
-                if (Conexion.State == 0) Conexion.Open();
-                int cuantos = Convert.ToInt32(Comando.ExecuteScalar());
+            //    if (vDatos.Rows[0]["ID"].ToString() != "0")
+            //    {
+            //        this.DialogResult = DialogResult.OK;
+            //    }
+            //    else
+            //    {
+            //        MessageBox.Show("Error en usuario", "Info");
+            //        this.DialogResult = DialogResult.Retry;
+            //    }
+            //}
+            //else
+            //{
+            //    MessageBox.Show("Ingresar usuario/clave", "Info");
+            //    this.DialogResult = DialogResult.Retry;
+            //}
 
-                if (cuantos > 0)
-                {
-                    this.DialogResult = DialogResult.OK;
-                }
-                else
-                {
-                    MessageBox.Show("Error en usuario", "Info");
-                    this.DialogResult = DialogResult.Retry;
-                }
-            }
-            else
-            {
-                MessageBox.Show("Ingresar usuario/clave", "Info");
-                this.DialogResult = DialogResult.Retry;
-            }
- */
-    }
+        }
 
         private void simpleButton2_Click(object sender, EventArgs e)
         {

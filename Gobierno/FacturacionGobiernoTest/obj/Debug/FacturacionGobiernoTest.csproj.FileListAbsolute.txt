@@ -1,0 +1,740 @@
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\FacturacionGobiernoTest.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\FacturacionGobiernoTest.pdb
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.Charts.v17.2.Core.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.CodeParser.v17.2.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.Office.v17.2.Core.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.PivotGrid.v17.2.Core.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.Printing.v17.2.Core.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.RichEdit.v17.2.Core.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.RichEdit.v17.2.Export.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.Sparkline.v17.2.Core.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraCharts.v17.2.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraReports.v17.2.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\FacturacionGobierno.exe
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.Utils.v17.2.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraPrinting.v17.2.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraBars.v17.2.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraEditors.v17.2.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.DataAccess.v17.2.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\Devart.Data.PostgreSql.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraPivotGrid.v17.2.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraGrid.v17.2.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.Data.v17.2.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.Pdf.v17.2.Core.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.Images.v17.2.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraGauges.v17.2.Core.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraTreeList.v17.2.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraLayout.v17.2.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.Xpo.v17.2.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\Devart.Data.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\FacturacionGobierno.pdb
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\FacturacionGobierno.exe.config
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraCharts.v17.2.xml
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.Office.v17.2.Core.xml
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.RichEdit.v17.2.Core.xml
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.Printing.v17.2.Core.xml
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.PivotGrid.v17.2.Core.xml
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.Sparkline.v17.2.Core.xml
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraReports.v17.2.xml
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.Utils.v17.2.xml
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraPrinting.v17.2.xml
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraBars.v17.2.xml
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraEditors.v17.2.xml
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.DataAccess.v17.2.xml
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraPivotGrid.v17.2.xml
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraGrid.v17.2.xml
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.Data.v17.2.xml
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.Pdf.v17.2.Core.xml
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraGauges.v17.2.Core.xml
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraTreeList.v17.2.xml
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraLayout.v17.2.xml
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.Xpo.v17.2.xml
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\en-US\FacturacionGobierno.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.XtraCharts.v17.2.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.XtraCharts.v17.2.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.XtraCharts.v17.2.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.XtraCharts.v17.2.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.Office.v17.2.Core.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.Office.v17.2.Core.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.Office.v17.2.Core.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.Office.v17.2.Core.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.RichEdit.v17.2.Core.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.RichEdit.v17.2.Core.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.RichEdit.v17.2.Core.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.RichEdit.v17.2.Core.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.Printing.v17.2.Core.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.Printing.v17.2.Core.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.Printing.v17.2.Core.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.Printing.v17.2.Core.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.PivotGrid.v17.2.Core.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.PivotGrid.v17.2.Core.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.PivotGrid.v17.2.Core.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.PivotGrid.v17.2.Core.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.Sparkline.v17.2.Core.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.Sparkline.v17.2.Core.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.Sparkline.v17.2.Core.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.Sparkline.v17.2.Core.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.XtraReports.v17.2.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.XtraReports.v17.2.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.XtraReports.v17.2.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.XtraReports.v17.2.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.Utils.v17.2.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.Utils.v17.2.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.Utils.v17.2.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.Utils.v17.2.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.XtraPrinting.v17.2.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.XtraPrinting.v17.2.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.XtraPrinting.v17.2.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.XtraPrinting.v17.2.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.XtraBars.v17.2.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.XtraBars.v17.2.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.XtraBars.v17.2.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.XtraBars.v17.2.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.XtraEditors.v17.2.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.XtraEditors.v17.2.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.XtraEditors.v17.2.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.XtraEditors.v17.2.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.DataAccess.v17.2.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.DataAccess.v17.2.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.DataAccess.v17.2.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.DataAccess.v17.2.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.XtraPivotGrid.v17.2.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.XtraPivotGrid.v17.2.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.XtraPivotGrid.v17.2.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.XtraPivotGrid.v17.2.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.XtraGrid.v17.2.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.XtraGrid.v17.2.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.XtraGrid.v17.2.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.XtraGrid.v17.2.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.Data.v17.2.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.Data.v17.2.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.Data.v17.2.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.Data.v17.2.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.XtraGauges.v17.2.Core.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.XtraGauges.v17.2.Core.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.XtraGauges.v17.2.Core.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.XtraGauges.v17.2.Core.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.XtraTreeList.v17.2.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.XtraTreeList.v17.2.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.XtraTreeList.v17.2.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.XtraTreeList.v17.2.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.XtraLayout.v17.2.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.XtraLayout.v17.2.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.XtraLayout.v17.2.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.XtraLayout.v17.2.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.Xpo.v17.2.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.Xpo.v17.2.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.Xpo.v17.2.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.Xpo.v17.2.resources.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\obj\Debug\FacturacionGobiernoTest.csprojResolveAssemblyReference.cache
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\obj\Debug\FacturacionGobiernoTest.csproj.CoreCompileInputs.cache
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\obj\Debug\FacturacionGobiernoTest.dll
+C:\Users\hector.sabillon\Documents\Proyectos\Gobierno\FacturacionGobiernoTest\obj\Debug\FacturacionGobiernoTest.pdb
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\FacturacionGobiernoTest.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\FacturacionGobiernoTest.pdb
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.Charts.v17.2.Core.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.CodeParser.v17.2.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.Office.v17.2.Core.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.PivotGrid.v17.2.Core.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.Printing.v17.2.Core.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.RichEdit.v17.2.Core.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.RichEdit.v17.2.Export.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.Sparkline.v17.2.Core.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraCharts.v17.2.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraReports.v17.2.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\FacturacionGobierno.exe
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.Utils.v17.2.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraPrinting.v17.2.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraBars.v17.2.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraEditors.v17.2.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.DataAccess.v17.2.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\Devart.Data.PostgreSql.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraPivotGrid.v17.2.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraGrid.v17.2.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.Data.v17.2.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.Pdf.v17.2.Core.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.Images.v17.2.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraGauges.v17.2.Core.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraTreeList.v17.2.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraLayout.v17.2.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.Xpo.v17.2.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\Devart.Data.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\FacturacionGobierno.pdb
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\FacturacionGobierno.exe.config
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraCharts.v17.2.xml
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.Office.v17.2.Core.xml
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.RichEdit.v17.2.Core.xml
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.Printing.v17.2.Core.xml
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.PivotGrid.v17.2.Core.xml
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.Sparkline.v17.2.Core.xml
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraReports.v17.2.xml
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.Utils.v17.2.xml
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraPrinting.v17.2.xml
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraBars.v17.2.xml
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraEditors.v17.2.xml
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.DataAccess.v17.2.xml
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraPivotGrid.v17.2.xml
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraGrid.v17.2.xml
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.Data.v17.2.xml
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.Pdf.v17.2.Core.xml
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraGauges.v17.2.Core.xml
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraTreeList.v17.2.xml
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraLayout.v17.2.xml
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.Xpo.v17.2.xml
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\en-US\FacturacionGobierno.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.XtraCharts.v17.2.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.XtraCharts.v17.2.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.XtraCharts.v17.2.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.XtraCharts.v17.2.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.Office.v17.2.Core.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.Office.v17.2.Core.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.Office.v17.2.Core.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.Office.v17.2.Core.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.RichEdit.v17.2.Core.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.RichEdit.v17.2.Core.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.RichEdit.v17.2.Core.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.RichEdit.v17.2.Core.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.Printing.v17.2.Core.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.Printing.v17.2.Core.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.Printing.v17.2.Core.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.Printing.v17.2.Core.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.PivotGrid.v17.2.Core.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.PivotGrid.v17.2.Core.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.PivotGrid.v17.2.Core.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.PivotGrid.v17.2.Core.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.Sparkline.v17.2.Core.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.Sparkline.v17.2.Core.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.Sparkline.v17.2.Core.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.Sparkline.v17.2.Core.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.XtraReports.v17.2.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.XtraReports.v17.2.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.XtraReports.v17.2.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.XtraReports.v17.2.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.Utils.v17.2.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.Utils.v17.2.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.Utils.v17.2.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.Utils.v17.2.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.XtraPrinting.v17.2.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.XtraPrinting.v17.2.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.XtraPrinting.v17.2.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.XtraPrinting.v17.2.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.XtraBars.v17.2.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.XtraBars.v17.2.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.XtraBars.v17.2.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.XtraBars.v17.2.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.XtraEditors.v17.2.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.XtraEditors.v17.2.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.XtraEditors.v17.2.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.XtraEditors.v17.2.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.DataAccess.v17.2.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.DataAccess.v17.2.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.DataAccess.v17.2.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.DataAccess.v17.2.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.XtraPivotGrid.v17.2.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.XtraPivotGrid.v17.2.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.XtraPivotGrid.v17.2.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.XtraPivotGrid.v17.2.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.XtraGrid.v17.2.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.XtraGrid.v17.2.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.XtraGrid.v17.2.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.XtraGrid.v17.2.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.Data.v17.2.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.Data.v17.2.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.Data.v17.2.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.Data.v17.2.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.XtraGauges.v17.2.Core.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.XtraGauges.v17.2.Core.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.XtraGauges.v17.2.Core.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.XtraGauges.v17.2.Core.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.XtraTreeList.v17.2.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.XtraTreeList.v17.2.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.XtraTreeList.v17.2.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.XtraTreeList.v17.2.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.XtraLayout.v17.2.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.XtraLayout.v17.2.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.XtraLayout.v17.2.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.XtraLayout.v17.2.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.Xpo.v17.2.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.Xpo.v17.2.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.Xpo.v17.2.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.Xpo.v17.2.resources.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\obj\Debug\FacturacionGobiernoTest.csprojResolveAssemblyReference.cache
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\obj\Debug\FacturacionGobiernoTest.csproj.CoreCompileInputs.cache
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\obj\Debug\FacturacionGobiernoTest.csproj.CopyComplete
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\obj\Debug\FacturacionGobiernoTest.dll
+C:\Users\josue.cortez\Documents\Desarrollos\Gobierno\Gobierno\FacturacionGobiernoTest\obj\Debug\FacturacionGobiernoTest.pdb
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\FacturacionGobiernoTest.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\FacturacionGobiernoTest.pdb
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.Charts.v17.2.Core.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.CodeParser.v17.2.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.Office.v17.2.Core.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.PivotGrid.v17.2.Core.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.Printing.v17.2.Core.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.RichEdit.v17.2.Core.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.RichEdit.v17.2.Export.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.Sparkline.v17.2.Core.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraCharts.v17.2.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraReports.v17.2.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\FacturacionGobierno.exe
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.Utils.v17.2.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraPrinting.v17.2.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraBars.v17.2.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraEditors.v17.2.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.DataAccess.v17.2.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\Devart.Data.PostgreSql.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraPivotGrid.v17.2.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraGrid.v17.2.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.Data.v17.2.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.Pdf.v17.2.Core.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.Images.v17.2.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraGauges.v17.2.Core.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraTreeList.v17.2.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraLayout.v17.2.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.Xpo.v17.2.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\Devart.Data.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\FacturacionGobierno.pdb
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\FacturacionGobierno.exe.config
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraCharts.v17.2.xml
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.Office.v17.2.Core.xml
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.RichEdit.v17.2.Core.xml
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.Printing.v17.2.Core.xml
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.PivotGrid.v17.2.Core.xml
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.Sparkline.v17.2.Core.xml
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraReports.v17.2.xml
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.Utils.v17.2.xml
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraPrinting.v17.2.xml
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraBars.v17.2.xml
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraEditors.v17.2.xml
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.DataAccess.v17.2.xml
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraPivotGrid.v17.2.xml
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraGrid.v17.2.xml
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.Data.v17.2.xml
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.Pdf.v17.2.Core.xml
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraGauges.v17.2.Core.xml
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraTreeList.v17.2.xml
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraLayout.v17.2.xml
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.Xpo.v17.2.xml
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\en-US\FacturacionGobierno.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.XtraCharts.v17.2.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.XtraCharts.v17.2.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.XtraCharts.v17.2.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.XtraCharts.v17.2.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.Office.v17.2.Core.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.Office.v17.2.Core.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.Office.v17.2.Core.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.Office.v17.2.Core.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.RichEdit.v17.2.Core.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.RichEdit.v17.2.Core.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.RichEdit.v17.2.Core.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.RichEdit.v17.2.Core.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.Printing.v17.2.Core.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.Printing.v17.2.Core.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.Printing.v17.2.Core.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.Printing.v17.2.Core.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.PivotGrid.v17.2.Core.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.PivotGrid.v17.2.Core.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.PivotGrid.v17.2.Core.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.PivotGrid.v17.2.Core.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.Sparkline.v17.2.Core.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.Sparkline.v17.2.Core.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.Sparkline.v17.2.Core.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.Sparkline.v17.2.Core.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.XtraReports.v17.2.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.XtraReports.v17.2.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.XtraReports.v17.2.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.XtraReports.v17.2.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.Utils.v17.2.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.Utils.v17.2.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.Utils.v17.2.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.Utils.v17.2.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.XtraPrinting.v17.2.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.XtraPrinting.v17.2.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.XtraPrinting.v17.2.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.XtraPrinting.v17.2.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.XtraBars.v17.2.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.XtraBars.v17.2.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.XtraBars.v17.2.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.XtraBars.v17.2.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.XtraEditors.v17.2.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.XtraEditors.v17.2.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.XtraEditors.v17.2.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.XtraEditors.v17.2.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.DataAccess.v17.2.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.DataAccess.v17.2.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.DataAccess.v17.2.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.DataAccess.v17.2.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.XtraPivotGrid.v17.2.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.XtraPivotGrid.v17.2.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.XtraPivotGrid.v17.2.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.XtraPivotGrid.v17.2.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.XtraGrid.v17.2.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.XtraGrid.v17.2.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.XtraGrid.v17.2.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.XtraGrid.v17.2.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.Data.v17.2.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.Data.v17.2.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.Data.v17.2.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.Data.v17.2.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.XtraGauges.v17.2.Core.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.XtraGauges.v17.2.Core.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.XtraGauges.v17.2.Core.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.XtraGauges.v17.2.Core.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.XtraTreeList.v17.2.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.XtraTreeList.v17.2.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.XtraTreeList.v17.2.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.XtraTreeList.v17.2.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.XtraLayout.v17.2.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.XtraLayout.v17.2.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.XtraLayout.v17.2.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.XtraLayout.v17.2.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.Xpo.v17.2.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.Xpo.v17.2.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.Xpo.v17.2.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.Xpo.v17.2.resources.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\obj\Debug\FacturacionGobiernoTest.csprojResolveAssemblyReference.cache
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\obj\Debug\FacturacionGobiernoTest.csproj.CoreCompileInputs.cache
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\obj\Debug\FacturacionGobiernoTest.csproj.CopyComplete
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\obj\Debug\FacturacionGobiernoTest.dll
+C:\Users\daniel.andino\Desktop\Copia Valerio\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\obj\Debug\FacturacionGobiernoTest.pdb
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\FacturacionGobiernoTest.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\FacturacionGobiernoTest.pdb
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.Charts.v17.2.Core.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.CodeParser.v17.2.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.Data.v17.2.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.DataAccess.v17.2.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.Office.v17.2.Core.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.Pdf.v17.2.Core.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.PivotGrid.v17.2.Core.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.Printing.v17.2.Core.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.RichEdit.v17.2.Core.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.RichEdit.v17.2.Export.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.Sparkline.v17.2.Core.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.Xpo.v17.2.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraCharts.v17.2.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraGauges.v17.2.Core.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraReports.v17.2.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\FacturacionGobierno.exe
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.Utils.v17.2.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraEditors.v17.2.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraPrinting.v17.2.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraBars.v17.2.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\Devart.Data.PostgreSql.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraPivotGrid.v17.2.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraGrid.v17.2.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.Images.v17.2.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraTreeList.v17.2.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraLayout.v17.2.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\Devart.Data.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\FacturacionGobierno.pdb
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\FacturacionGobierno.exe.config
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.Data.v17.2.xml
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.DataAccess.v17.2.xml
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.Pdf.v17.2.Core.xml
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.Xpo.v17.2.xml
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraCharts.v17.2.xml
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.Office.v17.2.Core.xml
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.RichEdit.v17.2.Core.xml
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.Printing.v17.2.Core.xml
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.PivotGrid.v17.2.Core.xml
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.Sparkline.v17.2.Core.xml
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraGauges.v17.2.Core.xml
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraReports.v17.2.xml
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.Utils.v17.2.xml
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraEditors.v17.2.xml
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraPrinting.v17.2.xml
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraBars.v17.2.xml
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraPivotGrid.v17.2.xml
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraGrid.v17.2.xml
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraTreeList.v17.2.xml
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraLayout.v17.2.xml
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\en-US\FacturacionGobierno.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.Data.v17.2.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.Data.v17.2.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.Data.v17.2.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.Data.v17.2.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.DataAccess.v17.2.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.DataAccess.v17.2.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.DataAccess.v17.2.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.DataAccess.v17.2.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.Xpo.v17.2.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.Xpo.v17.2.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.Xpo.v17.2.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.Xpo.v17.2.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.XtraCharts.v17.2.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.XtraCharts.v17.2.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.XtraCharts.v17.2.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.XtraCharts.v17.2.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.Office.v17.2.Core.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.Office.v17.2.Core.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.Office.v17.2.Core.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.Office.v17.2.Core.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.RichEdit.v17.2.Core.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.RichEdit.v17.2.Core.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.RichEdit.v17.2.Core.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.RichEdit.v17.2.Core.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.Printing.v17.2.Core.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.Printing.v17.2.Core.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.Printing.v17.2.Core.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.Printing.v17.2.Core.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.PivotGrid.v17.2.Core.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.PivotGrid.v17.2.Core.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.PivotGrid.v17.2.Core.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.PivotGrid.v17.2.Core.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.Sparkline.v17.2.Core.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.Sparkline.v17.2.Core.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.Sparkline.v17.2.Core.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.Sparkline.v17.2.Core.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.XtraGauges.v17.2.Core.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.XtraGauges.v17.2.Core.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.XtraGauges.v17.2.Core.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.XtraGauges.v17.2.Core.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.XtraReports.v17.2.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.XtraReports.v17.2.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.XtraReports.v17.2.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.XtraReports.v17.2.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.Utils.v17.2.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.Utils.v17.2.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.Utils.v17.2.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.Utils.v17.2.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.XtraEditors.v17.2.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.XtraEditors.v17.2.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.XtraEditors.v17.2.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.XtraEditors.v17.2.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.XtraPrinting.v17.2.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.XtraPrinting.v17.2.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.XtraPrinting.v17.2.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.XtraPrinting.v17.2.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.XtraBars.v17.2.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.XtraBars.v17.2.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.XtraBars.v17.2.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.XtraBars.v17.2.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.XtraPivotGrid.v17.2.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.XtraPivotGrid.v17.2.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.XtraPivotGrid.v17.2.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.XtraPivotGrid.v17.2.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.XtraGrid.v17.2.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.XtraGrid.v17.2.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.XtraGrid.v17.2.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.XtraGrid.v17.2.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.XtraTreeList.v17.2.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.XtraTreeList.v17.2.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.XtraTreeList.v17.2.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.XtraTreeList.v17.2.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.XtraLayout.v17.2.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.XtraLayout.v17.2.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.XtraLayout.v17.2.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.XtraLayout.v17.2.resources.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\obj\Debug\FacturacionGobiernoTest.csprojAssemblyReference.cache
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\obj\Debug\FacturacionGobiernoTest.dll.licenses
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\obj\Debug\FacturacionGobiernoTest.csproj.CoreCompileInputs.cache
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\obj\Debug\FacturacionGobiernoTest.csproj.CopyComplete
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\obj\Debug\FacturacionGobiernoTest.dll
+C:\Desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Gobierno Abril\Gobierno\FacturacionGobiernoTest\obj\Debug\FacturacionGobiernoTest.pdb
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\FacturacionGobiernoTest.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\FacturacionGobiernoTest.pdb
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.Charts.v17.2.Core.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.CodeParser.v17.2.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.Data.v17.2.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.DataAccess.v17.2.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.Office.v17.2.Core.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.Pdf.v17.2.Core.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.PivotGrid.v17.2.Core.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.Printing.v17.2.Core.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.RichEdit.v17.2.Core.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.RichEdit.v17.2.Export.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.Sparkline.v17.2.Core.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.Xpo.v17.2.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraCharts.v17.2.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraGauges.v17.2.Core.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraReports.v17.2.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\FacturacionGobierno.exe
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\Microsoft.VisualStudio.DebuggerVisualizers.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.Utils.v17.2.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraEditors.v17.2.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraPrinting.v17.2.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraBars.v17.2.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\Devart.Data.PostgreSql.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraPivotGrid.v17.2.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraGrid.v17.2.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.Images.v17.2.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraTreeList.v17.2.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraLayout.v17.2.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\Devart.Data.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\FacturacionGobierno.pdb
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\FacturacionGobierno.exe.config
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.Data.v17.2.xml
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.DataAccess.v17.2.xml
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.Pdf.v17.2.Core.xml
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.Xpo.v17.2.xml
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraCharts.v17.2.xml
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.Office.v17.2.Core.xml
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.RichEdit.v17.2.Core.xml
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.Printing.v17.2.Core.xml
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.PivotGrid.v17.2.Core.xml
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.Sparkline.v17.2.Core.xml
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraGauges.v17.2.Core.xml
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraReports.v17.2.xml
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.Utils.v17.2.xml
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraEditors.v17.2.xml
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraPrinting.v17.2.xml
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraBars.v17.2.xml
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraPivotGrid.v17.2.xml
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraGrid.v17.2.xml
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraTreeList.v17.2.xml
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\DevExpress.XtraLayout.v17.2.xml
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\en-US\FacturacionGobierno.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.Data.v17.2.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.Data.v17.2.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.Data.v17.2.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.Data.v17.2.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.DataAccess.v17.2.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.DataAccess.v17.2.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.DataAccess.v17.2.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.DataAccess.v17.2.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.Xpo.v17.2.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.Xpo.v17.2.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.Xpo.v17.2.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.Xpo.v17.2.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.XtraCharts.v17.2.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.XtraCharts.v17.2.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.XtraCharts.v17.2.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.XtraCharts.v17.2.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.Office.v17.2.Core.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.Office.v17.2.Core.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.Office.v17.2.Core.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.Office.v17.2.Core.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.RichEdit.v17.2.Core.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.RichEdit.v17.2.Core.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.RichEdit.v17.2.Core.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.RichEdit.v17.2.Core.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.Printing.v17.2.Core.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.Printing.v17.2.Core.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.Printing.v17.2.Core.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.Printing.v17.2.Core.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.PivotGrid.v17.2.Core.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.PivotGrid.v17.2.Core.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.PivotGrid.v17.2.Core.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.PivotGrid.v17.2.Core.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.Sparkline.v17.2.Core.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.Sparkline.v17.2.Core.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.Sparkline.v17.2.Core.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.Sparkline.v17.2.Core.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.XtraGauges.v17.2.Core.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.XtraGauges.v17.2.Core.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.XtraGauges.v17.2.Core.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.XtraGauges.v17.2.Core.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.XtraReports.v17.2.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.XtraReports.v17.2.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.XtraReports.v17.2.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.XtraReports.v17.2.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.Utils.v17.2.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.Utils.v17.2.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.Utils.v17.2.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.Utils.v17.2.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.XtraEditors.v17.2.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.XtraEditors.v17.2.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.XtraEditors.v17.2.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.XtraEditors.v17.2.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.XtraPrinting.v17.2.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.XtraPrinting.v17.2.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.XtraPrinting.v17.2.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.XtraPrinting.v17.2.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.XtraBars.v17.2.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.XtraBars.v17.2.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.XtraBars.v17.2.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.XtraBars.v17.2.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.XtraPivotGrid.v17.2.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.XtraPivotGrid.v17.2.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.XtraPivotGrid.v17.2.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.XtraPivotGrid.v17.2.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.XtraGrid.v17.2.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.XtraGrid.v17.2.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.XtraGrid.v17.2.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.XtraGrid.v17.2.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.XtraTreeList.v17.2.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.XtraTreeList.v17.2.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.XtraTreeList.v17.2.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.XtraTreeList.v17.2.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\de\DevExpress.XtraLayout.v17.2.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\es\DevExpress.XtraLayout.v17.2.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\ja\DevExpress.XtraLayout.v17.2.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\bin\Debug\ru\DevExpress.XtraLayout.v17.2.resources.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\obj\Debug\FacturacionGobiernoTest.csproj.AssemblyReference.cache
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\obj\Debug\FacturacionGobiernoTest.dll.licenses
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\obj\Debug\FacturacionGobiernoTest.csproj.CoreCompileInputs.cache
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\obj\Debug\FacturacionGobiernoTest.csproj.CopyComplete
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\obj\Debug\FacturacionGobiernoTest.dll
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\obj\Debug\FacturacionGobiernoTest.pdb
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION -UV\Gobierno\FacturacionGobiernoTest\obj\Debug\FacturacionGobiernoTest.csproj.AssemblyReference.cache
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION -UV\Gobierno\FacturacionGobiernoTest\obj\Debug\FacturacionGobiernoTest.dll.licenses
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION -UV\Gobierno\FacturacionGobiernoTest\obj\Debug\FacturacionGobiernoTest.csproj.CoreCompileInputs.cache

@@ -1,0 +1,34 @@
+select m_clave_primaria, m_nombre_abonado, m_estado_registro from 
+FACTURACION.dbo.fple180
+where m_codigo_agrupa = 63
+
+
+/****** Script for SelectTopNRows command from SSMS  ******/
+SELECT *
+  FROM [AppsCopy].[dbo].[GOB_detalle]
+  WHERE gd_cod_agrup_eeh = 63;
+  
+  
+  
+  select  m_clave_primaria, m_nombre_abonado, m_pagos_del_ciclo from 
+FACTURACION.dbo.fple180
+where m_codigo_agrupa = 6
+
+
+REGISTROS POR INSTITUCION
+SELECT DISTINCT m_clave_primaria, m_estado_registro, gd_activo
+  FROM [AppsCopy].[dbo].[GOB_detalle]
+    JOIN [Facturacion].[dbo].[fple180]  ON (m_codigo_agrupa = gd_cod_agrup_eeh)
+  WHERE gd_cod_agrup_eeh = 63;
+  
+  SELECT [m_clave_primaria]
+      ,[MES]
+      ,[m_consumos1]
+	  into HISTORICO_GOBIERNO
+  FROM [FACTURACION].[dbo].[HISTORICO_CONSUMOS]
+  
+  
+  SELECT [m_clave_primaria]
+      ,[MES]
+      ,[m_consumos1]
+  FROM [FACTURACION].[dbo].[HISTORICO_GOBIERNO]

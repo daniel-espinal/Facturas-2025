@@ -1,0 +1,6 @@
+DECLARE	@SqlQuery NVARCHAR(MAX);
+
+--SET @SqlQuery = N'EXEC [EEH_Llamado_Aviso_Gobierno] ''99876'', ''1709'', ''0063'' , ''4'', ''6'' ' ;
+SET @SqlQuery = N'EXEC [EEH_Llamado_Aviso_Gobierno] ''99876'', ''1709'', ''0140'' ,  ''1'' ,  ''10000'' ' ;
+--SET @SqlQuery = N'EXEC [EEHAviso_Gobierno] ''99876'', ''1709'' , ''0063''  , ''0'' ';
+EXECUTE sp_executesql @SqlQuery

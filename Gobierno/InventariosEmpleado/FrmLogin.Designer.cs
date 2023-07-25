@@ -42,7 +42,6 @@
             this.labelControl4 = new DevExpress.XtraEditors.LabelControl();
             this.txtNuevaClave = new DevExpress.XtraEditors.TextEdit();
             this.defaultLookAndFeel1 = new DevExpress.LookAndFeel.DefaultLookAndFeel(this.components);
-            this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.txtClave.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtUsuario.Properties)).BeginInit();
@@ -153,15 +152,6 @@
             // 
             this.defaultLookAndFeel1.LookAndFeel.SkinName = "Liquid Sky";
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(0, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 19;
-            this.label1.Text = "label1";
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -177,7 +167,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(380, 582);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.labelControl4);
             this.Controls.Add(this.txtNuevaClave);
             this.Controls.Add(this.simpleButton2);
@@ -215,7 +204,6 @@
         private DevExpress.XtraEditors.LabelControl labelControl4;
         private DevExpress.XtraEditors.TextEdit txtNuevaClave;
         private DevExpress.LookAndFeel.DefaultLookAndFeel defaultLookAndFeel1;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
     }
 }

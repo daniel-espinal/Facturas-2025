@@ -5,6 +5,7 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using solg.lib.netframework;
 
 namespace FacturacionGobierno.Model
 {
@@ -21,13 +22,13 @@ namespace FacturacionGobierno.Model
         public bool ConectarServer()
         {
             bool respuesta = false;
-            //XpoProvider=MSSqlServer;data source=192.168.103.61;user id=facturacion.gobierno;password=Factura2017*;initial catalog=FACTURACION;Persist Security Info=true;Connection Timeout=1000"
-            //  string stringConexion = @"Data Source=localhost;Initial Catalog=FACTURACION;Integrated Security=True";
-            //string stringConexion = @"Data Source=192.168.103.61;user id=appfact;password=Appfac72017*;initial catalog=FACTURACION;Persist Security Info=true;Connection Timeout=720000";
-            string stringConexion = @"Data Source=192.168.100.161;user id=appfact;password=Appfac72017*;initial catalog=FACTURACION;Persist Security Info=true;Connect Timeout=200; pooling='true'; Max Pool Size=200";
+      
+         
+            string nombreServidor = Settings.GetInstance().GetAppSetting("MAESTROConnectionString", true);
+
             try
             {
-                conexion.ConnectionString = stringConexion;
+                conexion.ConnectionString = nombreServidor;
                 conexion.Open();
                 respuesta = true;
             }
@@ -42,10 +43,11 @@ namespace FacturacionGobierno.Model
         public bool ConectarServer1()
         {
             bool respuesta = false;
-            string stringConexion = @"Data Source=192.168.100.28;user id=appsoe;password=:S032017*;initial catalog=eehApps;Persist Security Info=true;Connect Timeout=200; pooling='true'; Max Pool Size=200";
+
+            string nombreServidor = Settings.GetInstance().GetAppSetting("ConnectionEEHApps", true);
             try
             {
-                conexion.ConnectionString = stringConexion;
+                conexion.ConnectionString = nombreServidor;
                 conexion.Open();
                 respuesta = true;
             }
@@ -162,15 +164,19 @@ namespace FacturacionGobierno.Model
             DataTable vDatos = new DataTable();
             try
             {
-                string stringConexion = @"Data Source=192.168.100.161;user id=appfact;password=Appfac72017*;initial catalog=FACTURACION;Persist Security Info=true;Connect Timeout=200; pooling='true'; Max Pool Size=200";
-
-                SqlDataAdapter vDataAdapter = new SqlDataAdapter(vQuery, stringConexion);
+                
+                string nombreServidor = Settings.GetInstance().GetAppSetting("MAESTROConnectionString", true);
+                 SqlDataAdapter vDataAdapter = new SqlDataAdapter(vQuery, nombreServidor);
                 vDataAdapter.SelectCommand.CommandTimeout = 25000;
                 vDataAdapter.Fill(vDatos);
+
+
             }
-            catch
+            catch (Exception EX)
             {
-              //  throw;
+
+                Console.WriteLine(EX.Message);
+
             }
             return vDatos;
         }
@@ -180,9 +186,10 @@ namespace FacturacionGobierno.Model
             DataTable vDatos = new DataTable();
             try
             {
-                string stringConexion = @"Data Source=192.168.100.28;user id=appsoe;password=S032017*;initial catalog=eehDirectorio;Persist Security Info=true;Connect Timeout=200; pooling='true'; Max Pool Size=200";
+               
+                string nombreServidor = Settings.GetInstance().GetAppSetting("ConnectionEEHApps", true);
 
-                SqlDataAdapter vDataAdapter = new SqlDataAdapter(vQuery, stringConexion);
+                SqlDataAdapter vDataAdapter = new SqlDataAdapter(vQuery, nombreServidor);
                 vDataAdapter.SelectCommand.CommandTimeout = 25000;
                 vDataAdapter.Fill(vDatos);
             }

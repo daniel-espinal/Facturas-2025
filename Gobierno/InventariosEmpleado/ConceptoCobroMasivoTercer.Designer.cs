@@ -1,4 +1,6 @@
-﻿namespace FacturacionGobierno
+﻿using FacturacionGobierno.Model;
+
+namespace FacturacionGobierno
 {
     partial class ConceptoCobroMasivoTercer
     {
@@ -93,7 +95,10 @@
             // 
             // sqlDataSource1
             // 
-            this.sqlDataSource1.ConnectionName = "MAESTROConnectionString";
+            this.sqlDataSource1 = Core.DataSourceReport("MAESTROConnectionString");
+            this.sqlDataSource1.ConnectionOptions.CloseConnection = false;
+            this.sqlDataSource1.ConnectionOptions.CommandTimeout = 15000;
+            this.sqlDataSource1.ConnectionOptions.DbCommandTimeout = 15000;
             this.sqlDataSource1.Name = "sqlDataSource1";
             storedProcQuery1.Name = "EEHAviso_Masivo_Concepto_Cobro";
             queryParameter1.Name = "@TIPO";

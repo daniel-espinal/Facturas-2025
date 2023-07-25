@@ -1,0 +1,24 @@
+SELECT Ag.m_clave_primaria, AG.m_codigo_agrupa, ag.m_nombre_abonado , sum(hc_valor)
+--, hc_cod_trans, fp.cod_designacion
+ FROM 
+FPACGOB FG JOIN Avisos_gobierno AG ON (FG.hc_clave_abonado = AG.m_clave_primaria) 
+--JOIN fpre020 FP ON (FG.hc_cod_trans = Fp.cod_llave)
+WHERE HC_CICLO = 1710
+AND AG.m_codigo_agrupa in(62)
+GROUP BY Ag.m_clave_primaria, AG.m_codigo_agrupa, ag.a_descripcion, ag.m_nombre_abonado
+order by 1
+
+SELECT COUNT(DISTINCT HC_CLAVE_ABONADO) FROM FPACGOB 
+WHERE HC_CICLO = 1710
+
+
+sum(m_saldo_del_mes),
+--m_codigo_agrupa, count(m_clave_primaria), 
+sum(m_saldo_120_dias+ m_saldo_90_dias+m_saldo_60_dias+m_saldo_30_dias
++m_saldo_del_mes)
+from Avisos_gobierno
+
+
+group by  m_codigo_agrupa 
+
+order by 1 ;
