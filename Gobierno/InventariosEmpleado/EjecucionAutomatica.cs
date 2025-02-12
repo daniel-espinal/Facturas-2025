@@ -37,38 +37,39 @@ namespace FacturacionGobierno
             this.vFlag = vFlag;
         }
 
+
         private void EjecucionAutomatica_Load(object sender, EventArgs e)
         {
             string vPeriodo = generarMesFacturacionNew(0);
             Conexion vConexion = new Conexion();
-             Boolean vExistePeriodo1 = false;
+            Boolean vExistePeriodo1 = false;
             String vClaves = "[EEHAviso_Masivo_General] 4";
             DataTable vClavesnuevo = vConexion.obtenerDataTable(vClaves);
             string vSector = string.Empty;
             if (vClavesnuevo.Rows.Count > 0)
             {
                 //GENERA GOBIERNO
-               {
-                string vPathnG = @"\\192.168.100.8\\Facturas\\Facturas\\GOBIERNO\\" + vPeriodo + "\\{0}";
-                vPathnG = string.Format(vPathnG, DateTime.Now.Year + DateTime.Now.Month.ToString("00") + DateTime.Now.Day.ToString("00") + "\\");
-                if (!System.IO.Directory.Exists(vPathnG))
-                     System.IO.Directory.CreateDirectory(vPathnG);
-                //FacturaCorrelativo facturaCorrelativo = new FacturaCorrelativo();
-                //string periodoFacturacion = facturaCorrelativo.generarMesFacturacion(0);
-                String vClaves1 = "[EEHAviso_Gobierno_Generales] 5";
-                DataTable vClavesnuevo1 = vConexion.obtenerDataTable(vClaves1);
-                 if (vClavesnuevo1.Rows.Count > 0)
-                 {
-                   for (int i = 0; i < vClavesnuevo1.Rows.Count; i++)
-                   {
-                    string prefijoG = "";
-                    string clave = "";
-                    string vNombreInstitucionG = "";
-                    string VcodigoAgrupacion = "";
-                           VcodigoAgrupacion = "[EEHAviso_Gobierno_Generales] 6," + vClavesnuevo1.Rows[i]["codAgrupacion"].ToString();
-                    DataTable vAgrupacion = vConexion.obtenerDataTable(VcodigoAgrupacion);
-                              prefijoG = vClavesnuevo1.Rows[i]["codAgrupacion"].ToString();
-                              clave = vAgrupacion.Rows[0]["Clave"].ToString();
+                {
+                    string vPathnG = @"\\192.168.100.8\\Facturas\\Facturas\\GOBIERNO\\" + vPeriodo + "\\{0}";
+                    vPathnG = string.Format(vPathnG, DateTime.Now.Year + DateTime.Now.Month.ToString("00") + DateTime.Now.Day.ToString("00") + "\\");
+                    if (!System.IO.Directory.Exists(vPathnG))
+                        System.IO.Directory.CreateDirectory(vPathnG);
+                    //FacturaCorrelativo facturaCorrelativo = new FacturaCorrelativo();
+                    //string periodoFacturacion = facturaCorrelativo.generarMesFacturacion(0);
+                    String vClaves1 = "[EEHAviso_Gobierno_Generales] 5";
+                    DataTable vClavesnuevo1 = vConexion.obtenerDataTable(vClaves1);
+                    if (vClavesnuevo1.Rows.Count > 0)
+                    {
+                        for (int i = 0; i < vClavesnuevo1.Rows.Count; i++)
+                        {
+                            string prefijoG = "";
+                            string clave = "";
+                            string vNombreInstitucionG = "";
+                            string VcodigoAgrupacion = "";
+                            VcodigoAgrupacion = "[EEHAviso_Gobierno_Generales] 6," + vClavesnuevo1.Rows[i]["codAgrupacion"].ToString();
+                            DataTable vAgrupacion = vConexion.obtenerDataTable(VcodigoAgrupacion);
+                            prefijoG = vClavesnuevo1.Rows[i]["codAgrupacion"].ToString();
+                            clave = vAgrupacion.Rows[0]["Clave"].ToString();
 
                             string vQuer1 = "[EEH_Gobierno_Generales] 8" + vAgrupacion;
                             DataTable VNUMEROSUMAR = vConexion.obtenerDataTable(vQuer1);
@@ -76,63 +77,63 @@ namespace FacturacionGobierno
                             int vContador = ObtenerCorrelativoN(vConexion, generarMesFacturacionNew(0), generarMesFacturacionNew(1), ref vExistePeriodo1);
                             int vContador1 = vContador + myNum + 1;
                             vNombreInstitucionG = vAgrupacion.Rows[0]["NomIns"].ToString();
-                             vNombreInstitucionG = vNombreInstitucionG.Replace('/', ' ');
-                             vNombreInstitucionG = vNombreInstitucionG.Replace('|', ' ');
-                             vNombreInstitucionG = vNombreInstitucionG.Replace('"', ' ');
-                             vNombreInstitucionG = vNombreInstitucionG.Replace('\'', ' ');
-                             vNombreInstitucionG = vNombreInstitucionG.Replace(':', ' ');
+                            vNombreInstitucionG = vNombreInstitucionG.Replace('/', ' ');
+                            vNombreInstitucionG = vNombreInstitucionG.Replace('|', ' ');
+                            vNombreInstitucionG = vNombreInstitucionG.Replace('"', ' ');
+                            vNombreInstitucionG = vNombreInstitucionG.Replace('\'', ' ');
+                            vNombreInstitucionG = vNombreInstitucionG.Replace(':', ' ');
                             string vPathDocumentoG = vPathnG + prefijoG + "_" + vNombreInstitucionG + ".pdf";
                             //AvisoGobierno agob = new AvisoGobierno();
-                     try
-                     {
-                      GeneracionDiariaGobierno FacturaEspecial = new GeneracionDiariaGobierno();
-                      FacturaEspecial.Parameters["Tipo"].Value = 4;
-                      FacturaEspecial.Parameters["mes_facturacion"].Value = vPeriodo;
-                      FacturaEspecial.Parameters["clave"].Value = prefijoG;
-                      FacturaEspecial.Parameters["contador_factura"].Value = vContador; //enviar la siguiente
-                      FacturaEspecial.CreateDocument();
-                      FacturaEspecial.ExportToPdf(vPathDocumentoG);
-                      FacturaEspecial.Dispose();
-                      string vQueryFacturas = "[EEHAviso_Gob_Ciclo_Actual_D] " + 0 + "," + vPeriodo + "," + vAgrupacion.Rows[0]["codAgrupacion"].ToString() + "," + 4;
-                      vQueryFacturas = String.Format(vQueryFacturas, prefijoG);
-                      DataTable vDatosFacturas = vConexion.obtenerDataTable(vQueryFacturas);
-                       string vClavesFacturadas = string.Empty;
-                          if (vDatosFacturas.Rows.Count > 0)
-                          {
-                            for (int x = 0; x < vDatosFacturas.Rows.Count; x++)
+                            try
                             {
-                             vClavesFacturadas += vDatosFacturas.Rows[x]["m_clave_primaria"].ToString() + ",";
+                                GeneracionDiariaGobierno FacturaEspecial = new GeneracionDiariaGobierno();
+                                FacturaEspecial.Parameters["Tipo"].Value = 4;
+                                FacturaEspecial.Parameters["mes_facturacion"].Value = vPeriodo;
+                                FacturaEspecial.Parameters["clave"].Value = prefijoG;
+                                FacturaEspecial.Parameters["contador_factura"].Value = vContador; //enviar la siguiente
+                                FacturaEspecial.CreateDocument();
+                                FacturaEspecial.ExportToPdf(vPathDocumentoG);
+                                FacturaEspecial.Dispose();
+                                string vQueryFacturas = "[EEHAviso_Gob_Ciclo_Actual_D] " + 0 + "," + vPeriodo + "," + vAgrupacion.Rows[0]["codAgrupacion"].ToString() + "," + 4;
+                                vQueryFacturas = String.Format(vQueryFacturas, prefijoG);
+                                DataTable vDatosFacturas = vConexion.obtenerDataTable(vQueryFacturas);
+                                string vClavesFacturadas = string.Empty;
+                                if (vDatosFacturas.Rows.Count > 0)
+                                {
+                                    for (int x = 0; x < vDatosFacturas.Rows.Count; x++)
+                                    {
+                                        vClavesFacturadas += vDatosFacturas.Rows[x]["m_clave_primaria"].ToString() + ",";
+                                    }
+                                }
+                                vClavesFacturadas = vClavesFacturadas.Remove(vClavesFacturadas.Length - 1, 1);
+                                string vQueryGuardarClaves = " [EEHAviso_Masivo_General]  18, '{0}', '{1}', '{2}'";
+                                vQueryGuardarClaves = string.Format(vQueryGuardarClaves, vPeriodo, vDatosFacturas.Rows[0]["PREFIJO"].ToString(), vClavesFacturadas);
+                                vConexion.obtenerDataTable(vQueryGuardarClaves);
+                                String vQuerDetalleMasivo = "[EEHAviso_Masivo_General] 17," + vAgrupacion.Rows[0]["codAgrupacion"].ToString();
+                                vConexion.obtenerDataTable(vQuerDetalleMasivo);
                             }
-                          }
-                          vClavesFacturadas = vClavesFacturadas.Remove(vClavesFacturadas.Length - 1, 1);
-                          string vQueryGuardarClaves = " [EEHAviso_Masivo_General]  18, '{0}', '{1}', '{2}'";
-                                 vQueryGuardarClaves = string.Format(vQueryGuardarClaves, vPeriodo, vDatosFacturas.Rows[0]["PREFIJO"].ToString(), vClavesFacturadas);
-                                 vConexion.obtenerDataTable(vQueryGuardarClaves);
-                          String vQuerDetalleMasivo = "[EEHAviso_Masivo_General] 17," + vAgrupacion.Rows[0]["codAgrupacion"].ToString();
-                                 vConexion.obtenerDataTable(vQuerDetalleMasivo);
-                          }
-                          catch (Exception Ex)
-                          {
-                          Console.WriteLine(Ex.Message);
-                          genericos.Log("FACTURACION GOBIERNO ", Ex.Message, "");
-                     }
-                   }
-                 }
-               }
+                            catch (Exception Ex)
+                            {
+                                Console.WriteLine(Ex.Message);
+                                genericos.Log("FACTURACION GOBIERNO ", Ex.Message, "");
+                            }
+                        }
+                    }
+                }
 
                 //GENERA TODO LOS GC
-                {    
-                  String vClaves1 = "[EEHAltos_Consumidores_Generales] 9";
-                  DataTable vClavesnuevo1 = vConexion.obtenerDataTable(vClaves1);
-                  string vAgrupa1 = string.Empty;
-                  string vNombreInstitucion1 = string.Empty;
-              
-                   string targetPath = @"\\192.168.100.8\\centralizada\\FISICO\\" + vPeriodo + "\\GRANDESCLIENTES" + "\\{0}";
-                          targetPath = string.Format(targetPath, DateTime.Now.Year + DateTime.Now.Month.ToString("00") + DateTime.Now.Day.ToString("00") + "\\");
+                {
+                    String vClaves1 = "[EEHAltos_Consumidores_Generales] 9";
+                    DataTable vClavesnuevo1 = vConexion.obtenerDataTable(vClaves1);
+                    string vAgrupa1 = string.Empty;
+                    string vNombreInstitucion1 = string.Empty;
+
+                    string targetPath = @"\\192.168.100.8\\centralizada\\FISICO\\" + vPeriodo + "\\GRANDESCLIENTES" + "\\{0}";
+                    targetPath = string.Format(targetPath, DateTime.Now.Year + DateTime.Now.Month.ToString("00") + DateTime.Now.Day.ToString("00") + "\\");
                     if (!System.IO.Directory.Exists(targetPath))
                         System.IO.Directory.CreateDirectory(targetPath);
                     string targetPathc = @"\\192.168.100.8\\centralizada\\FISICO\\" + vPeriodo + "\\CORPORATIVOS" + "\\{0}";
-                           targetPathc = string.Format(targetPathc, DateTime.Now.Year + DateTime.Now.Month.ToString("00") + DateTime.Now.Day.ToString("00") + "\\");
+                    targetPathc = string.Format(targetPathc, DateTime.Now.Year + DateTime.Now.Month.ToString("00") + DateTime.Now.Day.ToString("00") + "\\");
                     if (!System.IO.Directory.Exists(targetPathc))
                         System.IO.Directory.CreateDirectory(targetPathc);
 
@@ -231,26 +232,26 @@ namespace FacturacionGobierno
                                     }
                                 }
                             }
-                            catch (Exception ex )
+                            catch (Exception ex)
                             {
-                                 Console.WriteLine(ex.Message);
+                                Console.WriteLine(ex.Message);
                                 genericos.Log("FACTURACION ALTOS CONSUMIDORES ", ex.Message, "");
                             }
-                         
+
 
                         }
                     }
                 }
                 try
                 {
-                    string[] filePaths1 = Directory.GetFiles(@"\\192.168.100.59\\ArchivosAdjuntos\\Facturas\\GRANDESCLIENTES");
+                    string[] filePaths1 = Directory.GetFiles(@"\\192.168.100.59\\e\\ArchivosAdjuntos\\Facturas\\GRANDESCLIENTES");
                     foreach (string filePath1 in filePaths1)
                         File.Delete(filePath1);
                     //copia facturas de altos consumidores en 100.8 facturas
                     string fuente = @"\\192.168.100.8\Centralizada\FISICO\" + vPeriodo + "\\GRANDESCLIENTES" + "\\{0}";
                     // string fuente = @"C:\centralizada01\\centralizada\\FISICO\\" + vPeriodo + "\\GRANDESCLIENTES" + "\\{0}";
                     fuente = string.Format(fuente, DateTime.Now.Year + DateTime.Now.Month.ToString("00") + DateTime.Now.Day.ToString("00"));
-                    string destino = (@"\\192.168.100.59\\ArchivosAdjuntos\\Facturas\\GRANDESCLIENTES\\");
+                    string destino = (@"\\192.168.100.59\\e\\ArchivosAdjuntos\\Facturas\\GRANDESCLIENTES\\");
                     DirectoryInfo dl = new DirectoryInfo(fuente);
                     if (File.Exists(fuente))
                     {
@@ -258,7 +259,7 @@ namespace FacturacionGobierno
                     }
                     fuente = @"\\192.168.100.8\Centralizada\FISICO\" + vPeriodo + "\\GRANDESCLIENTES" + "\\{0}";
                     fuente = string.Format(fuente, DateTime.Now.Year + DateTime.Now.Month.ToString("00") + DateTime.Now.Day.ToString("00"));
-                    destino = (@"\\192.168.100.59\\ArchivosAdjuntos\\Facturas\\GRANDESCLIENTES\\");
+                    destino = (@"\\192.168.100.59\\e\\ArchivosAdjuntos\\Facturas\\GRANDESCLIENTES\\");
                     FileInfo[] directorios = null;
                     directorios = dl.GetFiles("*", SearchOption.AllDirectories);
                     string rutaExtendida = "";
@@ -275,21 +276,21 @@ namespace FacturacionGobierno
                 }
                 catch (Exception EX)
                 {
-                    Console.WriteLine(EX.Message );
+                    Console.WriteLine(EX.Message);
                     genericos.Log("COPIA ALTOS CONSUMIDORES GRANDE CLIENTES ", EX.Message, "");
                 }
                 try
                 {
 
                     vPeriodo = generarMesFacturacionNew(0);
-                    string[] filePaths1 = Directory.GetFiles(@"\\192.168.100.59\\ArchivosAdjuntos\\Facturas\\CORPORATIVOS");
+                    string[] filePaths1 = Directory.GetFiles(@"\\192.168.100.59\\e\\ArchivosAdjuntos\\Facturas\\CORPORATIVOS");
                     foreach (string filePath1 in filePaths1)
                         File.Delete(filePath1);
                     //copia facturas de altos consumidores en 100.8 facturas
-                
+
                     string fuente = @"\\192.168.100.8\\centralizada\\FISICO\\" + vPeriodo + "\\CORPORATIVOS" + "\\{0}";
                     fuente = string.Format(fuente, DateTime.Now.Year + DateTime.Now.Month.ToString("00") + DateTime.Now.Day.ToString("00"));
-                    string destino = (@"\\192.168.100.59\\ArchivosAdjuntos\\Facturas\\CORPORATIVOS\\");
+                    string destino = (@"\\192.168.100.59\\e\\ArchivosAdjuntos\\Facturas\\CORPORATIVOS\\");
                     DirectoryInfo dl = new DirectoryInfo(fuente);
                     if (File.Exists(fuente))
                     {
@@ -299,7 +300,7 @@ namespace FacturacionGobierno
 
                     fuente = @"\\192.168.100.8\\centralizada\\FISICO\\" + vPeriodo + "\\CORPORATIVOS" + "\\{0}";
                     fuente = string.Format(fuente, DateTime.Now.Year + DateTime.Now.Month.ToString("00") + DateTime.Now.Day.ToString("00"));
-                    destino = (@"\\192.168.100.59\\ArchivosAdjuntos\\Facturas\\CORPORATIVOS\\");
+                    destino = (@"\\192.168.100.59\\e\\ArchivosAdjuntos\\Facturas\\CORPORATIVOS\\");
                     FileInfo[] directorios = null;
                     directorios = dl.GetFiles("*", SearchOption.AllDirectories);
                     string rutaExtendida = "";
@@ -311,7 +312,7 @@ namespace FacturacionGobierno
                             Directory.CreateDirectory(destino);
                         File.Copy(docs.FullName, destino + "\\" + docs.Name, true);
                     }
-                   }
+                }
                 catch (Exception EX)
                 {
                     Console.WriteLine(EX.Message);
@@ -322,11 +323,11 @@ namespace FacturacionGobierno
                     String vCODIGOERROR = "";
                     try
                     {
-                       String vQuery1 = "[EEHAltos_Consumidores_Generales_Correo] 3";
+                        String vQuery1 = "[EEHAltos_Consumidores_Generales_Correo] 3";
                         DataTable vDatosCorreo = vConexion.obtenerDataTable(vQuery1);
                         for (int i = 0; i < vDatosCorreo.Rows.Count; i++)
                         {
-                              if (vDatosCorreo.Rows[i]["IdMerCliente"].ToString() == "5" || vDatosCorreo.Rows[i]["IdMerCliente"].ToString() == "6")
+                            if (vDatosCorreo.Rows[i]["IdMerCliente"].ToString() == "5" || vDatosCorreo.Rows[i]["IdMerCliente"].ToString() == "6")
                             //  if (vDatosCorreo.Rows[i]["IdMerCliente"].ToString() == "6")
                             {
                                 string vPDF = "";
@@ -374,209 +375,209 @@ namespace FacturacionGobierno
                     }
                 }
                 //FACTURAS IRREGULARIDAD
-                {
-                    string vQueryDetallei1 = "[EEHAviso_Masivo_General] 25";
-                    DataTable vDatosDetallei1 = vConexion.obtenerDataTable(vQueryDetallei1);
-                    try
-                    {
+                //{
+                //    string vQueryDetallei1 = "[EEHAviso_Masivo_General] 25";
+                //    DataTable vDatosDetallei1 = vConexion.obtenerDataTable(vQueryDetallei1);
+                //    try
+                //    {
 
-                        if (vDatosDetallei1.Rows.Count > 0)
-                            for (int i = 0; i < vDatosDetallei1.Rows.Count; i++)
-                            {
-                                string vClavei = vDatosDetallei1.Rows[i]["Clave"].ToString().PadLeft(4, '0');
-                                string Nombrei = vDatosDetallei1.Rows[i]["m_nombre_abonado"].ToString().Trim();
-                                Nombrei = Nombrei.Replace('/', ' ');
-                                Nombrei = Nombrei.Replace('|', ' ');
-                                Nombrei = Nombrei.Replace('"', ' ');
-                                Nombrei = Nombrei.Replace('\'', ' ');
-                                Nombrei = Nombrei.Replace(':', ' ');
+                //        if (vDatosDetallei1.Rows.Count > 0)
+                //            for (int i = 0; i < vDatosDetallei1.Rows.Count; i++)
+                //            {
+                //                string vClavei = vDatosDetallei1.Rows[i]["Clave"].ToString().PadLeft(4, '0');
+                //                string Nombrei = vDatosDetallei1.Rows[i]["m_nombre_abonado"].ToString().Trim();
+                //                Nombrei = Nombrei.Replace('/', ' ');
+                //                Nombrei = Nombrei.Replace('|', ' ');
+                //                Nombrei = Nombrei.Replace('"', ' ');
+                //                Nombrei = Nombrei.Replace('\'', ' ');
+                //                Nombrei = Nombrei.Replace(':', ' ');
 
-                                string Liquidacion = vDatosDetallei1.Rows[i]["id_liquidacion"].ToString();
-                                string SectorEEH = vDatosDetallei1.Rows[i]["SECTOR_ID"].ToString();
-                                string VSector = vDatosDetallei1.Rows[i]["SECTOR_EEH"].ToString();
-                                string VOs = vDatosDetallei1.Rows[i]["Os"].ToString();
+                //                string Liquidacion = vDatosDetallei1.Rows[i]["id_liquidacion"].ToString();
+                //                string SectorEEH = vDatosDetallei1.Rows[i]["SECTOR_ID"].ToString();
+                //                string VSector = vDatosDetallei1.Rows[i]["SECTOR_EEH"].ToString();
+                //                string VOs = vDatosDetallei1.Rows[i]["Os"].ToString();
 
-                                string vPath = @"\\192.168.100.8\centralizada\Irregularidad\" + vPeriodo + "\\" + VSector + "\\{0}";
-                                // string vPath = @"C:\facturas\\Irregularidad\\" + vPeriodo +"\\" + VSector + "\\{0}";
-                                //\\192.168.100.8\Centralizada\IRREGULARIDAD\2007\COMAYAGUA\20200703
-                                vPath = string.Format(vPath, DateTime.Now.Year + DateTime.Now.Month.ToString("00") + DateTime.Now.Day.ToString("00") + "\\");
-                                if (!System.IO.Directory.Exists(vPath))
-                                    System.IO.Directory.CreateDirectory(vPath);
+                //                string vPath = @"\\192.168.100.8\centralizada\Irregularidad\" + vPeriodo + "\\" + VSector + "\\{0}";
+                //                // string vPath = @"C:\facturas\\Irregularidad\\" + vPeriodo +"\\" + VSector + "\\{0}";
+                //                //\\192.168.100.8\Centralizada\IRREGULARIDAD\2007\COMAYAGUA\20200703
+                //                vPath = string.Format(vPath, DateTime.Now.Year + DateTime.Now.Month.ToString("00") + DateTime.Now.Day.ToString("00") + "\\");
+                //                if (!System.IO.Directory.Exists(vPath))
+                //                    System.IO.Directory.CreateDirectory(vPath);
 
-                                string vPathn = @"\\192.168.100.59\\f\\irregularidades\\adjuntos\\";
-                                if (!System.IO.Directory.Exists(vPathn))
-                                    System.IO.Directory.CreateDirectory(vPathn);
-                                
-                                string vPathDocumentoGG = vPath + SectorEEH + "_" + Liquidacion + "_" + vClavei + "_" + Nombrei + ".pdf";
-                                string vPathDocumentoIR = vPathn + "FECN" + "_" + vClavei + "_" + Liquidacion + ".pdf";
-                                FacturasEEHIrregularidad FacturasMasivoCorreo = new FacturasEEHIrregularidad();
-                                FacturasMasivoCorreo.Parameters["obtener_todos"].Value = 1;
-                                FacturasMasivoCorreo.Parameters["clave_primaria"].Value = Liquidacion;
-                                FacturasMasivoCorreo.CreateDocument();
-                                FacturasMasivoCorreo.ExportToPdf(vPathDocumentoGG);
-                                FacturasMasivoCorreo.ExportToPdf(vPathDocumentoIR);
-                                FacturasMasivoCorreo.Dispose();
-                                String vQuerDetalleMasivo = "[EEHAviso_Masivo_General] 26," + Liquidacion;
-                                vConexion.obtenerDataTable(vQuerDetalleMasivo);
-                                Object[] vDatos = new object[40];
-                                vDatos[0] = VOs;
-                                vDatos[1] = Liquidacion;
-                                vDatos[2] = "FECN" + "_" + vClavei + "_" + Liquidacion + ".pdf";
-                                vDatos[3] = 54;
-                                vDatos[4] = ".pdf";
-                                vDatos[5] = 0;
-                                vDatos[6] = 0;
-                                vDatos[7] = "FACTURA ECNF";
-                                vDatos[8] = null;
-                                vDatos[9] = "appsoe";
-                                vDatos[10] = 1;
-                                vDatos[11] = 0;
+                //                string vPathn = @"\\192.168.100.59\\f\\irregularidades\\adjuntos\\";
+                //                if (!System.IO.Directory.Exists(vPathn))
+                //                    System.IO.Directory.CreateDirectory(vPathn);
 
-                                string vCodigoResult = "", vMensajeResult = "";
-                                vConexion.vRegistrarFactura(ref vCodigoResult, ref vMensajeResult, vDatos);
-                                Console.WriteLine("=======================================   vCodigoAgrupacionEEH    " + vClavei + "             ====================================");
-                                Console.WriteLine(vCodigoResult);
-                                Console.WriteLine(vMensajeResult);
-                                Console.WriteLine("===============================================================================================================");
+                //                string vPathDocumentoGG = vPath + SectorEEH + "_" + Liquidacion + "_" + vClavei + "_" + Nombrei + ".pdf";
+                //                string vPathDocumentoIR = vPathn + "FECN" + "_" + vClavei + "_" + Liquidacion + ".pdf";
+                //                FacturasEEHIrregularidad FacturasMasivoCorreo = new FacturasEEHIrregularidad();
+                //                FacturasMasivoCorreo.Parameters["obtener_todos"].Value = 1;
+                //                FacturasMasivoCorreo.Parameters["clave_primaria"].Value = Liquidacion;
+                //                FacturasMasivoCorreo.CreateDocument();
+                //                FacturasMasivoCorreo.ExportToPdf(vPathDocumentoGG);
+                //                FacturasMasivoCorreo.ExportToPdf(vPathDocumentoIR);
+                //                FacturasMasivoCorreo.Dispose();
+                //                String vQuerDetalleMasivo = "[EEHAviso_Masivo_General] 26," + Liquidacion;
+                //                vConexion.obtenerDataTable(vQuerDetalleMasivo);
+                //                Object[] vDatos = new object[40];
+                //                vDatos[0] = VOs;
+                //                vDatos[1] = Liquidacion;
+                //                vDatos[2] = "FECN" + "_" + vClavei + "_" + Liquidacion + ".pdf";
+                //                vDatos[3] = 54;
+                //                vDatos[4] = ".pdf";
+                //                vDatos[5] = 0;
+                //                vDatos[6] = 0;
+                //                vDatos[7] = "FACTURA ECNF";
+                //                vDatos[8] = null;
+                //                vDatos[9] = "appsoe";
+                //                vDatos[10] = 1;
+                //                vDatos[11] = 0;
 
-                            }
-                    }
-                    catch (Exception ex)
-                    {
-                        Console.WriteLine(ex.Message);
-                        genericos.Log("GENERA CLAVES IRREGULARIDAD ", ex.Message, "");
-                    }
-                }
+                //                string vCodigoResult = "", vMensajeResult = "";
+                //                vConexion.vRegistrarFactura(ref vCodigoResult, ref vMensajeResult, vDatos);
+                //                Console.WriteLine("=======================================   vCodigoAgrupacionEEH    " + vClavei + "             ====================================");
+                //                Console.WriteLine(vCodigoResult);
+                //                Console.WriteLine(vMensajeResult);
+                //                Console.WriteLine("===============================================================================================================");
+
+                //            }
+                //    }
+                //    catch (Exception ex)
+                //    {
+                //        Console.WriteLine(ex.Message);
+                //        genericos.Log("GENERA CLAVES IRREGULARIDAD ", ex.Message, "");
+                //    }
+                //}
                 //COPIA TODAS LAS FACTURAS PARA ENVIAR POR CORREO
+                //{
+                //    //GENERA TODO LOS GC de Irregularidad 
+                //    try
+                //    {
+                //        String vClavesIrregularidad = "[EEHAltos_Consumidores_Generales] 8";
+                //        DataTable vClavesnuevoirregularidad = vConexion.obtenerDataTable(vClavesIrregularidad);
+                //        string vAgrupa1 = string.Empty;
+                //        string vNombreIrregularidad = string.Empty;
+                //        vNombreIrregularidad = vNombreIrregularidad.Replace('/', ' ');
+                //        vNombreIrregularidad = vNombreIrregularidad.Replace('|', ' ');
+                //        vNombreIrregularidad = vNombreIrregularidad.Replace('"', ' ');
+                //        vNombreIrregularidad = vNombreIrregularidad.Replace('\'', ' ');
+                //        vNombreIrregularidad = vNombreIrregularidad.Replace(':', ' ');
+                //        for (int i = 0; i < vClavesnuevoirregularidad.Rows.Count; i++)
+                //        {
+                //            if (vClavesnuevoirregularidad.Rows.Count > 0) //&& i < 5)
+                //            {
+                //                string targetPathirre = @"\\192.168.100.8\facturas\IRREGULARIDAD\" + vPeriodo + "\\{0}";
+                //                targetPathirre = string.Format(targetPathirre, DateTime.Now.Year + DateTime.Now.Month.ToString("00") + DateTime.Now.Day.ToString("00") + "\\");
+                //                if (!System.IO.Directory.Exists(targetPathirre))
+                //                    System.IO.Directory.CreateDirectory(targetPathirre);
+                //                string vCodigoAgrupacionir1 = vClavesnuevoirregularidad.Rows[i]["CodAgrupacion"].ToString();
+                //                string vQueryirregularidad = "[EEHAltos_Consumidores_Generales] 12,'" + vCodigoAgrupacionir1 + "'";
+                //                DataTable vDatosIrregularidad = vConexion.obtenerDataTable(vQueryirregularidad);
+                //                if (vDatosIrregularidad.Rows.Count > 0)
+                //                {
+                //                    vAgrupa1 = vClavesnuevoirregularidad.Rows[i]["CodAgrupacion"].ToString().PadLeft(4, '0');
+                //                    vNombreIrregularidad = vClavesnuevoirregularidad.Rows[i]["NomIns"].ToString().Trim();
+                //                    string Liquidacion = vClavesnuevoirregularidad.Rows[i]["id_liquidacion"].ToString();
+                //                    vNombreIrregularidad = vNombreIrregularidad.Replace('/', ' ');
+                //                    vNombreIrregularidad = vNombreIrregularidad.Replace('|', ' ');
+                //                    vNombreIrregularidad = vNombreIrregularidad.Replace('"', ' ');
+                //                    vNombreIrregularidad = vNombreIrregularidad.Replace('\'', ' ');
+                //                    vNombreIrregularidad = vNombreIrregularidad.Replace(':', ' ');
+                //                    string vPathDocumentoGG = targetPathirre + vAgrupa1 + "_" + vNombreIrregularidad + ".pdf";
+                //                    EEHFacturaIrregularidadAgrupa Facturasirregularidad = new EEHFacturaIrregularidadAgrupa();
+                //                    Facturasirregularidad.Parameters["obtener_todos"].Value = 3;
+                //                    Facturasirregularidad.Parameters["ID_Liquidacion"].Value = 1;
+                //                    Facturasirregularidad.Parameters["codigoAgrupa"].Value = vAgrupa1;
+                //                    Facturasirregularidad.ExportToPdf(vPathDocumentoGG);
+                //                    Facturasirregularidad.Dispose();
+                //                    String vQuerDetalleIrregularidad = "[EEHAltos_Consumidores_Generales] 13," + vAgrupa1;
+                //                    vConexion.obtenerDataTable(vQuerDetalleIrregularidad);
+                //                }
+
+                //            }
+                //        }
+                //        if (vClavesnuevoirregularidad.Rows.Count > 0) //
+                //        {
+                //            try
+                //            {
+
+                //                vPeriodo = generarMesFacturacionNew(0);
+                //                string[] filePaths1irregularidad = Directory.GetFiles(@"\\192.168.100.59\\ArchivosAdjuntos\\Envio_Irregularidad\\");
+                //                foreach (string filePath1 in filePaths1irregularidad)
+                //                    File.Delete(filePath1);
+                //                //copia facturas de irregularidades que tienen correo en 100.8 facturas
+                //                string fuenteirregularidad = @"\\192.168.100.8\facturas\IRREGULARIDAD\" + vPeriodo + "\\{0}";
+                //                fuenteirregularidad = string.Format(fuenteirregularidad, DateTime.Now.Year + DateTime.Now.Month.ToString("00") + DateTime.Now.Day.ToString("00"));
+                //                string destino = (@"\\192.168.100.59\\ArchivosAdjuntos\\Envio_Irregularidad\\");
+                //                DirectoryInfo dl = new DirectoryInfo(fuenteirregularidad);
+                //                if (File.Exists(fuenteirregularidad))
+                //                {
+                //                    File.Copy(fuenteirregularidad, destino, true);
+                //                }
+                //                destino = (@"\\192.168.100.59\ArchivosAdjuntos\Envio_Irregularidad\");
+                //                FileInfo[] directorios = null;
+                //                directorios = dl.GetFiles("*", SearchOption.AllDirectories);
+                //                string rutaExtendida = "";
+                //                foreach (FileInfo docs in directorios)
+                //                {
+                //                    rutaExtendida = docs.DirectoryName.Replace(fuenteirregularidad, "");
+                //                    if (!Directory.Exists(destino + rutaExtendida))
+                //                        Directory.CreateDirectory(destino);
+                //                    File.Copy(docs.FullName, destino + "\\" + docs.Name, true);
+                //                }
+                //            }
+                //            catch (Exception EX)
+                //            {
+                //                Console.WriteLine(EX.Message );
+                //                genericos.Log("COPIA FACTURAS DE IRREGULARIDAD ", EX.Message, "");
+                //            }
+
+
+                //            //ENVIA FACTURA POR CORREOS CLIENTES CON IRREGULARIDAD
+                //            {
+                //                String vCODIGOERRORIrre = "";
+                //                vPeriodo = generarMesFacturacionNew(0);
+                //                try
+                //                {
+                //                    String vQueryIrregularidadCorreo = "[EEH_Masivos_Generales_Correo] 2";
+                //                    DataTable vDatosCorreoI = vConexion.obtenerDataTable(vQueryIrregularidadCorreo);
+                //                    for (int i = 0; i < vDatosCorreoI.Rows.Count; i++)
+                //                    {
+                //                        string vPDF = "";
+                //                        string vClaveEEHIrregularidad = vDatosCorreoI.Rows[i]["Codagrupacion"].ToString().PadLeft(4, '0');
+                //                        string vNombreInstitucionIrregularidad = vDatosCorreoI.Rows[i]["NomIns"].ToString().Trim();
+                //                        vCODIGOERRORIrre = vClaveEEHIrregularidad;
+                //                        vPDF = vClaveEEHIrregularidad + "_" + vNombreInstitucionIrregularidad + ".pdf";
+                //                        Object[] vDatos = new object[3];
+                //                        vDatos[0] = vDatosCorreoI.Rows[i]["Codagrupacion"].ToString();
+                //                        vDatos[1] = "Envio_Irregularidad\\" + vPDF; //adjuntos
+                //                        vDatos[2] = "Celvin.Diaz";
+                //                        string vCodigoResult = "", vMensajeResult = "";
+                //                        vConexion.notificarIrregularidad(ref vCodigoResult, ref vMensajeResult, vDatos);
+                //                        Console.WriteLine("=======================================   vCodigoAgrupacionEEH    " + vClaveEEHIrregularidad + "             ====================================");
+                //                        Console.WriteLine(vCodigoResult);
+                //                        Console.WriteLine(vMensajeResult);
+                //                        Console.WriteLine("===============================================================================================================");
+                //                    }
+                //                }
+                //                catch (Exception EX)
+                //                {
+                //                    Console.WriteLine(EX.Message);
+                //                    genericos.Log("ENVIA FACTURAS IRREGULARIDAD ", EX.Message, "");
+
+                //                }
+                //            }
+                //        }
+                //    }
+                //    catch (Exception ex)
+                //    {
+                //        Console.WriteLine(ex.Message);
+                //        genericos.Log("FACTURACION ", ex.Message, "");
+                //    }
+                //}
                 {
-                    //GENERA TODO LOS GC de Irregularidad 
-                    try
-                    {
-                        String vClavesIrregularidad = "[EEHAltos_Consumidores_Generales] 8";
-                        DataTable vClavesnuevoirregularidad = vConexion.obtenerDataTable(vClavesIrregularidad);
-                        string vAgrupa1 = string.Empty;
-                        string vNombreIrregularidad = string.Empty;
-                        vNombreIrregularidad = vNombreIrregularidad.Replace('/', ' ');
-                        vNombreIrregularidad = vNombreIrregularidad.Replace('|', ' ');
-                        vNombreIrregularidad = vNombreIrregularidad.Replace('"', ' ');
-                        vNombreIrregularidad = vNombreIrregularidad.Replace('\'', ' ');
-                        vNombreIrregularidad = vNombreIrregularidad.Replace(':', ' ');
-                        for (int i = 0; i < vClavesnuevoirregularidad.Rows.Count; i++)
-                        {
-                            if (vClavesnuevoirregularidad.Rows.Count > 0) //&& i < 5)
-                            {
-                                string targetPathirre = @"\\192.168.100.8\facturas\IRREGULARIDAD\" + vPeriodo + "\\{0}";
-                                targetPathirre = string.Format(targetPathirre, DateTime.Now.Year + DateTime.Now.Month.ToString("00") + DateTime.Now.Day.ToString("00") + "\\");
-                                if (!System.IO.Directory.Exists(targetPathirre))
-                                    System.IO.Directory.CreateDirectory(targetPathirre);
-                                string vCodigoAgrupacionir1 = vClavesnuevoirregularidad.Rows[i]["CodAgrupacion"].ToString();
-                                string vQueryirregularidad = "[EEHAltos_Consumidores_Generales] 12,'" + vCodigoAgrupacionir1 + "'";
-                                DataTable vDatosIrregularidad = vConexion.obtenerDataTable(vQueryirregularidad);
-                                if (vDatosIrregularidad.Rows.Count > 0)
-                                {
-                                    vAgrupa1 = vClavesnuevoirregularidad.Rows[i]["CodAgrupacion"].ToString().PadLeft(4, '0');
-                                    vNombreIrregularidad = vClavesnuevoirregularidad.Rows[i]["NomIns"].ToString().Trim();
-                                    string Liquidacion = vClavesnuevoirregularidad.Rows[i]["id_liquidacion"].ToString();
-                                    vNombreIrregularidad = vNombreIrregularidad.Replace('/', ' ');
-                                    vNombreIrregularidad = vNombreIrregularidad.Replace('|', ' ');
-                                    vNombreIrregularidad = vNombreIrregularidad.Replace('"', ' ');
-                                    vNombreIrregularidad = vNombreIrregularidad.Replace('\'', ' ');
-                                    vNombreIrregularidad = vNombreIrregularidad.Replace(':', ' ');
-                                    string vPathDocumentoGG = targetPathirre + vAgrupa1 + "_" + vNombreIrregularidad + ".pdf";
-                                    EEHFacturaIrregularidadAgrupa Facturasirregularidad = new EEHFacturaIrregularidadAgrupa();
-                                    Facturasirregularidad.Parameters["obtener_todos"].Value = 3;
-                                    Facturasirregularidad.Parameters["ID_Liquidacion"].Value = 1;
-                                    Facturasirregularidad.Parameters["codigoAgrupa"].Value = vAgrupa1;
-                                    Facturasirregularidad.ExportToPdf(vPathDocumentoGG);
-                                    Facturasirregularidad.Dispose();
-                                    String vQuerDetalleIrregularidad = "[EEHAltos_Consumidores_Generales] 13," + vAgrupa1;
-                                    vConexion.obtenerDataTable(vQuerDetalleIrregularidad);
-                                }
 
-                            }
-                        }
-                        if (vClavesnuevoirregularidad.Rows.Count > 0) //
-                        {
-                            try
-                            {
-
-                                vPeriodo = generarMesFacturacionNew(0);
-                                string[] filePaths1irregularidad = Directory.GetFiles(@"\\192.168.100.59\\ArchivosAdjuntos\\Envio_Irregularidad\\");
-                                foreach (string filePath1 in filePaths1irregularidad)
-                                    File.Delete(filePath1);
-                                //copia facturas de irregularidades que tienen correo en 100.8 facturas
-                                string fuenteirregularidad = @"\\192.168.100.8\facturas\IRREGULARIDAD\" + vPeriodo + "\\{0}";
-                                fuenteirregularidad = string.Format(fuenteirregularidad, DateTime.Now.Year + DateTime.Now.Month.ToString("00") + DateTime.Now.Day.ToString("00"));
-                                string destino = (@"\\192.168.100.59\\ArchivosAdjuntos\\Envio_Irregularidad\\");
-                                DirectoryInfo dl = new DirectoryInfo(fuenteirregularidad);
-                                if (File.Exists(fuenteirregularidad))
-                                {
-                                    File.Copy(fuenteirregularidad, destino, true);
-                                }
-                                destino = (@"\\192.168.100.59\ArchivosAdjuntos\Envio_Irregularidad\");
-                                FileInfo[] directorios = null;
-                                directorios = dl.GetFiles("*", SearchOption.AllDirectories);
-                                string rutaExtendida = "";
-                                foreach (FileInfo docs in directorios)
-                                {
-                                    rutaExtendida = docs.DirectoryName.Replace(fuenteirregularidad, "");
-                                    if (!Directory.Exists(destino + rutaExtendida))
-                                        Directory.CreateDirectory(destino);
-                                    File.Copy(docs.FullName, destino + "\\" + docs.Name, true);
-                                }
-                            }
-                            catch (Exception EX)
-                            {
-                                Console.WriteLine(EX.Message );
-                                genericos.Log("COPIA FACTURAS DE IRREGULARIDAD ", EX.Message, "");
-                            }
-
-
-                            //ENVIA FACTURA POR CORREOS CLIENTES CON IRREGULARIDAD
-                            {
-                                String vCODIGOERRORIrre = "";
-                                vPeriodo = generarMesFacturacionNew(0);
-                                try
-                                {
-                                    String vQueryIrregularidadCorreo = "[EEH_Masivos_Generales_Correo] 2";
-                                    DataTable vDatosCorreoI = vConexion.obtenerDataTable(vQueryIrregularidadCorreo);
-                                    for (int i = 0; i < vDatosCorreoI.Rows.Count; i++)
-                                    {
-                                        string vPDF = "";
-                                        string vClaveEEHIrregularidad = vDatosCorreoI.Rows[i]["Codagrupacion"].ToString().PadLeft(4, '0');
-                                        string vNombreInstitucionIrregularidad = vDatosCorreoI.Rows[i]["NomIns"].ToString().Trim();
-                                        vCODIGOERRORIrre = vClaveEEHIrregularidad;
-                                        vPDF = vClaveEEHIrregularidad + "_" + vNombreInstitucionIrregularidad + ".pdf";
-                                        Object[] vDatos = new object[3];
-                                        vDatos[0] = vDatosCorreoI.Rows[i]["Codagrupacion"].ToString();
-                                        vDatos[1] = "Envio_Irregularidad\\" + vPDF; //adjuntos
-                                        vDatos[2] = "Celvin.Diaz";
-                                        string vCodigoResult = "", vMensajeResult = "";
-                                        vConexion.notificarIrregularidad(ref vCodigoResult, ref vMensajeResult, vDatos);
-                                        Console.WriteLine("=======================================   vCodigoAgrupacionEEH    " + vClaveEEHIrregularidad + "             ====================================");
-                                        Console.WriteLine(vCodigoResult);
-                                        Console.WriteLine(vMensajeResult);
-                                        Console.WriteLine("===============================================================================================================");
-                                    }
-                                }
-                                catch (Exception EX)
-                                {
-                                    Console.WriteLine(EX.Message);
-                                    genericos.Log("ENVIA FACTURAS IRREGULARIDAD ", EX.Message, "");
-
-                                }
-                            }
-                        }
-                    }
-                    catch (Exception ex)
-                    {
-                        Console.WriteLine(ex.Message);
-                        genericos.Log("FACTURACION ", ex.Message, "");
-                    }
-                }
-                {
-
-                     //GENERA REPARTO ALTOS CONSUMIDOR
+                    //GENERA REPARTO ALTOS CONSUMIDOR
                     String vQueryoObtenerSectores = "[EEHAviso_Masivo_General] 36";
                     DataTable vDatosSectores = vConexion.obtenerDataTable(vQueryoObtenerSectores);
                     try
@@ -617,8 +618,8 @@ namespace FacturacionGobierno
                     }
                     catch (Exception Ex)
                     {
-                       Console.WriteLine(Ex.Message);
-                       genericos.Log("FACTURAS ALTOS CONSUMIODRES QUE SE ENTREGAN POR REPARTO ", Ex.Message, "");
+                        Console.WriteLine(Ex.Message);
+                        genericos.Log("FACTURAS ALTOS CONSUMIODRES QUE SE ENTREGAN POR REPARTO ", Ex.Message, "");
                     }
 
                     // GENERA MASIVO QUE ANTES ERA UN ALTOS CONSUMIDOR
@@ -653,10 +654,8 @@ namespace FacturacionGobierno
                                     vnombremasivo = vnombremasivo.Replace('\'', ' ');
                                     vnombremasivo = vnombremasivo.Replace(':', ' ');
                                     string vPathDocumentoGG = pathMasivo + vclave + "_" + vnombremasivo + ".pdf";
-                                    FacturasSagaMasivo facturamasivaAC = new FacturasSagaMasivo();
-                                    facturamasivaAC.Parameters["tipo"].Value = 4;
-                                    facturamasivaAC.Parameters["clave_primaria"].Value = clave;
-                                    facturamasivaAC.Parameters["contador_factura"].Value = vContador; //enviar la siguiente
+                                    FacturaClienteMasivo facturamasivaAC = new FacturaClienteMasivo();
+                                    facturamasivaAC.Parameters["m_clave_primaria"].Value = clave;
                                     facturamasivaAC.CreateDocument();
                                     facturamasivaAC.ExportToPdf(vPathDocumentoGG);
                                     facturamasivaAC.Dispose();
@@ -682,21 +681,21 @@ namespace FacturacionGobierno
                     try
                     {
                         vPeriodo = generarMesFacturacionNew(0);
-                        string targetMasivo = (@"\\192.168.100.59\\ArchivosAdjuntos\\Facturas\\MASIVO");
+                        string targetMasivo = (@"\\192.168.100.59\\e\\ArchivosAdjuntos\\Facturas\\MASIVO");
 
                         if (!System.IO.Directory.Exists(targetMasivo))
                             System.IO.Directory.CreateDirectory(targetMasivo);
 
 
 
-                        string[] filePaths1 = Directory.GetFiles(@"\\192.168.100.59\\ArchivosAdjuntos\\Facturas\\MASIVO");
+                        string[] filePaths1 = Directory.GetFiles(@"\\192.168.100.59\\e\\ArchivosAdjuntos\\Facturas\\MASIVO");
                         foreach (string filePath1 in filePaths1)
                             File.Delete(filePath1);
                         //copia facturas de altos consumidores en 100.8 facturas
 
                         string fuenteMSA = @"\\192.168.100.8\\facturas\\Masivo\\" + vPeriodo + "\\{0}";
                         fuenteMSA = string.Format(fuenteMSA, DateTime.Now.Year + DateTime.Now.Month.ToString("00") + DateTime.Now.Day.ToString("00"));
-                        string destinoMAC = (@"\\192.168.100.59\\ArchivosAdjuntos\\Facturas\\MASIVO\\");
+                        string destinoMAC = (@"\\192.168.100.59\\e\\ArchivosAdjuntos\\Facturas\\MASIVO\\");
                         DirectoryInfo dl = new DirectoryInfo(fuenteMSA);
                         if (File.Exists(fuenteMSA))
                         {
@@ -705,7 +704,7 @@ namespace FacturacionGobierno
 
                         fuenteMSA = @"\\192.168.100.8\\facturas\\Masivo\\" + vPeriodo + "\\MASIVO" + "\\{0}";
                         fuenteMSA = string.Format(fuenteMSA, DateTime.Now.Year + DateTime.Now.Month.ToString("00") + DateTime.Now.Day.ToString("00"));
-                        destinoMAC = (@"\\192.168.100.59\\ArchivosAdjuntos\\Facturas\\MASIVO\\");
+                        destinoMAC = (@"\\192.168.100.59\\e\\ArchivosAdjuntos\\Facturas\\MASIVO\\");
                         FileInfo[] directorios = null;
                         directorios = dl.GetFiles("*", SearchOption.AllDirectories);
                         string rutaExtendida = "";
@@ -792,7 +791,7 @@ namespace FacturacionGobierno
                                     String vQuerDetalleMasivoM = "[EEHAviso_Masivo_General] 38," + vClavemsc;
                                     vConexion.obtenerDataTable(vQuerDetalleMasivoM);
                                 }
- 
+
                             }
 
                     }
@@ -803,13 +802,13 @@ namespace FacturacionGobierno
                     }
                     try
                     {
-                        string[] filePaths1RP = Directory.GetFiles(@"\\192.168.100.59\\ArchivosAdjuntos\\Reparto_Correo\\");
+                        string[] filePaths1RP = Directory.GetFiles(@"\\192.168.100.59\\e\\ArchivosAdjuntos\\Reparto_Correo\\");
                         foreach (string fileParp1 in filePaths1RP)
                             File.Delete(fileParp1);
                         //copia facturas de altos consumidores en 100.8 facturas
                         string fuenteMs = @"\\192.168.100.8\Centralizada\MASIVO\" + vPeriodo + "\\{0}";
                         fuenteMs = string.Format(fuenteMs, DateTime.Now.Year + DateTime.Now.Month.ToString("00") + DateTime.Now.Day.ToString("00"));
-                        string destinoMS = (@"\\192.168.100.59\\ArchivosAdjuntos\\Reparto_Correo\\");
+                        string destinoMS = (@"\\192.168.100.59\\e\\ArchivosAdjuntos\\Reparto_Correo\\");
                         DirectoryInfo dl = new DirectoryInfo(fuenteMs);
                         if (File.Exists(fuenteMs))
                         {
@@ -817,7 +816,7 @@ namespace FacturacionGobierno
                         }
                         fuenteMs = @"\\192.168.100.8\Centralizada\MASIVO\" + vPeriodo + "\\{0}";
                         fuenteMs = string.Format(fuenteMs, DateTime.Now.Year + DateTime.Now.Month.ToString("00") + DateTime.Now.Day.ToString("00"));
-                        destinoMS = (@"\\192.168.100.59\\ArchivosAdjuntos\\Reparto_Correo\\");
+                        destinoMS = (@"\\192.168.100.59\\e\\ArchivosAdjuntos\\Reparto_Correo\\");
                         FileInfo[] directorios = null;
                         directorios = dl.GetFiles("*", SearchOption.AllDirectories);
                         string rutaExtendida = "";
@@ -838,9 +837,9 @@ namespace FacturacionGobierno
                         genericos.Log("FACTURACION ", ex.Message, "");
                     }
                 }
-                 try
+                try
                 {
-               
+
                     String vQueryMS1 = "[EEH_Masivos_Generales_Correo] 1";
                     DataTable vDatosCorreoMS = vConexion.obtenerDataTable(vQueryMS1);
                     for (int i = 0; i < vDatosCorreoMS.Rows.Count; i++)
@@ -848,7 +847,7 @@ namespace FacturacionGobierno
                         string vPDF = "";
                         string vClaveEEHMS = vDatosCorreoMS.Rows[i]["Clave"].ToString().PadLeft(4, '0');
                         string vNombreInstitucion = vDatosCorreoMS.Rows[i]["m_nombre_abonado"].ToString().Trim();
-                       
+
                         vPDF = vClaveEEHMS + "_" + vNombreInstitucion + ".pdf";
                         Object[] vDatos = new object[3];
                         vDatos[0] = vDatosCorreoMS.Rows[i]["Clave"].ToString();
@@ -869,9 +868,9 @@ namespace FacturacionGobierno
                 }
                 //GENERA TODO GOBIERNO  -- LISTO
                 {
-                   
+
                     string vPathnGA = @"\\192.168.100.8\centralizada\GOBIERNO\" + vPeriodo + "\\{0}";
-                           vPathnGA = string.Format(vPathnGA, DateTime.Now.Year + DateTime.Now.Month.ToString("00") + DateTime.Now.Day.ToString("00") + "\\");
+                    vPathnGA = string.Format(vPathnGA, DateTime.Now.Year + DateTime.Now.Month.ToString("00") + DateTime.Now.Day.ToString("00") + "\\");
                     if (!System.IO.Directory.Exists(vPathnGA))
                         System.IO.Directory.CreateDirectory(vPathnGA);
 
@@ -940,13 +939,13 @@ namespace FacturacionGobierno
                     }
                     try
                     {
-                        string[] filePaths1GA = Directory.GetFiles(@"\\192.168.100.59\ArchivosAdjuntos\Facturas\Gobierno");
+                        string[] filePaths1GA = Directory.GetFiles(@"\\192.168.100.59\e\ArchivosAdjuntos\Facturas\Gobierno");
                         foreach (string filePath1GA in filePaths1GA)
                             File.Delete(filePath1GA);
 
                         string fuenteGA = @"\\192.168.100.8\centralizada\GOBIERNO\" + vPeriodo + "\\{0}";
                         fuenteGA = string.Format(fuenteGA, DateTime.Now.Year + DateTime.Now.Month.ToString("00") + DateTime.Now.Day.ToString("00"));
-                        string destinoGA = (@"\\192.168.100.59\ArchivosAdjuntos\Facturas\Gobierno\");
+                        string destinoGA = (@"\\192.168.100.59\e\ArchivosAdjuntos\Facturas\Gobierno\");
                         DirectoryInfo dl = new DirectoryInfo(fuenteGA);
                         if (File.Exists(fuenteGA))
                         {
@@ -954,7 +953,7 @@ namespace FacturacionGobierno
                         }
                         fuenteGA = @"\\192.168.100.8\centralizada\GOBIERNO\" + vPeriodo + "\\{0}";
                         fuenteGA = string.Format(fuenteGA, DateTime.Now.Year + DateTime.Now.Month.ToString("00") + DateTime.Now.Day.ToString("00"));
-                        destinoGA = (@"\\192.168.100.59\ArchivosAdjuntos\Facturas\Gobierno\");
+                        destinoGA = (@"\\192.168.100.59\e\ArchivosAdjuntos\Facturas\Gobierno\");
                         FileInfo[] directorios = null;
                         directorios = dl.GetFiles("*", SearchOption.AllDirectories);
                         string rutaExtendida = "";
@@ -975,11 +974,11 @@ namespace FacturacionGobierno
                     }
 
                 }
-                 
+
                 String vCODIGOERRORG = "";
                 try
                 {
-                     
+
                     String vQuery1GA = "[EEH_Gobierno_Generales] 18";
                     DataTable vDatosCorreoGA = vConexion.obtenerDataTable(vQuery1GA);
                     for (int i = 0; i < vDatosCorreoGA.Rows.Count; i++)
@@ -1012,7 +1011,7 @@ namespace FacturacionGobierno
                 }
 
 
-                //GENERA LAS REMERSAS UNICAS DE IRREGULARIDAD
+                // GENERA LAS REMERSAS UNICAS DE IRREGULARIDAD
                 string vQueryRemesaIrregularidad = "[EEHAviso_Masivo_General] 43";
                 DataTable vDetalleFactIrregularidad = vConexion.obtenerDataTable(vQueryRemesaIrregularidad);
                 try
@@ -1079,7 +1078,7 @@ namespace FacturacionGobierno
                     genericos.Log("FACTURAS ALTOS CONSUMIODRES QUE SE ENTREGAN POR REPARTO ", Ex.Message, "");
                 }
 
-                //GENERA LOS LOTES DE REMESAS
+                /// GENERA LOS LOTES DE REMESAS
                 {
 
                     String vRemesas = "[EEHAviso_Masivo_General]40";

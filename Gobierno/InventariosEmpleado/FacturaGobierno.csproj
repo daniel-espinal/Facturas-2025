@@ -25,7 +25,7 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <ApplicationRevision>272</ApplicationRevision>
+    <ApplicationRevision>305</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -39,8 +39,9 @@
     <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
+    <WarningLevel>2</WarningLevel>
     <Prefer32Bit>false</Prefer32Bit>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -69,6 +70,9 @@
   </PropertyGroup>
   <PropertyGroup>
     <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Icono ENEE.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Devart.Data, Version=5.0.1654.0, Culture=neutral, PublicKeyToken=09af7300eec23701, processorArchitecture=MSIL" />
@@ -101,6 +105,9 @@
     <Reference Include="DevExpress.Utils.v17.2.UI, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraReports.v17.2.Extensions, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraReports.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraScheduler.v17.2, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraScheduler.v17.2.Core, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraScheduler.v17.2.Reporting, Version=17.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
       <Private>True</Private>
@@ -122,8 +129,11 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
     <Reference Include="System.Transactions" />
+    <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -218,6 +228,12 @@
     <Compile Include="ConceptoCobroMesAnterior.Designer.cs">
       <DependentUpon>ConceptoCobroMesAnterior.cs</DependentUpon>
     </Compile>
+    <Compile Include="ConceptoFacturaMasivaP.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ConceptoFacturaMasivaP.Designer.cs">
+      <DependentUpon>ConceptoFacturaMasivaP.cs</DependentUpon>
+    </Compile>
     <Compile Include="ConceptoIrregularidadEEH.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -265,12 +281,6 @@
     </Compile>
     <Compile Include="EEHFacturaDetalleSinAgrupa.Designer.cs">
       <DependentUpon>EEHFacturaDetalleSinAgrupa.cs</DependentUpon>
-    </Compile>
-    <Compile Include="EEHFacturaGobierno.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="EEHFacturaGobierno.Designer.cs">
-      <DependentUpon>EEHFacturaGobierno.cs</DependentUpon>
     </Compile>
     <Compile Include="EEHFacturaIrregularidadAgrupa.cs">
       <SubType>Component</SubType>
@@ -372,6 +382,12 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>FacturacionDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FacturaClienteMasivo.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FacturaClienteMasivo.Designer.cs">
+      <DependentUpon>FacturaClienteMasivo.cs</DependentUpon>
     </Compile>
     <Compile Include="FacturaCorreo.cs">
       <SubType>Component</SubType>
@@ -535,6 +551,12 @@
     <Compile Include="FacturaTEST.Designer.cs">
       <DependentUpon>FacturaTEST.cs</DependentUpon>
     </Compile>
+    <Compile Include="EEHFacturaGobierno.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="EEHFacturaGobierno.Designer.cs">
+      <DependentUpon>EEHFacturaGobierno.cs</DependentUpon>
+    </Compile>
     <Compile Include="GeneracionDiariaGobierno.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -662,6 +684,9 @@
     <EmbeddedResource Include="ConceptoCobroMesAnterior.resx">
       <DependentUpon>ConceptoCobroMesAnterior.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ConceptoFacturaMasivaP.resx">
+      <DependentUpon>ConceptoFacturaMasivaP.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ConceptoIrregularidadEEH.resx">
       <DependentUpon>ConceptoIrregularidadEEH.cs</DependentUpon>
     </EmbeddedResource>
@@ -685,9 +710,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="EEHFacturaDetalleSinAgrupa.resx">
       <DependentUpon>EEHFacturaDetalleSinAgrupa.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="EEHFacturaGobierno.resx">
-      <DependentUpon>EEHFacturaGobierno.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EEHFacturaIrregularidadAgrupa.resx">
       <DependentUpon>EEHFacturaIrregularidadAgrupa.cs</DependentUpon>
@@ -747,6 +769,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FacturaAgrupacionInfop.resx">
       <DependentUpon>FacturaAgrupacionInfop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FacturaClienteMasivo.resx">
+      <DependentUpon>FacturaClienteMasivo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FacturaCorreo.resx">
       <DependentUpon>FacturaCorreo.cs</DependentUpon>
@@ -843,6 +868,9 @@
       <DependentUpon>FrmFacturacion.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="EEHFacturaGobierno.resx">
+      <DependentUpon>EEHFacturaGobierno.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GeneracionDiariaGobierno.resx">
       <DependentUpon>GeneracionDiariaGobierno.cs</DependentUpon>
     </EmbeddedResource>
@@ -936,6 +964,11 @@
       <IncludeHash>True</IncludeHash>
       <FileType>Assembly</FileType>
     </PublishFile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Icono ENEE.ico" />
+    <Content Include="Logo UTCD %281%29.ico" />
+    <Content Include="LogoBlanco.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

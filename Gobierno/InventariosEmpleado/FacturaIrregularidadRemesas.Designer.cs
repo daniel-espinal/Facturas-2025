@@ -51,7 +51,6 @@ namespace FacturacionGobierno
             this.xrLabel65 = new DevExpress.XtraReports.UI.XRLabel();
             this.xrLabel64 = new DevExpress.XtraReports.UI.XRLabel();
             this.xrLabel67 = new DevExpress.XtraReports.UI.XRLabel();
-            this.xrPictureBox9 = new DevExpress.XtraReports.UI.XRPictureBox();
             this.xrLabel66 = new DevExpress.XtraReports.UI.XRLabel();
             this.xrLine9 = new DevExpress.XtraReports.UI.XRLine();
             this.xrLabel75 = new DevExpress.XtraReports.UI.XRLabel();
@@ -64,6 +63,7 @@ namespace FacturacionGobierno
             this.xrLabel44 = new DevExpress.XtraReports.UI.XRLabel();
             this.xrLabel2 = new DevExpress.XtraReports.UI.XRLabel();
             this.xrPictureBox8 = new DevExpress.XtraReports.UI.XRPictureBox();
+            this.xrPictureBox9 = new DevExpress.XtraReports.UI.XRPictureBox();
             this.TopMargin = new DevExpress.XtraReports.UI.TopMarginBand();
             this.BottomMargin = new DevExpress.XtraReports.UI.BottomMarginBand();
             this.PageFooter = new DevExpress.XtraReports.UI.PageFooterBand();
@@ -71,6 +71,9 @@ namespace FacturacionGobierno
             this.xrLabel62 = new DevExpress.XtraReports.UI.XRLabel();
             this.xrPictureBox10 = new DevExpress.XtraReports.UI.XRPictureBox();
             this.PageHeader = new DevExpress.XtraReports.UI.PageHeaderBand();
+            this.xrLabel7 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrPictureBox12 = new DevExpress.XtraReports.UI.XRPictureBox();
+            this.vendorLogo = new DevExpress.XtraReports.UI.XRPictureBox();
             this.xrRichText1 = new DevExpress.XtraReports.UI.XRRichText();
             this.xrPictureBox11 = new DevExpress.XtraReports.UI.XRPictureBox();
             this.xrTable1 = new DevExpress.XtraReports.UI.XRTable();
@@ -164,10 +167,6 @@ namespace FacturacionGobierno
             this.xrTableCell1 = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrTableRow6 = new DevExpress.XtraReports.UI.XRTableRow();
             this.xrTableCell24 = new DevExpress.XtraReports.UI.XRTableCell();
-            this.xrLabel7 = new DevExpress.XtraReports.UI.XRLabel();
-            this.xrPictureBox12 = new DevExpress.XtraReports.UI.XRPictureBox();
-            this.vendorLogo = new DevExpress.XtraReports.UI.XRPictureBox();
-            this.xrPictureBox13 = new DevExpress.XtraReports.UI.XRPictureBox();
             this.sqlDataSource1 = new DevExpress.DataAccess.Sql.SqlDataSource(this.components);
             this.baseControlStyle = new DevExpress.XtraReports.UI.XRControlStyle();
             this.Diferencia_Activa = new DevExpress.XtraReports.UI.CalculatedField();
@@ -230,7 +229,6 @@ namespace FacturacionGobierno
             this.xrLabel65,
             this.xrLabel64,
             this.xrLabel67,
-            this.xrPictureBox9,
             this.xrLabel66,
             this.xrLine9,
             this.xrLabel75,
@@ -242,7 +240,8 @@ namespace FacturacionGobierno
             this.xrLabel41,
             this.xrLabel44,
             this.xrLabel2,
-            this.xrPictureBox8});
+            this.xrPictureBox8,
+            this.xrPictureBox9});
             this.Detail.HeightF = 116.0795F;
             this.Detail.MultiColumn.Layout = DevExpress.XtraPrinting.ColumnLayout.AcrossThenDown;
             this.Detail.Name = "Detail";
@@ -406,14 +405,6 @@ namespace FacturacionGobierno
             this.xrLabel67.StylePriority.UseForeColor = false;
             this.xrLabel67.Text = "CONTRATO VIGENTE: ";
             // 
-            // xrPictureBox9
-            // 
-            this.xrPictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("xrPictureBox9.Image")));
-            this.xrPictureBox9.LocationFloat = new DevExpress.Utils.PointFloat(430.8267F, 58.27818F);
-            this.xrPictureBox9.Name = "xrPictureBox9";
-            this.xrPictureBox9.SizeF = new System.Drawing.SizeF(156.0886F, 52.67126F);
-            this.xrPictureBox9.Sizing = DevExpress.XtraPrinting.ImageSizeMode.StretchImage;
-            // 
             // xrLabel66
             // 
             this.xrLabel66.Font = new System.Drawing.Font("Segoe UI", 6.75F);
@@ -448,9 +439,9 @@ namespace FacturacionGobierno
             // xrPictureBox3
             // 
             this.xrPictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("xrPictureBox3.Image")));
-            this.xrPictureBox3.LocationFloat = new DevExpress.Utils.PointFloat(5.670095F, 0F);
+            this.xrPictureBox3.LocationFloat = new DevExpress.Utils.PointFloat(5.670107F, 0F);
             this.xrPictureBox3.Name = "xrPictureBox3";
-            this.xrPictureBox3.SizeF = new System.Drawing.SizeF(379.5421F, 110.9494F);
+            this.xrPictureBox3.SizeF = new System.Drawing.SizeF(389.063F, 110.9494F);
             this.xrPictureBox3.Sizing = DevExpress.XtraPrinting.ImageSizeMode.StretchImage;
             // 
             // xrLabel3
@@ -483,7 +474,7 @@ namespace FacturacionGobierno
             // xrLabel43
             // 
             this.xrLabel43.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "Iif([totalME] < 0, 0,[totalME])")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[Saldo_pendiente]")});
             this.xrLabel43.LocationFloat = new DevExpress.Utils.PointFloat(225.3207F, 55.58596F);
             this.xrLabel43.Name = "xrLabel43";
             this.xrLabel43.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
@@ -540,10 +531,18 @@ namespace FacturacionGobierno
             // xrPictureBox8
             // 
             this.xrPictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("xrPictureBox8.Image")));
-            this.xrPictureBox8.LocationFloat = new DevExpress.Utils.PointFloat(430.8267F, 4.865132F);
+            this.xrPictureBox8.LocationFloat = new DevExpress.Utils.PointFloat(430.8268F, 3.946903F);
             this.xrPictureBox8.Name = "xrPictureBox8";
             this.xrPictureBox8.SizeF = new System.Drawing.SizeF(156.0886F, 51.00256F);
             this.xrPictureBox8.Sizing = DevExpress.XtraPrinting.ImageSizeMode.StretchImage;
+            // 
+            // xrPictureBox9
+            // 
+            this.xrPictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("xrPictureBox9.Image")));
+            this.xrPictureBox9.LocationFloat = new DevExpress.Utils.PointFloat(430.8268F, 58.27814F);
+            this.xrPictureBox9.Name = "xrPictureBox9";
+            this.xrPictureBox9.SizeF = new System.Drawing.SizeF(156.0886F, 52.67126F);
+            this.xrPictureBox9.Sizing = DevExpress.XtraPrinting.ImageSizeMode.StretchImage;
             // 
             // TopMargin
             // 
@@ -566,7 +565,7 @@ namespace FacturacionGobierno
             this.xrLabel63,
             this.xrLabel62,
             this.xrPictureBox10});
-            this.PageFooter.HeightF = 39.74225F;
+            this.PageFooter.HeightF = 39.74226F;
             this.PageFooter.Name = "PageFooter";
             // 
             // xrLabel63
@@ -587,10 +586,10 @@ namespace FacturacionGobierno
             // 
             this.xrLabel62.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.xrLabel62.ForeColor = System.Drawing.Color.Azure;
-            this.xrLabel62.LocationFloat = new DevExpress.Utils.PointFloat(0F, 15.92F);
+            this.xrLabel62.LocationFloat = new DevExpress.Utils.PointFloat(9.999891F, 15.92004F);
             this.xrLabel62.Name = "xrLabel62";
             this.xrLabel62.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel62.SizeF = new System.Drawing.SizeF(843.3062F, 23.82222F);
+            this.xrLabel62.SizeF = new System.Drawing.SizeF(839.9998F, 23.82222F);
             this.xrLabel62.StylePriority.UseFont = false;
             this.xrLabel62.StylePriority.UseForeColor = false;
             this.xrLabel62.StylePriority.UseTextAlignment = false;
@@ -608,6 +607,9 @@ namespace FacturacionGobierno
             // PageHeader
             // 
             this.PageHeader.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+            this.xrLabel7,
+            this.xrPictureBox12,
+            this.vendorLogo,
             this.xrRichText1,
             this.xrPictureBox11,
             this.xrTable1,
@@ -620,13 +622,42 @@ namespace FacturacionGobierno
             this.xrLine5,
             this.xrLabel10,
             this.xrLine3,
-            this.xrPanelDatosCliente,
-            this.xrLabel7,
-            this.xrPictureBox12,
-            this.vendorLogo,
-            this.xrPictureBox13});
+            this.xrPanelDatosCliente});
             this.PageHeader.HeightF = 924.6506F;
             this.PageHeader.Name = "PageHeader";
+            // 
+            // xrLabel7
+            // 
+            this.xrLabel7.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.xrLabel7.ForeColor = System.Drawing.Color.Azure;
+            this.xrLabel7.LocationFloat = new DevExpress.Utils.PointFloat(5.666471F, 67.54957F);
+            this.xrLabel7.Name = "xrLabel7";
+            this.xrLabel7.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel7.SizeF = new System.Drawing.SizeF(832.9135F, 23.00002F);
+            this.xrLabel7.StylePriority.UseFont = false;
+            this.xrLabel7.StylePriority.UseForeColor = false;
+            this.xrLabel7.StylePriority.UseTextAlignment = false;
+            this.xrLabel7.Text = "FACTURA - ENERGÍA CONSUMIDA NO FACTURADA";
+            this.xrLabel7.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            // 
+            // xrPictureBox12
+            // 
+            this.xrPictureBox12.Image = ((System.Drawing.Image)(resources.GetObject("xrPictureBox12.Image")));
+            this.xrPictureBox12.LocationFloat = new DevExpress.Utils.PointFloat(5.666471F, 67.54957F);
+            this.xrPictureBox12.Name = "xrPictureBox12";
+            this.xrPictureBox12.SizeF = new System.Drawing.SizeF(832.9135F, 23.00002F);
+            this.xrPictureBox12.Sizing = DevExpress.XtraPrinting.ImageSizeMode.StretchImage;
+            // 
+            // vendorLogo
+            // 
+            this.vendorLogo.Image = ((System.Drawing.Image)(resources.GetObject("vendorLogo.Image")));
+            this.vendorLogo.ImageAlignment = DevExpress.XtraPrinting.ImageAlignment.TopLeft;
+            this.vendorLogo.LocationFloat = new DevExpress.Utils.PointFloat(4.431015F, 0F);
+            this.vendorLogo.Name = "vendorLogo";
+            this.vendorLogo.SizeF = new System.Drawing.SizeF(308.6209F, 67.54957F);
+            this.vendorLogo.Sizing = DevExpress.XtraPrinting.ImageSizeMode.Squeeze;
+            this.vendorLogo.StylePriority.UseBorders = false;
+            this.vendorLogo.StylePriority.UsePadding = false;
             // 
             // xrRichText1
             // 
@@ -1630,51 +1661,9 @@ namespace FacturacionGobierno
             this.xrTableCell24.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
             this.xrTableCell24.Weight = 1.86459050920035D;
             // 
-            // xrLabel7
-            // 
-            this.xrLabel7.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.xrLabel7.ForeColor = System.Drawing.Color.Azure;
-            this.xrLabel7.LocationFloat = new DevExpress.Utils.PointFloat(16.25856F, 67.54957F);
-            this.xrLabel7.Name = "xrLabel7";
-            this.xrLabel7.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel7.SizeF = new System.Drawing.SizeF(819.8895F, 23.00002F);
-            this.xrLabel7.StylePriority.UseFont = false;
-            this.xrLabel7.StylePriority.UseForeColor = false;
-            this.xrLabel7.StylePriority.UseTextAlignment = false;
-            this.xrLabel7.Text = "FACTURA - ENERGÍA CONSUMIDA NO FACTURADA";
-            this.xrLabel7.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
-            // 
-            // xrPictureBox12
-            // 
-            this.xrPictureBox12.Image = ((System.Drawing.Image)(resources.GetObject("xrPictureBox12.Image")));
-            this.xrPictureBox12.LocationFloat = new DevExpress.Utils.PointFloat(5.670124F, 67.54957F);
-            this.xrPictureBox12.Name = "xrPictureBox12";
-            this.xrPictureBox12.SizeF = new System.Drawing.SizeF(832.9135F, 23.00002F);
-            this.xrPictureBox12.Sizing = DevExpress.XtraPrinting.ImageSizeMode.StretchImage;
-            // 
-            // vendorLogo
-            // 
-            this.vendorLogo.Image = ((System.Drawing.Image)(resources.GetObject("vendorLogo.Image")));
-            this.vendorLogo.ImageAlignment = DevExpress.XtraPrinting.ImageAlignment.TopLeft;
-            this.vendorLogo.LocationFloat = new DevExpress.Utils.PointFloat(10.00006F, 0F);
-            this.vendorLogo.Name = "vendorLogo";
-            this.vendorLogo.SizeF = new System.Drawing.SizeF(478.7566F, 67.54957F);
-            this.vendorLogo.Sizing = DevExpress.XtraPrinting.ImageSizeMode.Squeeze;
-            this.vendorLogo.StylePriority.UseBorders = false;
-            this.vendorLogo.StylePriority.UsePadding = false;
-            // 
-            // xrPictureBox13
-            // 
-            this.xrPictureBox13.Image = ((System.Drawing.Image)(resources.GetObject("xrPictureBox13.Image")));
-            this.xrPictureBox13.LocationFloat = new DevExpress.Utils.PointFloat(673.08F, 699.55F);
-            this.xrPictureBox13.Name = "xrPictureBox13";
-            this.xrPictureBox13.SizeF = new System.Drawing.SizeF(176.9183F, 207.9627F);
-            this.xrPictureBox13.Sizing = DevExpress.XtraPrinting.ImageSizeMode.ZoomImage;
-            // 
             // sqlDataSource1
             // 
             this.sqlDataSource1 = Core.DataSourceReport("MAESTROConnectionString");
-            // this.sqlDataSource1.ConnectionName = "MAESTROConnectionString";
             this.sqlDataSource1.ConnectionOptions.CloseConnection = false;
             this.sqlDataSource1.ConnectionOptions.CommandTimeout = 15000;
             this.sqlDataSource1.ConnectionOptions.DbCommandTimeout = 15000;
@@ -1995,7 +1984,6 @@ namespace FacturacionGobierno
         private DevExpress.XtraReports.UI.XRLabel xrLabel65;
         private DevExpress.XtraReports.UI.XRLabel xrLabel64;
         private DevExpress.XtraReports.UI.XRLabel xrLabel67;
-        private DevExpress.XtraReports.UI.XRPictureBox xrPictureBox9;
         private DevExpress.XtraReports.UI.XRLabel xrLabel66;
         private DevExpress.XtraReports.UI.XRLine xrLine9;
         private DevExpress.XtraReports.UI.XRLabel xrLabel75;
@@ -2008,6 +1996,7 @@ namespace FacturacionGobierno
         private DevExpress.XtraReports.UI.XRLabel xrLabel44;
         private DevExpress.XtraReports.UI.XRLabel xrLabel2;
         private DevExpress.XtraReports.UI.XRPictureBox xrPictureBox8;
+        private DevExpress.XtraReports.UI.XRPictureBox xrPictureBox9;
         private DevExpress.XtraReports.UI.TopMarginBand TopMargin;
         private DevExpress.XtraReports.UI.BottomMarginBand BottomMargin;
         private DevExpress.XtraReports.UI.PageFooterBand PageFooter;
@@ -2015,6 +2004,9 @@ namespace FacturacionGobierno
         private DevExpress.XtraReports.UI.XRLabel xrLabel62;
         private DevExpress.XtraReports.UI.XRPictureBox xrPictureBox10;
         private DevExpress.XtraReports.UI.PageHeaderBand PageHeader;
+        private DevExpress.XtraReports.UI.XRLabel xrLabel7;
+        private DevExpress.XtraReports.UI.XRPictureBox xrPictureBox12;
+        private DevExpress.XtraReports.UI.XRPictureBox vendorLogo;
         private DevExpress.XtraReports.UI.XRRichText xrRichText1;
         private DevExpress.XtraReports.UI.XRPictureBox xrPictureBox11;
         private DevExpress.XtraReports.UI.XRTable xrTable1;
@@ -2108,10 +2100,6 @@ namespace FacturacionGobierno
         private DevExpress.XtraReports.UI.XRTableCell xrTableCell1;
         private DevExpress.XtraReports.UI.XRTableRow xrTableRow6;
         private DevExpress.XtraReports.UI.XRTableCell xrTableCell24;
-        private DevExpress.XtraReports.UI.XRLabel xrLabel7;
-        private DevExpress.XtraReports.UI.XRPictureBox xrPictureBox12;
-        private DevExpress.XtraReports.UI.XRPictureBox vendorLogo;
-        private DevExpress.XtraReports.UI.XRPictureBox xrPictureBox13;
         private DevExpress.DataAccess.Sql.SqlDataSource sqlDataSource1;
         private DevExpress.XtraReports.UI.XRControlStyle baseControlStyle;
         private DevExpress.XtraReports.UI.CalculatedField Diferencia_Activa;

@@ -54,7 +54,7 @@
             this.labelControl1.Name = "labelControl1";
             this.labelControl1.Size = new System.Drawing.Size(362, 13);
             this.labelControl1.TabIndex = 6;
-            this.labelControl1.Text = "Derechos Reservados. Licenciado a Empresa Energia Honduras. SG 2021 ©";
+            this.labelControl1.Text = "Derechos Reservados. Licenciado a UNIDAD TÉCNICA DE CONTROL DE LA RED DE DISTRIBUCIÓN - ENEE. SG 2023 ®";
             // 
             // labelControl2
             // 

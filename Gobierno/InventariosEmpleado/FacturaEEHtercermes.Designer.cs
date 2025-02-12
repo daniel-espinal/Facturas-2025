@@ -43,6 +43,8 @@ namespace FacturacionGobierno
             DevExpress.DataAccess.Sql.MasterDetailInfo masterDetailInfo1 = new DevExpress.DataAccess.Sql.MasterDetailInfo();
             DevExpress.DataAccess.Sql.RelationColumnInfo relationColumnInfo1 = new DevExpress.DataAccess.Sql.RelationColumnInfo();
             this.Detail = new DevExpress.XtraReports.UI.DetailBand();
+            this.xrPictureBox21 = new DevExpress.XtraReports.UI.XRPictureBox();
+            this.xrPictureBox23 = new DevExpress.XtraReports.UI.XRPictureBox();
             this.xrTable5 = new DevExpress.XtraReports.UI.XRTable();
             this.xrTableRow2 = new DevExpress.XtraReports.UI.XRTableRow();
             this.xrTableCell1 = new DevExpress.XtraReports.UI.XRTableCell();
@@ -224,7 +226,6 @@ namespace FacturacionGobierno
             this.xrPictureBox4 = new DevExpress.XtraReports.UI.XRPictureBox();
             this.xrPictureBox6 = new DevExpress.XtraReports.UI.XRPictureBox();
             this.xrLabel6 = new DevExpress.XtraReports.UI.XRLabel();
-            this.xrChart1 = new DevExpress.XtraReports.UI.XRChart();
             this.xrPictureBox12 = new DevExpress.XtraReports.UI.XRPictureBox();
             this.xrPictureBox13 = new DevExpress.XtraReports.UI.XRPictureBox();
             this.xrPictureBox14 = new DevExpress.XtraReports.UI.XRPictureBox();
@@ -289,7 +290,8 @@ namespace FacturacionGobierno
             this.xrLabel19 = new DevExpress.XtraReports.UI.XRLabel();
             this.xrPictureBox10 = new DevExpress.XtraReports.UI.XRPictureBox();
             this.vendorLogo = new DevExpress.XtraReports.UI.XRPictureBox();
-            this.xrPictureBox21 = new DevExpress.XtraReports.UI.XRPictureBox();
+            this.xrPictureBox24 = new DevExpress.XtraReports.UI.XRPictureBox();
+            this.xrChart1 = new DevExpress.XtraReports.UI.XRChart();
             this.TopMargin = new DevExpress.XtraReports.UI.TopMarginBand();
             this.BottomMargin = new DevExpress.XtraReports.UI.BottomMarginBand();
             this.PageHeader = new DevExpress.XtraReports.UI.PageHeaderBand();
@@ -337,16 +339,18 @@ namespace FacturacionGobierno
             ((System.ComponentModel.ISupportInitialize)(this.xrTblDatosCliente)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTblClave)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.xrTable11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrChart1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(xyDiagram1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(series1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.xrTable11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             // 
             // Detail
             // 
             this.Detail.BorderWidth = 0F;
             this.Detail.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+            this.xrPictureBox21,
+            this.xrPictureBox23,
             this.xrTable5,
             this.xrLabel94,
             this.xrLabel92,
@@ -373,7 +377,6 @@ namespace FacturacionGobierno
             this.xrPanelDatosCliente,
             this.xrPanel1,
             this.xrLabel6,
-            this.xrChart1,
             this.xrPictureBox12,
             this.xrPictureBox13,
             this.xrPictureBox14,
@@ -404,7 +407,8 @@ namespace FacturacionGobierno
             this.xrLabel19,
             this.xrPictureBox10,
             this.vendorLogo,
-            this.xrPictureBox21});
+            this.xrPictureBox24,
+            this.xrChart1});
             this.Detail.HeightF = 1060.136F;
             this.Detail.KeepTogether = true;
             this.Detail.MultiColumn.Layout = DevExpress.XtraPrinting.ColumnLayout.AcrossThenDown;
@@ -414,6 +418,32 @@ namespace FacturacionGobierno
             this.Detail.StylePriority.UseBorderWidth = false;
             this.Detail.StylePriority.UsePadding = false;
             this.Detail.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
+            // 
+            // xrPictureBox21
+            // 
+            this.xrPictureBox21.BorderColor = System.Drawing.Color.Black;
+            this.xrPictureBox21.Image = ((System.Drawing.Image)(resources.GetObject("xrPictureBox21.Image")));
+            this.xrPictureBox21.ImageAlignment = DevExpress.XtraPrinting.ImageAlignment.TopLeft;
+            this.xrPictureBox21.LocationFloat = new DevExpress.Utils.PointFloat(542.7803F, 0F);
+            this.xrPictureBox21.Name = "xrPictureBox21";
+            this.xrPictureBox21.SizeF = new System.Drawing.SizeF(135.1392F, 114.6467F);
+            this.xrPictureBox21.Sizing = DevExpress.XtraPrinting.ImageSizeMode.StretchImage;
+            this.xrPictureBox21.StylePriority.UseBorderColor = false;
+            this.xrPictureBox21.StylePriority.UseBorders = false;
+            this.xrPictureBox21.StylePriority.UsePadding = false;
+            // 
+            // xrPictureBox23
+            // 
+            this.xrPictureBox23.BorderColor = System.Drawing.Color.Black;
+            this.xrPictureBox23.Image = ((System.Drawing.Image)(resources.GetObject("xrPictureBox23.Image")));
+            this.xrPictureBox23.ImageAlignment = DevExpress.XtraPrinting.ImageAlignment.TopLeft;
+            this.xrPictureBox23.LocationFloat = new DevExpress.Utils.PointFloat(685.3658F, 0F);
+            this.xrPictureBox23.Name = "xrPictureBox23";
+            this.xrPictureBox23.SizeF = new System.Drawing.SizeF(138.8404F, 114.6467F);
+            this.xrPictureBox23.Sizing = DevExpress.XtraPrinting.ImageSizeMode.StretchImage;
+            this.xrPictureBox23.StylePriority.UseBorderColor = false;
+            this.xrPictureBox23.StylePriority.UseBorders = false;
+            this.xrPictureBox23.StylePriority.UsePadding = false;
             // 
             // xrTable5
             // 
@@ -2349,48 +2379,6 @@ namespace FacturacionGobierno
             this.xrLabel6.Text = "COMPONENTES COSTOS ENERGÍA (L)\r\n";
             this.xrLabel6.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
             // 
-            // xrChart1
-            // 
-            this.xrChart1.AutoLayout = true;
-            this.xrChart1.BorderColor = System.Drawing.Color.Black;
-            this.xrChart1.Borders = DevExpress.XtraPrinting.BorderSide.None;
-            this.xrChart1.DataMember = "EEH_Llamado_Aviso_Gobierno.EEH_Llamado_Aviso_GobiernoEEHAviso_Masivo_HISTORICO";
-            xyDiagram1.AxisX.AutoScaleBreaks.MaxCount = 1;
-            xyDiagram1.AxisX.Label.Font = new System.Drawing.Font("Tahoma", 6F);
-            xyDiagram1.AxisX.NumericScaleOptions.AutoGrid = false;
-            xyDiagram1.AxisX.ScaleBreakOptions.SizeInPixels = 1;
-            xyDiagram1.AxisX.Visibility = DevExpress.Utils.DefaultBoolean.True;
-            xyDiagram1.AxisX.VisibleInPanesSerializable = "-1";
-            xyDiagram1.AxisX.VisualRange.Auto = false;
-            xyDiagram1.AxisX.VisualRange.AutoSideMargins = false;
-            xyDiagram1.AxisX.VisualRange.MaxValueSerializable = "12";
-            xyDiagram1.AxisX.VisualRange.MinValueSerializable = "1";
-            xyDiagram1.AxisX.VisualRange.SideMarginsValue = 1D;
-            xyDiagram1.AxisX.WholeRange.Auto = false;
-            xyDiagram1.AxisX.WholeRange.MaxValueSerializable = "12";
-            xyDiagram1.AxisX.WholeRange.MinValueSerializable = "1";
-            xyDiagram1.AxisY.NumericScaleOptions.GridOffset = 1D;
-            xyDiagram1.AxisY.VisibleInPanesSerializable = "-1";
-            xyDiagram1.DefaultPane.EnableAxisXScrolling = DevExpress.Utils.DefaultBoolean.False;
-            xyDiagram1.DefaultPane.EnableAxisXZooming = DevExpress.Utils.DefaultBoolean.False;
-            xyDiagram1.DefaultPane.EnableAxisYScrolling = DevExpress.Utils.DefaultBoolean.False;
-            xyDiagram1.DefaultPane.EnableAxisYZooming = DevExpress.Utils.DefaultBoolean.False;
-            this.xrChart1.Diagram = xyDiagram1;
-            this.xrChart1.Legend.Name = "Default Legend";
-            this.xrChart1.Legend.Visibility = DevExpress.Utils.DefaultBoolean.False;
-            this.xrChart1.LocationFloat = new DevExpress.Utils.PointFloat(430.7888F, 615.0159F);
-            this.xrChart1.Name = "xrChart1";
-            this.xrChart1.PaletteName = "Black and White";
-            series1.ArgumentDataMember = "MES";
-            series1.LabelsVisibility = DevExpress.Utils.DefaultBoolean.False;
-            series1.Name = "CONSUMO";
-            series1.ShowInLegend = false;
-            series1.ValueDataMembersSerializable = "CONSUMO";
-            this.xrChart1.SeriesSerializable = new DevExpress.XtraCharts.Series[] {
-        series1};
-            this.xrChart1.SizeF = new System.Drawing.SizeF(384.5178F, 202.2806F);
-            this.xrChart1.StylePriority.UsePadding = false;
-            // 
             // xrPictureBox12
             // 
             this.xrPictureBox12.Image = ((System.Drawing.Image)(resources.GetObject("xrPictureBox12.Image")));
@@ -3072,18 +3060,60 @@ namespace FacturacionGobierno
             this.vendorLogo.StylePriority.UseBorders = false;
             this.vendorLogo.StylePriority.UsePadding = false;
             // 
-            // xrPictureBox21
+            // xrPictureBox24
             // 
-            this.xrPictureBox21.BorderColor = System.Drawing.Color.Black;
-            this.xrPictureBox21.Image = ((System.Drawing.Image)(resources.GetObject("xrPictureBox21.Image")));
-            this.xrPictureBox21.ImageAlignment = DevExpress.XtraPrinting.ImageAlignment.TopLeft;
-            this.xrPictureBox21.LocationFloat = new DevExpress.Utils.PointFloat(614.3978F, 0F);
-            this.xrPictureBox21.Name = "xrPictureBox21";
-            this.xrPictureBox21.SizeF = new System.Drawing.SizeF(235.6023F, 104.23F);
-            this.xrPictureBox21.Sizing = DevExpress.XtraPrinting.ImageSizeMode.StretchImage;
-            this.xrPictureBox21.StylePriority.UseBorderColor = false;
-            this.xrPictureBox21.StylePriority.UseBorders = false;
-            this.xrPictureBox21.StylePriority.UsePadding = false;
+            this.xrPictureBox24.BorderColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.xrPictureBox24.Image = ((System.Drawing.Image)(resources.GetObject("xrPictureBox24.Image")));
+            this.xrPictureBox24.ImageAlignment = DevExpress.XtraPrinting.ImageAlignment.TopLeft;
+            this.xrPictureBox24.LocationFloat = new DevExpress.Utils.PointFloat(452.14F, 48.77F);
+            this.xrPictureBox24.Name = "xrPictureBox24";
+            this.xrPictureBox24.SizeF = new System.Drawing.SizeF(387.8642F, 867.5306F);
+            this.xrPictureBox24.Sizing = DevExpress.XtraPrinting.ImageSizeMode.StretchImage;
+            this.xrPictureBox24.StylePriority.UseBorderColor = false;
+            this.xrPictureBox24.StylePriority.UseBorders = false;
+            this.xrPictureBox24.StylePriority.UsePadding = false;
+            // 
+            // xrChart1
+            // 
+            this.xrChart1.AutoLayout = true;
+            this.xrChart1.BorderColor = System.Drawing.Color.Black;
+            this.xrChart1.Borders = DevExpress.XtraPrinting.BorderSide.None;
+            this.xrChart1.DataMember = "EEH_Llamado_Aviso_Gobierno.EEH_Llamado_Aviso_GobiernoEEHAviso_Masivo_HISTORICO";
+            xyDiagram1.AxisX.AutoScaleBreaks.MaxCount = 1;
+            xyDiagram1.AxisX.Label.Font = new System.Drawing.Font("Tahoma", 6F);
+            xyDiagram1.AxisX.NumericScaleOptions.AutoGrid = false;
+            xyDiagram1.AxisX.ScaleBreakOptions.SizeInPixels = 1;
+            xyDiagram1.AxisX.Visibility = DevExpress.Utils.DefaultBoolean.True;
+            xyDiagram1.AxisX.VisibleInPanesSerializable = "-1";
+            xyDiagram1.AxisX.VisualRange.Auto = false;
+            xyDiagram1.AxisX.VisualRange.AutoSideMargins = false;
+            xyDiagram1.AxisX.VisualRange.MaxValueSerializable = "12";
+            xyDiagram1.AxisX.VisualRange.MinValueSerializable = "1";
+            xyDiagram1.AxisX.VisualRange.SideMarginsValue = 1D;
+            xyDiagram1.AxisX.WholeRange.Auto = false;
+            xyDiagram1.AxisX.WholeRange.MaxValueSerializable = "12";
+            xyDiagram1.AxisX.WholeRange.MinValueSerializable = "1";
+            xyDiagram1.AxisY.NumericScaleOptions.GridOffset = 1D;
+            xyDiagram1.AxisY.VisibleInPanesSerializable = "-1";
+            xyDiagram1.DefaultPane.EnableAxisXScrolling = DevExpress.Utils.DefaultBoolean.False;
+            xyDiagram1.DefaultPane.EnableAxisXZooming = DevExpress.Utils.DefaultBoolean.False;
+            xyDiagram1.DefaultPane.EnableAxisYScrolling = DevExpress.Utils.DefaultBoolean.False;
+            xyDiagram1.DefaultPane.EnableAxisYZooming = DevExpress.Utils.DefaultBoolean.False;
+            this.xrChart1.Diagram = xyDiagram1;
+            this.xrChart1.Legend.Name = "Default Legend";
+            this.xrChart1.Legend.Visibility = DevExpress.Utils.DefaultBoolean.False;
+            this.xrChart1.LocationFloat = new DevExpress.Utils.PointFloat(430.7888F, 615.0159F);
+            this.xrChart1.Name = "xrChart1";
+            this.xrChart1.PaletteName = "Black and White";
+            series1.ArgumentDataMember = "MES";
+            series1.LabelsVisibility = DevExpress.Utils.DefaultBoolean.False;
+            series1.Name = "CONSUMO";
+            series1.ShowInLegend = false;
+            series1.ValueDataMembersSerializable = "CONSUMO";
+            this.xrChart1.SeriesSerializable = new DevExpress.XtraCharts.Series[] {
+        series1};
+            this.xrChart1.SizeF = new System.Drawing.SizeF(384.5178F, 202.2806F);
+            this.xrChart1.StylePriority.UsePadding = false;
             // 
             // TopMargin
             // 
@@ -3377,8 +3407,6 @@ namespace FacturacionGobierno
             this.StyleSheet.AddRange(new DevExpress.XtraReports.UI.XRControlStyle[] {
             this.baseControlStyle});
             this.Version = "18.1";
-            this.Watermark.Image = ((System.Drawing.Image)(resources.GetObject("FacturaEEHtercermes.Watermark.Image")));
-            this.Watermark.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             ((System.ComponentModel.ISupportInitialize)(this.xrTable5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable4)).EndInit();
@@ -3392,10 +3420,10 @@ namespace FacturacionGobierno
             ((System.ComponentModel.ISupportInitialize)(this.xrTblDatosCliente)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTblClave)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.xrTable11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(xyDiagram1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(series1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrChart1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.xrTable11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
 
         }
@@ -3649,7 +3677,6 @@ namespace FacturacionGobierno
         private DevExpress.XtraReports.UI.XRLabel xrLabel19;
         private DevExpress.XtraReports.UI.XRPictureBox xrPictureBox10;
         private DevExpress.XtraReports.UI.XRPictureBox vendorLogo;
-        private DevExpress.XtraReports.UI.XRPictureBox xrPictureBox21;
         private DevExpress.XtraReports.UI.TopMarginBand TopMargin;
         private DevExpress.XtraReports.UI.BottomMarginBand BottomMargin;
         private DevExpress.XtraReports.UI.PageHeaderBand PageHeader;
@@ -3684,5 +3711,8 @@ namespace FacturacionGobierno
         private DevExpress.XtraReports.Parameters.Parameter codigoAgrupa;
         private DevExpress.XtraReports.Parameters.Parameter codigo_sector;
         private DevExpress.XtraReports.Parameters.Parameter parametro;
+        private DevExpress.XtraReports.UI.XRPictureBox xrPictureBox21;
+        private DevExpress.XtraReports.UI.XRPictureBox xrPictureBox23;
+        private DevExpress.XtraReports.UI.XRPictureBox xrPictureBox24;
     }
 }

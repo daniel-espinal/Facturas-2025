@@ -22,5 +22,11 @@ namespace FacturacionGobierno
         {
 
         }
+
+        private void FacturaEEHAltosConsumidores_BeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e)
+        {
+            var banda = GetCurrentRow();
+
+        }
     }
 }

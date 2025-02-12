@@ -37,16 +37,19 @@
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.txtClave = new DevExpress.XtraEditors.TextEdit();
             this.txtUsuario = new DevExpress.XtraEditors.TextEdit();
-            this.pictureEdit1 = new DevExpress.XtraEditors.PictureEdit();
             this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
             this.labelControl4 = new DevExpress.XtraEditors.LabelControl();
             this.txtNuevaClave = new DevExpress.XtraEditors.TextEdit();
             this.defaultLookAndFeel1 = new DevExpress.LookAndFeel.DefaultLookAndFeel(this.components);
+            this.behaviorManager1 = new DevExpress.Utils.Behaviors.BehaviorManager(this.components);
+            this.pictureEdit1 = new DevExpress.XtraEditors.PictureEdit();
             this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.txtClave.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtUsuario.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtNuevaClave.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.behaviorManager1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit1.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // splashScreenManager1
@@ -112,17 +115,6 @@
             this.txtUsuario.Size = new System.Drawing.Size(192, 20);
             this.txtUsuario.TabIndex = 10;
             // 
-            // pictureEdit1
-            // 
-            this.pictureEdit1.Cursor = System.Windows.Forms.Cursors.Default;
-            this.pictureEdit1.EditValue = ((object)(resources.GetObject("pictureEdit1.EditValue")));
-            this.pictureEdit1.Location = new System.Drawing.Point(41, 131);
-            this.pictureEdit1.Name = "pictureEdit1";
-            this.pictureEdit1.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
-            this.pictureEdit1.Size = new System.Drawing.Size(302, 183);
-            this.pictureEdit1.TabIndex = 9;
-            this.pictureEdit1.EditValueChanged += new System.EventHandler(this.pictureEdit1_EditValueChanged);
-            // 
             // simpleButton2
             // 
             this.simpleButton2.Location = new System.Drawing.Point(18, 447);
@@ -152,20 +144,46 @@
             // 
             this.defaultLookAndFeel1.LookAndFeel.SkinName = "Liquid Sky";
             // 
+            // pictureEdit1
+            // 
+            this.pictureEdit1.Cursor = System.Windows.Forms.Cursors.Default;
+            this.pictureEdit1.EditValue = ((object)(resources.GetObject("pictureEdit1.EditValue")));
+            this.pictureEdit1.Location = new System.Drawing.Point(41, 131);
+            this.pictureEdit1.Name = "pictureEdit1";
+            this.pictureEdit1.Properties.InitialImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("pictureEdit1.Properties.InitialImageOptions.Image")));
+            this.pictureEdit1.Properties.PictureAlignment = System.Drawing.ContentAlignment.TopCenter;
+            this.pictureEdit1.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
+            this.pictureEdit1.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Zoom;
+            this.pictureEdit1.Size = new System.Drawing.Size(302, 183);
+            this.pictureEdit1.TabIndex = 9;
+            // 
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.label2.Location = new System.Drawing.Point(12, 543);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(369, 13);
+            this.label2.Size = new System.Drawing.Size(574, 13);
             this.label2.TabIndex = 20;
-            this.label2.Text = "Derechos Reservados. Licenciado a Empresa Energia Honduras. SG 2021 ®";
+            this.label2.Text = "Derechos Reservados. Licenciado a UNIDAD TÉCNICA DE CONTROL DE LA RED DE DISTRIBU" +
+    "CIÓN - ENEE. SG 2023 ®";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label1.Location = new System.Drawing.Point(12, 556);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(171, 13);
+            this.label1.TabIndex = 21;
+            this.label1.Text = "de distribución - ENEE. SG 2023 ®";
             // 
             // FrmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(380, 582);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.labelControl4);
             this.Controls.Add(this.txtNuevaClave);
@@ -177,15 +195,17 @@
             this.Controls.Add(this.txtClave);
             this.Controls.Add(this.txtUsuario);
             this.Controls.Add(this.pictureEdit1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FrmLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "EEH";
+            this.Text = "ENEE";
             ((System.ComponentModel.ISupportInitialize)(this.txtClave.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtUsuario.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtNuevaClave.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.behaviorManager1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit1.Properties)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -198,12 +218,14 @@
         private DevExpress.XtraEditors.LabelControl labelControl2;
         private DevExpress.XtraEditors.LabelControl labelControl1;
         private DevExpress.XtraEditors.TextEdit txtClave;
-        private DevExpress.XtraEditors.PictureEdit pictureEdit1;
         private DevExpress.XtraEditors.SimpleButton simpleButton2;
         public DevExpress.XtraEditors.TextEdit txtUsuario;
         private DevExpress.XtraEditors.LabelControl labelControl4;
         private DevExpress.XtraEditors.TextEdit txtNuevaClave;
         private DevExpress.LookAndFeel.DefaultLookAndFeel defaultLookAndFeel1;
+        private DevExpress.Utils.Behaviors.BehaviorManager behaviorManager1;
+        private DevExpress.XtraEditors.PictureEdit pictureEdit1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
     }
 }

@@ -166,7 +166,6 @@ namespace FacturacionGobierno
             this.xrTableCell24 = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrPictureBox12 = new DevExpress.XtraReports.UI.XRPictureBox();
             this.vendorLogo = new DevExpress.XtraReports.UI.XRPictureBox();
-            this.xrPictureBox13 = new DevExpress.XtraReports.UI.XRPictureBox();
             this.sqlDataSource1 = new DevExpress.DataAccess.Sql.SqlDataSource(this.components);
             this.baseControlStyle = new DevExpress.XtraReports.UI.XRControlStyle();
             this.Diferencia_Activa = new DevExpress.XtraReports.UI.CalculatedField();
@@ -622,8 +621,7 @@ namespace FacturacionGobierno
             this.xrLine3,
             this.xrPanelDatosCliente,
             this.xrPictureBox12,
-            this.vendorLogo,
-            this.xrPictureBox13});
+            this.vendorLogo});
             this.PageHeader.HeightF = 924.6506F;
             this.PageHeader.Name = "PageHeader";
             // 
@@ -1662,18 +1660,9 @@ namespace FacturacionGobierno
             this.vendorLogo.StylePriority.UseBorders = false;
             this.vendorLogo.StylePriority.UsePadding = false;
             // 
-            // xrPictureBox13
-            // 
-            this.xrPictureBox13.Image = ((System.Drawing.Image)(resources.GetObject("xrPictureBox13.Image")));
-            this.xrPictureBox13.LocationFloat = new DevExpress.Utils.PointFloat(673.08F, 699.55F);
-            this.xrPictureBox13.Name = "xrPictureBox13";
-            this.xrPictureBox13.SizeF = new System.Drawing.SizeF(176.9183F, 207.9627F);
-            this.xrPictureBox13.Sizing = DevExpress.XtraPrinting.ImageSizeMode.ZoomImage;
-            // 
             // sqlDataSource1
             // 
             this.sqlDataSource1 = Core.DataSourceReport("MAESTROConnectionString");
-            // this.sqlDataSource1.ConnectionName = "MAESTROConnectionString";
             this.sqlDataSource1.ConnectionOptions.CloseConnection = false;
             this.sqlDataSource1.ConnectionOptions.CommandTimeout = 15000;
             this.sqlDataSource1.ConnectionOptions.DbCommandTimeout = 15000;
@@ -2110,7 +2099,6 @@ namespace FacturacionGobierno
         private DevExpress.XtraReports.UI.XRLabel xrLabel7;
         private DevExpress.XtraReports.UI.XRPictureBox xrPictureBox12;
         private DevExpress.XtraReports.UI.XRPictureBox vendorLogo;
-        private DevExpress.XtraReports.UI.XRPictureBox xrPictureBox13;
         private DevExpress.DataAccess.Sql.SqlDataSource sqlDataSource1;
         private DevExpress.XtraReports.UI.XRControlStyle baseControlStyle;
         private DevExpress.XtraReports.UI.CalculatedField Diferencia_Activa;

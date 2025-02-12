@@ -107,6 +107,9 @@ namespace FacturacionGobierno
             this.barButtonItem31 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem57 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem58 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem45 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem59 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem60 = new DevExpress.XtraBars.BarButtonItem();
             this.ribbonPageCategory1 = new DevExpress.XtraBars.Ribbon.RibbonPageCategory();
             this.ribbonPageCategory2 = new DevExpress.XtraBars.Ribbon.RibbonPageCategory();
             this.ribbonPage1 = new DevExpress.XtraBars.Ribbon.RibbonPage();
@@ -118,6 +121,7 @@ namespace FacturacionGobierno
             this.ribbonPageGroup4 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPage4 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup12 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.ribbonPageGroup11 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPage3 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup7 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup8 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
@@ -316,10 +320,13 @@ namespace FacturacionGobierno
             this.barButtonItem30,
             this.barButtonItem31,
             this.barButtonItem57,
-            this.barButtonItem58});
+            this.barButtonItem58,
+            this.barButtonItem45,
+            this.barButtonItem59,
+            this.barButtonItem60});
             this.ribbonControl1.Location = new System.Drawing.Point(0, 0);
             this.ribbonControl1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.ribbonControl1.MaxItemId = 120;
+            this.ribbonControl1.MaxItemId = 123;
             this.ribbonControl1.Name = "ribbonControl1";
             this.ribbonControl1.PageCategories.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageCategory[] {
             this.ribbonPageCategory1,
@@ -642,7 +649,7 @@ namespace FacturacionGobierno
             // 
             // barButtonItem22
             // 
-            this.barButtonItem22.Caption = "ALTOS C.";
+            this.barButtonItem22.Caption = "ALTOS CONSUMIDORES";
             this.barButtonItem22.Id = 79;
             this.barButtonItem22.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem22.ImageOptions.Image")));
             this.barButtonItem22.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem22.ImageOptions.LargeImage")));
@@ -656,7 +663,6 @@ namespace FacturacionGobierno
             this.barButtonItem23.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem23.ImageOptions.Image")));
             this.barButtonItem23.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem23.ImageOptions.LargeImage")));
             this.barButtonItem23.Name = "barButtonItem23";
-            this.barButtonItem23.Visibility = DevExpress.XtraBars.BarItemVisibility.Never;
             this.barButtonItem23.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem23_ItemClick);
             // 
             // barButtonItem25
@@ -711,7 +717,6 @@ namespace FacturacionGobierno
             this.barButtonItem35.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem35.ImageOptions.Image")));
             this.barButtonItem35.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem35.ImageOptions.LargeImage")));
             this.barButtonItem35.Name = "barButtonItem35";
-            this.barButtonItem35.Visibility = DevExpress.XtraBars.BarItemVisibility.Never;
             this.barButtonItem35.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem35_ItemClick);
             // 
             // barButtonItem36
@@ -721,7 +726,6 @@ namespace FacturacionGobierno
             this.barButtonItem36.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem36.ImageOptions.Image")));
             this.barButtonItem36.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem36.ImageOptions.LargeImage")));
             this.barButtonItem36.Name = "barButtonItem36";
-            this.barButtonItem36.Visibility = DevExpress.XtraBars.BarItemVisibility.Never;
             this.barButtonItem36.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem36_ItemClick);
             // 
             // barButtonItem37
@@ -839,7 +843,6 @@ namespace FacturacionGobierno
             this.barButtonItem49.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem49.ImageOptions.Image")));
             this.barButtonItem49.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem49.ImageOptions.LargeImage")));
             this.barButtonItem49.Name = "barButtonItem49";
-            this.barButtonItem49.Visibility = DevExpress.XtraBars.BarItemVisibility.Never;
             this.barButtonItem49.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem49_ItemClick);
             // 
             // barButtonItem50
@@ -849,7 +852,6 @@ namespace FacturacionGobierno
             this.barButtonItem50.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem50.ImageOptions.Image")));
             this.barButtonItem50.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem50.ImageOptions.LargeImage")));
             this.barButtonItem50.Name = "barButtonItem50";
-            this.barButtonItem50.Visibility = DevExpress.XtraBars.BarItemVisibility.Never;
             this.barButtonItem50.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem50_ItemClick);
             // 
             // barButtonItem51
@@ -913,7 +915,6 @@ namespace FacturacionGobierno
             this.barButtonItem15.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem15.ImageOptions.Image")));
             this.barButtonItem15.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem15.ImageOptions.LargeImage")));
             this.barButtonItem15.Name = "barButtonItem15";
-            this.barButtonItem15.Visibility = DevExpress.XtraBars.BarItemVisibility.Never;
             this.barButtonItem15.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem15_ItemClick_1);
             // 
             // barButtonItem18
@@ -923,7 +924,6 @@ namespace FacturacionGobierno
             this.barButtonItem18.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem18.ImageOptions.Image")));
             this.barButtonItem18.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem18.ImageOptions.LargeImage")));
             this.barButtonItem18.Name = "barButtonItem18";
-            this.barButtonItem18.Visibility = DevExpress.XtraBars.BarItemVisibility.Never;
             this.barButtonItem18.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem18_ItemClick_2);
             // 
             // barButtonItem13
@@ -986,6 +986,34 @@ namespace FacturacionGobierno
             this.barButtonItem58.Id = 119;
             this.barButtonItem58.Name = "barButtonItem58";
             // 
+            // barButtonItem45
+            // 
+            this.barButtonItem45.Caption = "GOB TOD";
+            this.barButtonItem45.Id = 120;
+            this.barButtonItem45.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem45.ImageOptions.Image")));
+            this.barButtonItem45.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem45.ImageOptions.LargeImage")));
+            this.barButtonItem45.Name = "barButtonItem45";
+            this.barButtonItem45.Visibility = DevExpress.XtraBars.BarItemVisibility.Never;
+            this.barButtonItem45.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem45_ItemClick_2);
+            // 
+            // barButtonItem59
+            // 
+            this.barButtonItem59.Caption = "irregularidad ";
+            this.barButtonItem59.Id = 121;
+            this.barButtonItem59.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem59.ImageOptions.Image")));
+            this.barButtonItem59.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem59.ImageOptions.LargeImage")));
+            this.barButtonItem59.Name = "barButtonItem59";
+            this.barButtonItem59.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem59_ItemClick);
+            // 
+            // barButtonItem60
+            // 
+            this.barButtonItem60.Caption = "Factura Masiva";
+            this.barButtonItem60.Id = 122;
+            this.barButtonItem60.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem60.ImageOptions.Image")));
+            this.barButtonItem60.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem60.ImageOptions.LargeImage")));
+            this.barButtonItem60.Name = "barButtonItem60";
+            this.barButtonItem60.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem60_ItemClick);
+            // 
             // ribbonPageCategory1
             // 
             this.ribbonPageCategory1.Name = "ribbonPageCategory1";
@@ -1017,6 +1045,7 @@ namespace FacturacionGobierno
             this.ribbonPageGroup3.ItemLinks.Add(this.barButtonItem18);
             this.ribbonPageGroup3.ItemLinks.Add(this.barButtonItem13);
             this.ribbonPageGroup3.ItemLinks.Add(this.barButtonItem19);
+            this.ribbonPageGroup3.ItemLinks.Add(this.barButtonItem45);
             this.ribbonPageGroup3.Name = "ribbonPageGroup3";
             this.ribbonPageGroup3.Text = "Impresion";
             // 
@@ -1065,7 +1094,8 @@ namespace FacturacionGobierno
             // ribbonPage4
             // 
             this.ribbonPage4.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
-            this.ribbonPageGroup12});
+            this.ribbonPageGroup12,
+            this.ribbonPageGroup11});
             this.ribbonPage4.Name = "ribbonPage4";
             this.ribbonPage4.Text = "MASIVO";
             // 
@@ -1074,8 +1104,16 @@ namespace FacturacionGobierno
             this.ribbonPageGroup12.ItemLinks.Add(this.barButtonItem51);
             this.ribbonPageGroup12.ItemLinks.Add(this.barButtonItem52);
             this.ribbonPageGroup12.ItemLinks.Add(this.barButtonItem53);
+            this.ribbonPageGroup12.ItemLinks.Add(this.barButtonItem60);
             this.ribbonPageGroup12.Name = "ribbonPageGroup12";
             this.ribbonPageGroup12.Text = "ribbonPageGroup12";
+            // 
+            // ribbonPageGroup11
+            // 
+            this.ribbonPageGroup11.ItemLinks.Add(this.barButtonItem59);
+            this.ribbonPageGroup11.Name = "ribbonPageGroup11";
+            this.ribbonPageGroup11.Text = "Irregularidad";
+            this.ribbonPageGroup11.Visible = false;
             // 
             // ribbonPage3
             // 
@@ -1088,7 +1126,6 @@ namespace FacturacionGobierno
             this.ribbonPageGroup13});
             this.ribbonPage3.Name = "ribbonPage3";
             this.ribbonPage3.Text = "REPARTO DE FACTURAS";
-            this.ribbonPage3.Visible = false;
             // 
             // ribbonPageGroup7
             // 
@@ -1480,9 +1517,11 @@ namespace FacturacionGobierno
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(345, 668);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(369, 13);
+            this.label2.Size = new System.Drawing.Size(574, 13);
             this.label2.TabIndex = 21;
-            this.label2.Text = "Derechos Reservados. Licenciado a Empresa Energia Honduras. SG 2021 ®";
+            this.label2.Text = "Derechos Reservados. Licenciado a UNIDAD TÉCNICA DE CONTROL DE LA RED DE DISTRIBU" +
+    "CIÓN - ENEE. SG 2023 ®";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // FrmFacturacion
             // 
@@ -1493,11 +1532,12 @@ namespace FacturacionGobierno
             this.Controls.Add(this.xtraTabControl1);
             this.Controls.Add(this.ribbonStatusBar1);
             this.Controls.Add(this.ribbonControl1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.Name = "FrmFacturacion";
             this.Ribbon = this.ribbonControl1;
             this.StatusBar = this.ribbonStatusBar1;
-            this.Text = "Facturacion Avisos de Gobierno - EEH 2017";
+            this.Text = "Facturacion Avisos de Gobierno -UTCD-ENEE  2023";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl1)).EndInit();
             this.xtraTabControl1.ResumeLayout(false);
@@ -1651,6 +1691,10 @@ namespace FacturacionGobierno
         private DevExpress.XtraBars.BarButtonItem barButtonItem57;
         private DevExpress.XtraBars.BarButtonItem barButtonItem58;
         private DevExpress.XtraBars.Ribbon.RibbonPageCategory ribbonPageCategory2;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem45;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem59;
+        private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup11;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem60;
     }
 }
 

@@ -735,6 +735,6 @@ C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Facturacion
 C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\obj\Debug\FacturacionGobiernoTest.csproj.CopyComplete
 C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\obj\Debug\FacturacionGobiernoTest.dll
 C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\FacturacionGobiernoTest\obj\Debug\FacturacionGobiernoTest.pdb
-C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION -UV\Gobierno\FacturacionGobiernoTest\obj\Debug\FacturacionGobiernoTest.csproj.AssemblyReference.cache
-C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION -UV\Gobierno\FacturacionGobiernoTest\obj\Debug\FacturacionGobiernoTest.dll.licenses
-C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION -UV\Gobierno\FacturacionGobiernoTest\obj\Debug\FacturacionGobiernoTest.csproj.CoreCompileInputs.cache
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION-2024\Gobierno\FacturacionGobiernoTest\obj\Debug\FacturacionGobiernoTest.csproj.AssemblyReference.cache
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION-2024\Gobierno\FacturacionGobiernoTest\obj\Debug\FacturacionGobiernoTest.dll.licenses
+C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION-2024\Gobierno\FacturacionGobiernoTest\obj\Debug\FacturacionGobiernoTest.csproj.CoreCompileInputs.cache

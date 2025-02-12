@@ -2,10 +2,7 @@
 using System.Text;
 using System.Windows.Forms;
 using System.Security.Cryptography;
-using Devart.Data.PostgreSql;
 using FacturacionGobierno.Properties;
-using System.Data;
-using FacturacionGobierno.Model;
 namespace FacturacionGobierno
 {
     public partial class FrmLogin : DevExpress.XtraEditors.XtraForm
@@ -75,24 +72,24 @@ namespace FacturacionGobierno
             string hashanterior = GetMd5Hash(md5Hash, txtClave.Text);
             string hashnuevo = GetMd5Hash(md5Hash, txtNuevaClave.Text);
             string select = String.Format("UPDATE FA_USUARIOS SET IDCLAVE = '{0}' WHERE IDUSUARIO = '{2}' AND IDCLAVE = '{1}'", hashnuevo, hashanterior, txtUsuario.Text);
-            Devart.Data.PostgreSql.PgSqlConnection Conexion = new PgSqlConnection(Settings.Default.FacturacionConnectionString);
-            Devart.Data.PostgreSql.PgSqlCommand Comando = new PgSqlCommand(select, Conexion);
+            //Devart.Data.PostgreSql.PgSqlConnection Conexion = new PgSqlConnection(Settings.Default.FacturacionConnectionString);
+            //Devart.Data.PostgreSql.PgSqlCommand Comando = new PgSqlCommand(select, Conexion);
 
 
 
-            if (Conexion.State == 0)
-                Conexion.Open();
-            int cuantos = Convert.ToInt32(Comando.ExecuteNonQuery());
-            if (cuantos > 0)
-            {
-                MessageBox.Show("Cambio de clave exitoso", "Info");
-                this.DialogResult = DialogResult.Retry;
-            }
-            else
-            {
-                MessageBox.Show("Error en cambio de clave", "Error");
-                this.DialogResult = DialogResult.Retry;
-            }
+            //   if (Conexion.State == 0)
+            //       Conexion.Open();
+            //int cuantos = Convert.ToInt32(Comando.ExecuteNonQuery());
+            //  if (cuantos > 0)
+            //{
+            //MessageBox.Show("Cambio de clave exitoso", "Info");
+            //this.DialogResult = DialogResult.Retry;
+            //}
+            //else
+            //{
+            //MessageBox.Show("Error en cambio de clave", "Error");
+            //this.DialogResult = DialogResult.Retry;
+            //}
 
 
         }

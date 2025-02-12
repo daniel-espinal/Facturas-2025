@@ -12,10 +12,10 @@ namespace FacturacionGobierno
         {
             InitializeComponent();
         }
-
         private void xrPanelDatosCliente_BeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e)
         {
 
         }
+
     }
 }
