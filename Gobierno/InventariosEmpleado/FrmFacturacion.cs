@@ -1594,8 +1594,7 @@ sw.WriteLine(DateTime.Today +" - "+ ex.Message);
         {
 
             string vPeriodo = generarMesFacturacionNew(0);
-
-            string var = desgrupo.Text.Trim();
+             string var = desgrupo.Text.Trim();
             if (var != string.Empty)
             {
 
