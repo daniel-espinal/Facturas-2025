@@ -3382,9 +3382,26 @@ sw.WriteLine(DateTime.Today +" - "+ ex.Message);
             try
             {
 
-                string[] filePaths1 = Directory.GetFiles(@"\\192.168.100.59\e\ArchivosAdjuntos\ALTOS_CONSUMIDORES\" + vPeriodo + "\\GRANDECLIENTES");
+                
+
+                string ruta = @"\\192.168.100.59\e\ArchivosAdjuntos\ALTOS_CONSUMIDORES\" + vPeriodo + "\\GRANDECLIENTES";
+
+                // Verificar si la carpeta existe, si no, crearla
+                if (!Directory.Exists(ruta))
+                {
+                    Directory.CreateDirectory(ruta);
+                }
+
+                // Obtener archivos solo después de asegurarte que la carpeta existe
+                string[] filePaths1 = Directory.GetFiles(ruta);
+
+                 
+
                 foreach (string filePath1 in filePaths1)
                     File.Delete(filePath1);
+
+                
+ 
 
                 //if (!System.IO.Directory.Exists(filePaths1))
                 //    System.IO.Directory.CreateDirectory(filePaths1);
@@ -3425,10 +3442,23 @@ sw.WriteLine(DateTime.Today +" - "+ ex.Message);
             }
             try
             {
-                string[] filePaths2 = Directory.GetFiles(@"\\192.168.100.59\e\ArchivosAdjuntos\ALTOS_CONSUMIDORES\" + vPeriodo + "\\CORPORATIVOS");
+                
+
+                string ruta2 = @"\\192.168.100.59\e\ArchivosAdjuntos\ALTOS_CONSUMIDORES\" + vPeriodo + "\\CORPORATIVOS";
+
+                // Verificar si la carpeta existe, si no, crearla
+                if (!Directory.Exists(ruta2))
+                {
+                    Directory.CreateDirectory(ruta2);
+                }
+
+                // Obtener los archivos de la carpeta ya existente o recién creada
+                string[] filePaths2 = Directory.GetFiles(ruta2);
+
+
                 foreach (string filePath2 in filePaths2)
                     File.Delete(filePath2);
-
+                 
 
                 //copia facturas de altos consumidores en 100.8 facturas
                 string fuente1 = @"C:\Facturas\ALTOS_CONSUMIDORES\CORPORATIVOS\CORREO";

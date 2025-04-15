@@ -915,6 +915,9 @@
       <DependentUpon>FacturacionDataSet.xsd</DependentUpon>
     </None>
     <None Include="FacturaGobierno_TemporaryKey.pfx" />
+    <None Include="Plantilla\ciclo1_2.xlsx" />
+    <None Include="Plantilla\Claves_altos_consumidores.xlsx" />
+    <None Include="Plantilla\Claves_gobierno.xlsx" />
     <None Include="Properties\app.manifest" />
     <None Include="S390DataSet.xsc">
       <DependentUpon>S390DataSet.xsd</DependentUpon>

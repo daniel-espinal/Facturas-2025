@@ -2011,14 +2011,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="FacturacionGobierno.exe" size="14108672">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="FacturacionGobierno.exe" size="14109184">
       <assemblyIdentity name="FacturacionGobierno" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>0pDqKgqfzD/M/vArujy7F6TZxMg9gjSyobvE3sV0hZg=</dsig:DigestValue>
+        <dsig:DigestValue>ruzYA535FHWxAy7T4N1W2GFZlKQjzmlw7hkYxOvDOBY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -2030,7 +2030,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>CeMeTtq8q09kMhV+GfirEUhg03jDmcKnJWbe8yItm+k=</dsig:DigestValue>
+        <dsig:DigestValue>oegdFTHGgQoSyRrj8GHF/3y6HIvp8qydqYVaDbhs7Mw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
