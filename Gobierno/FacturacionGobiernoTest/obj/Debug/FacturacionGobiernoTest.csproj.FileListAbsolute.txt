@@ -738,6 +738,3 @@ C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION\Gobierno\Facturacion
 C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION-2024\Gobierno\FacturacionGobiernoTest\obj\Debug\FacturacionGobiernoTest.csproj.AssemblyReference.cache
 C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION-2024\Gobierno\FacturacionGobiernoTest\obj\Debug\FacturacionGobiernoTest.dll.licenses
 C:\desarrollos\FACTURACION Ejecucion Automatica\FACTURACION-2024\Gobierno\FacturacionGobiernoTest\obj\Debug\FacturacionGobiernoTest.csproj.CoreCompileInputs.cache
-C:\desarrollos\subir\descargadoUTCD\FacturasGOB\Gobierno\FacturacionGobiernoTest\obj\Debug\FacturacionGobiernoTest.csproj.AssemblyReference.cache
-C:\desarrollos\subir\descargadoUTCD\FacturasGOB\Gobierno\FacturacionGobiernoTest\obj\Debug\FacturacionGobiernoTest.dll.licenses
-C:\desarrollos\subir\descargadoUTCD\FacturasGOB\Gobierno\FacturacionGobiernoTest\obj\Debug\FacturacionGobiernoTest.csproj.CoreCompileInputs.cache

@@ -2018,7 +2018,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>ruzYA535FHWxAy7T4N1W2GFZlKQjzmlw7hkYxOvDOBY=</dsig:DigestValue>
+        <dsig:DigestValue>oEw4ITJxIfKhnJHfCWnxcerij107ckSFISlJNPw1h2E=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -2030,7 +2030,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>oegdFTHGgQoSyRrj8GHF/3y6HIvp8qydqYVaDbhs7Mw=</dsig:DigestValue>
+        <dsig:DigestValue>hWGsjzhPGmQ1c0WRW/0sDPNEYbp8OXX91KdG1WU/rFg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
