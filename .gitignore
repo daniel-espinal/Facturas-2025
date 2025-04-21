@@ -6,3 +6,10 @@
 .vs/
 *.suo
 **/slnx.sqlite
+
+# Ignorar carpetas de compilación
+bin/
+obj/
+
+# Ignorar carpeta de publicación
+**/app.publish/
