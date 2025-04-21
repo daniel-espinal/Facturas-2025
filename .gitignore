@@ -5,3 +5,4 @@
 /.vs/FacturacionGobierno/v16
 .vs/
 *.suo
+*.slnx.sqlite
